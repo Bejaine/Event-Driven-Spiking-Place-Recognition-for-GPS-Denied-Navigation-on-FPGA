@@ -1,0 +1,4350 @@
+{
+ "E1.brian2.P0.seed0.R1": {
+  "value": 0.96,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.seed0.R5": {
+  "value": 0.99,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.seed0.threshold": {
+  "value": 40,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.seed0.SL2.R1": {
+  "value": 1.0,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.seed0.SL4.R1": {
+  "value": 1.0,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.seed0.SL10.R1": {
+  "value": 1.0,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.seed10.R1": {
+  "value": 0.94,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.seed10.R5": {
+  "value": 1.0,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.seed10.threshold": {
+  "value": 20,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.seed10.SL2.R1": {
+  "value": 1.0,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.seed10.SL4.R1": {
+  "value": 1.0,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.seed10.SL10.R1": {
+  "value": 1.0,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.seed20.R1": {
+  "value": 0.96,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.seed20.R5": {
+  "value": 1.0,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.seed20.threshold": {
+  "value": 20,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.seed20.SL2.R1": {
+  "value": 1.0,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.seed20.SL4.R1": {
+  "value": 1.0,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.seed20.SL10.R1": {
+  "value": 1.0,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.ens3.R1": {
+  "value": 1.0,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.ens3.SL2.R1": {
+  "value": 1.0,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.ens3.SL4.R1": {
+  "value": 1.0,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.P0.ens3.SL10.R1": {
+  "value": 1.0,
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json"
+ },
+ "E1.brian2.noise.poisson_seeds": {
+  "value": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json, results/e1_brian2_P1.json, results/e1_brian2_P2.json, results/e1_brian2_P3.json"
+ },
+ "E1.brian2.noise.meanR1_over_seeds.per_P": {
+  "value": [
+   0.9533333333333333,
+   0.9466666666666667,
+   0.9633333333333334,
+   0.9533333333333335
+  ],
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json, results/e1_brian2_P1.json, results/e1_brian2_P2.json, results/e1_brian2_P3.json"
+ },
+ "E1.brian2.noise.meanR1.mean_sd": {
+  "value": [
+   0.9541666666666667,
+   0.006871842709362788
+  ],
+  "label": "DERIVED",
+  "source": "results/e1_brian2_P0.json, results/e1_brian2_P1.json, results/e1_brian2_P2.json, results/e1_brian2_P3.json",
+  "note": "mean, sd over Poisson seeds of the 3-seed mean R@1"
+ },
+ "E1.brian2.noise.seed0.R1.min_max": {
+  "value": [
+   0.93,
+   0.96
+  ],
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json, results/e1_brian2_P1.json, results/e1_brian2_P2.json, results/e1_brian2_P3.json"
+ },
+ "E1.brian2.noise.seed10.R1.min_max": {
+  "value": [
+   0.92,
+   0.98
+  ],
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json, results/e1_brian2_P1.json, results/e1_brian2_P2.json, results/e1_brian2_P3.json"
+ },
+ "E1.brian2.noise.seed20.R1.min_max": {
+  "value": [
+   0.96,
+   0.99
+  ],
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json, results/e1_brian2_P1.json, results/e1_brian2_P2.json, results/e1_brian2_P3.json"
+ },
+ "E1.brian2.noise.ens3.R1.per_P": {
+  "value": [
+   1.0,
+   0.99,
+   1.0,
+   1.0
+  ],
+  "label": "MEASURED",
+  "source": "results/e1_brian2_P0.json, results/e1_brian2_P1.json, results/e1_brian2_P2.json, results/e1_brian2_P3.json"
+ },
+ "E1.brian2.train_wall_s_per_module.x925": {
+  "value": {
+   "median": 1644.0114247334714,
+   "min": 1465.6124629469705,
+   "max": 1845.275179485965,
+   "n": 10,
+   "images_per_module": 1500
+  },
+  "label": "MEASURED",
+  "source": "e1/S*/timing/O*_train.json",
+  "note": "18 modules trained concurrently, one process pinned per core (load ~18 of 20 cores)"
+ },
+ "E1.brian2.infer_s_per_image_per_module.x925": {
+  "value": {
+   "median": 0.7722332574776374,
+   "p10": 0.2892050344089512,
+   "p90": 1.5713026349141728,
+   "n": 2300
+  },
+  "label": "MEASURED",
+  "source": "e1/S*/timing/O*_*.json",
+  "note": "Brian2 net.run(350 ms) + net.run(150 ms rest) per image, test-mode network, excludes network build/codegen"
+ },
+ "E1.brian2.train_wall_s_per_module.a725": {
+  "value": {
+   "median": 2621.450722296955,
+   "min": 2477.0746133139473,
+   "max": 2822.517995187023,
+   "n": 8,
+   "images_per_module": 1500
+  },
+  "label": "MEASURED",
+  "source": "e1/S*/timing/O*_train.json",
+  "note": "18 modules trained concurrently, one process pinned per core (load ~18 of 20 cores)"
+ },
+ "E1.brian2.infer_s_per_image_per_module.a725": {
+  "value": {
+   "median": 1.048044592491351,
+   "p10": 0.524487938330276,
+   "p90": 1.1101731317990926,
+   "n": 1900
+  },
+  "label": "MEASURED",
+  "source": "e1/S*/timing/O*_*.json",
+  "note": "Brian2 net.run(350 ms) + net.run(150 ms rest) per image, test-mode network, excludes network build/codegen"
+ },
+ "E3.brian2.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.9541666666666667,
+    "sd": 0.006871842709362788,
+    "n": 4,
+    "values": [
+     0.9533333333333333,
+     0.9466666666666667,
+     0.9633333333333334,
+     0.9533333333333335
+    ]
+   },
+   "R5": {
+    "mean": 0.995,
+    "sd": 0.00333333333333341,
+    "n": 4,
+    "values": [
+     0.9966666666666667,
+     0.9899999999999999,
+     0.9966666666666667,
+     0.9966666666666667
+    ]
+   },
+   "SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 4,
+    "values": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 0.9975,
+    "sd": 0.0050000000000000044,
+    "n": 4,
+    "values": [
+     1.0,
+     0.99,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 4,
+    "values": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.9425,
+     "sd": 0.014999999999999953,
+     "n": 4,
+     "values": [
+      0.96,
+      0.95,
+      0.93,
+      0.93
+     ]
+    },
+    "10": {
+     "mean": 0.945,
+     "sd": 0.02516611478423582,
+     "n": 4,
+     "values": [
+      0.94,
+      0.92,
+      0.98,
+      0.94
+     ]
+    },
+    "20": {
+     "mean": 0.9750000000000001,
+     "sd": 0.012909944487358068,
+     "n": 4,
+     "values": [
+      0.96,
+      0.97,
+      0.98,
+      0.99
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json",
+  "note": "mean/sd over Poisson seeds; R1 = mean over 3 model seeds"
+ },
+ "E3.a_float.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.9633333333333334,
+    "sd": 0.003333333333333355,
+    "n": 3,
+    "values": [
+     0.96,
+     0.9666666666666667,
+     0.9633333333333333
+    ]
+   },
+   "R5": {
+    "mean": 0.9977777777777778,
+    "sd": 0.001924500897298733,
+    "n": 3,
+    "values": [
+     1.0,
+     0.9966666666666667,
+     0.9966666666666667
+    ]
+   },
+   "SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 0.9933333333333333,
+    "sd": 0.005773502691896262,
+    "n": 3,
+    "values": [
+     0.99,
+     0.99,
+     1.0
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.9566666666666667,
+     "sd": 0.020816659994661344,
+     "n": 3,
+     "values": [
+      0.94,
+      0.95,
+      0.98
+     ]
+    },
+    "10": {
+     "mean": 0.9533333333333333,
+     "sd": 0.01527525231651948,
+     "n": 3,
+     "values": [
+      0.95,
+      0.97,
+      0.94
+     ]
+    },
+    "20": {
+     "mean": 0.98,
+     "sd": 0.010000000000000009,
+     "n": 3,
+     "values": [
+      0.99,
+      0.98,
+      0.97
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.a_float.dR1_vs_brian2": {
+  "value": 0.009166666666666656,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.a_float.pass": {
+  "value": true,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E2.fidelity.a_float_vs_brian2": {
+  "value": [
+   {
+    "pa": 0,
+    "pb": 0,
+    "pearson_r": 0.9838758497105264,
+    "mean_abs_diff": 0.03360625,
+    "mean_a": 0.20506875,
+    "mean_b": 0.20791666666666667
+   },
+   {
+    "pa": 0,
+    "pb": 1,
+    "pearson_r": 0.9866733089779868,
+    "mean_abs_diff": 0.031206249999999998,
+    "mean_a": 0.20506875,
+    "mean_b": 0.2062041666666667
+   },
+   {
+    "pa": 0,
+    "pb": 2,
+    "pearson_r": 0.986327485550264,
+    "mean_abs_diff": 0.031575,
+    "mean_a": 0.20506875,
+    "mean_b": 0.2062854166666667
+   },
+   {
+    "pa": 0,
+    "pb": 3,
+    "pearson_r": 0.9876938585238556,
+    "mean_abs_diff": 0.030220833333333332,
+    "mean_a": 0.20506875,
+    "mean_b": 0.20512708333333335
+   },
+   {
+    "pa": 1,
+    "pb": 0,
+    "pearson_r": 0.9829317120427166,
+    "mean_abs_diff": 0.03442083333333333,
+    "mean_a": 0.20444583333333333,
+    "mean_b": 0.20791666666666667
+   },
+   {
+    "pa": 1,
+    "pb": 1,
+    "pearson_r": 0.9868606217044684,
+    "mean_abs_diff": 0.031041666666666665,
+    "mean_a": 0.20444583333333333,
+    "mean_b": 0.2062041666666667
+   },
+   {
+    "pa": 1,
+    "pb": 2,
+    "pearson_r": 0.9864058240112947,
+    "mean_abs_diff": 0.031414583333333336,
+    "mean_a": 0.20444583333333333,
+    "mean_b": 0.2062854166666667
+   },
+   {
+    "pa": 1,
+    "pb": 3,
+    "pearson_r": 0.9866234337922456,
+    "mean_abs_diff": 0.03112291666666667,
+    "mean_a": 0.20444583333333333,
+    "mean_b": 0.20512708333333335
+   },
+   {
+    "pa": 2,
+    "pb": 0,
+    "pearson_r": 0.9828844662611018,
+    "mean_abs_diff": 0.03423958333333333,
+    "mean_a": 0.20545208333333334,
+    "mean_b": 0.20791666666666667
+   },
+   {
+    "pa": 2,
+    "pb": 1,
+    "pearson_r": 0.985994574524817,
+    "mean_abs_diff": 0.032189583333333334,
+    "mean_a": 0.20545208333333334,
+    "mean_b": 0.2062041666666667
+   },
+   {
+    "pa": 2,
+    "pb": 2,
+    "pearson_r": 0.98655303285563,
+    "mean_abs_diff": 0.031045833333333328,
+    "mean_a": 0.20545208333333334,
+    "mean_b": 0.2062854166666667
+   },
+   {
+    "pa": 2,
+    "pb": 3,
+    "pearson_r": 0.9874240015667469,
+    "mean_abs_diff": 0.03055416666666667,
+    "mean_a": 0.20545208333333334,
+    "mean_b": 0.20512708333333335
+   }
+  ],
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.b_w8.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.9466666666666667,
+    "sd": 0.014529663145135532,
+    "n": 3,
+    "values": [
+     0.9366666666666666,
+     0.9633333333333333,
+     0.9400000000000001
+    ]
+   },
+   "R5": {
+    "mean": 0.991111111111111,
+    "sd": 0.005091750772173176,
+    "n": 3,
+    "values": [
+     0.9866666666666667,
+     0.9966666666666667,
+     0.9899999999999999
+    ]
+   },
+   "SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 0.9966666666666667,
+    "sd": 0.005773502691896262,
+    "n": 3,
+    "values": [
+     0.99,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.9433333333333334,
+     "sd": 0.011547005383792462,
+     "n": 3,
+     "values": [
+      0.95,
+      0.95,
+      0.93
+     ]
+    },
+    "10": {
+     "mean": 0.9366666666666666,
+     "sd": 0.032145502536643146,
+     "n": 3,
+     "values": [
+      0.9,
+      0.95,
+      0.96
+     ]
+    },
+    "20": {
+     "mean": 0.96,
+     "sd": 0.02999999999999997,
+     "n": 3,
+     "values": [
+      0.96,
+      0.99,
+      0.93
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.b_w8.dR1_vs_brian2": {
+  "value": -0.007500000000000062,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.b_w8.pass": {
+  "value": true,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E3.c_w4.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.9533333333333333,
+    "sd": 0.006666666666666654,
+    "n": 3,
+    "values": [
+     0.9533333333333333,
+     0.9466666666666667,
+     0.96
+    ]
+   },
+   "R5": {
+    "mean": 0.9966666666666666,
+    "sd": 0.005773502691896327,
+    "n": 3,
+    "values": [
+     1.0,
+     0.9899999999999999,
+     1.0
+    ]
+   },
+   "SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 0.9966666666666667,
+    "sd": 0.005773502691896262,
+    "n": 3,
+    "values": [
+     1.0,
+     0.99,
+     1.0
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.9633333333333333,
+     "sd": 0.005773502691896262,
+     "n": 3,
+     "values": [
+      0.96,
+      0.96,
+      0.97
+     ]
+    },
+    "10": {
+     "mean": 0.94,
+     "sd": 0.009999999999999953,
+     "n": 3,
+     "values": [
+      0.95,
+      0.93,
+      0.94
+     ]
+    },
+    "20": {
+     "mean": 0.9566666666666667,
+     "sd": 0.011547005383792525,
+     "n": 3,
+     "values": [
+      0.95,
+      0.95,
+      0.97
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.c_w4.dR1_vs_brian2": {
+  "value": -0.0008333333333334636,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.c_w4.pass": {
+  "value": true,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E3.c_w4max.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.9577777777777777,
+    "sd": 0.00962250448649373,
+    "n": 3,
+    "values": [
+     0.9466666666666667,
+     0.9633333333333333,
+     0.9633333333333333
+    ]
+   },
+   "R5": {
+    "mean": 0.9955555555555556,
+    "sd": 0.001924500897298797,
+    "n": 3,
+    "values": [
+     0.9933333333333333,
+     0.9966666666666667,
+     0.9966666666666667
+    ]
+   },
+   "SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 0.9933333333333333,
+    "sd": 0.005773502691896262,
+    "n": 3,
+    "values": [
+     1.0,
+     0.99,
+     0.99
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.9499999999999998,
+     "sd": 0.010000000000000009,
+     "n": 3,
+     "values": [
+      0.94,
+      0.95,
+      0.96
+     ]
+    },
+    "10": {
+     "mean": 0.9466666666666667,
+     "sd": 0.01527525231651942,
+     "n": 3,
+     "values": [
+      0.93,
+      0.95,
+      0.96
+     ]
+    },
+    "20": {
+     "mean": 0.9766666666666666,
+     "sd": 0.011547005383792525,
+     "n": 3,
+     "values": [
+      0.97,
+      0.99,
+      0.97
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.c_w4max.dR1_vs_brian2": {
+  "value": 0.0036111111111110095,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.c_w4max.pass": {
+  "value": true,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E3.d_hash.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.9566666666666667,
+    "sd": 0.008819171036881943,
+    "n": 3,
+    "values": [
+     0.9633333333333333,
+     0.96,
+     0.9466666666666667
+    ]
+   },
+   "R5": {
+    "mean": 0.9955555555555556,
+    "sd": 0.0019245008972987971,
+    "n": 3,
+    "values": [
+     0.9966666666666667,
+     0.9966666666666667,
+     0.9933333333333333
+    ]
+   },
+   "SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.9566666666666667,
+     "sd": 0.011547005383792525,
+     "n": 3,
+     "values": [
+      0.95,
+      0.95,
+      0.97
+     ]
+    },
+    "10": {
+     "mean": 0.9500000000000001,
+     "sd": 0.026457513110645866,
+     "n": 3,
+     "values": [
+      0.96,
+      0.97,
+      0.92
+     ]
+    },
+    "20": {
+     "mean": 0.9633333333333333,
+     "sd": 0.01527525231651948,
+     "n": 3,
+     "values": [
+      0.98,
+      0.96,
+      0.95
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.d_hash.dR1_vs_brian2": {
+  "value": 0.0024999999999999467,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.d_hash.pass": {
+  "value": true,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E3.e_hash1ms.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.9422222222222222,
+    "sd": 0.028349668493717884,
+    "n": 3,
+    "values": [
+     0.9633333333333333,
+     0.91,
+     0.9533333333333333
+    ]
+   },
+   "R5": {
+    "mean": 0.9888888888888889,
+    "sd": 0.013471506281091323,
+    "n": 3,
+    "values": [
+     0.9966666666666667,
+     0.9733333333333333,
+     0.9966666666666667
+    ]
+   },
+   "SL4": {
+    "mean": 0.997709049255441,
+    "sd": 0.003968043087213909,
+    "n": 3,
+    "values": [
+     1.0,
+     0.993127147766323,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 0.9966666666666667,
+    "sd": 0.005773502691896262,
+    "n": 3,
+    "values": [
+     1.0,
+     0.99,
+     1.0
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.9733333333333333,
+     "sd": 0.01527525231651948,
+     "n": 3,
+     "values": [
+      0.99,
+      0.96,
+      0.97
+     ]
+    },
+    "10": {
+     "mean": 0.9233333333333333,
+     "sd": 0.030550504633038912,
+     "n": 3,
+     "values": [
+      0.95,
+      0.89,
+      0.93
+     ]
+    },
+    "20": {
+     "mean": 0.93,
+     "sd": 0.04358898943540671,
+     "n": 3,
+     "values": [
+      0.95,
+      0.88,
+      0.96
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.e_hash1ms.dR1_vs_brian2": {
+  "value": -0.011944444444444535,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.e_hash1ms.pass": {
+  "value": true,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E3.e_hash1ms_binned.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.9633333333333333,
+    "sd": 0.014529663145135596,
+    "n": 3,
+    "values": [
+     0.9533333333333333,
+     0.9566666666666667,
+     0.98
+    ]
+   },
+   "R5": {
+    "mean": 0.9977777777777778,
+    "sd": 0.001924500897298733,
+    "n": 3,
+    "values": [
+     0.9966666666666667,
+     1.0,
+     0.9966666666666667
+    ]
+   },
+   "SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 0.9933333333333333,
+    "sd": 0.011547005383792525,
+    "n": 3,
+    "values": [
+     1.0,
+     0.98,
+     1.0
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.96,
+     "sd": 0.02645751311064593,
+     "n": 3,
+     "values": [
+      0.94,
+      0.95,
+      0.99
+     ]
+    },
+    "10": {
+     "mean": 0.9533333333333335,
+     "sd": 0.02081665999466128,
+     "n": 3,
+     "values": [
+      0.96,
+      0.93,
+      0.97
+     ]
+    },
+    "20": {
+     "mean": 0.9766666666666666,
+     "sd": 0.01527525231651948,
+     "n": 3,
+     "values": [
+      0.96,
+      0.99,
+      0.98
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.e_hash1ms_binned.dR1_vs_brian2": {
+  "value": 0.009166666666666545,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.e_hash1ms_binned.pass": {
+  "value": true,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E3.f_nodelay.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.9444444444444443,
+    "sd": 0.005091750772173043,
+    "n": 3,
+    "values": [
+     0.9433333333333334,
+     0.9499999999999998,
+     0.9400000000000001
+    ]
+   },
+   "R5": {
+    "mean": 0.9955555555555554,
+    "sd": 0.005091750772173225,
+    "n": 3,
+    "values": [
+     1.0,
+     0.9966666666666667,
+     0.9899999999999999
+    ]
+   },
+   "SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 0.9966666666666667,
+    "sd": 0.005773502691896262,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     0.99
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.9333333333333332,
+     "sd": 0.01527525231651942,
+     "n": 3,
+     "values": [
+      0.93,
+      0.95,
+      0.92
+     ]
+    },
+    "10": {
+     "mean": 0.9366666666666666,
+     "sd": 0.005773502691896199,
+     "n": 3,
+     "values": [
+      0.94,
+      0.94,
+      0.93
+     ]
+    },
+    "20": {
+     "mean": 0.9633333333333333,
+     "sd": 0.005773502691896262,
+     "n": 3,
+     "values": [
+      0.96,
+      0.96,
+      0.97
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.f_nodelay.dR1_vs_brian2": {
+  "value": -0.00972222222222241,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.f_nodelay.pass": {
+  "value": true,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E3.g_dt02.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.96,
+    "sd": 0.00666666666666671,
+    "n": 3,
+    "values": [
+     0.9666666666666667,
+     0.96,
+     0.9533333333333333
+    ]
+   },
+   "R5": {
+    "mean": 0.9977777777777778,
+    "sd": 0.001924500897298733,
+    "n": 3,
+    "values": [
+     1.0,
+     0.9966666666666667,
+     0.9966666666666667
+    ]
+   },
+   "SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 0.9966666666666667,
+    "sd": 0.005773502691896262,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     0.99
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.9533333333333333,
+     "sd": 0.01527525231651948,
+     "n": 3,
+     "values": [
+      0.97,
+      0.95,
+      0.94
+     ]
+    },
+    "10": {
+     "mean": 0.9633333333333333,
+     "sd": 0.005773502691896262,
+     "n": 3,
+     "values": [
+      0.97,
+      0.96,
+      0.96
+     ]
+    },
+    "20": {
+     "mean": 0.9633333333333333,
+     "sd": 0.005773502691896262,
+     "n": 3,
+     "values": [
+      0.96,
+      0.97,
+      0.96
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.g_dt02.dR1_vs_brian2": {
+  "value": 0.005833333333333246,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.g_dt02.pass": {
+  "value": true,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E3.g_dt05.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.8844444444444445,
+    "sd": 0.016777409856157218,
+    "n": 3,
+    "values": [
+     0.9,
+     0.8666666666666667,
+     0.8866666666666667
+    ]
+   },
+   "R5": {
+    "mean": 0.98,
+    "sd": 0.009999999999999898,
+    "n": 3,
+    "values": [
+     0.98,
+     0.9700000000000001,
+     0.9899999999999999
+    ]
+   },
+   "SL4": {
+    "mean": 0.997709049255441,
+    "sd": 0.003968043087213909,
+    "n": 3,
+    "values": [
+     1.0,
+     0.993127147766323,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 0.9866666666666667,
+    "sd": 0.023094010767585053,
+    "n": 3,
+    "values": [
+     1.0,
+     0.96,
+     1.0
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.8833333333333333,
+     "sd": 0.011547005383792525,
+     "n": 3,
+     "values": [
+      0.89,
+      0.87,
+      0.89
+     ]
+    },
+    "10": {
+     "mean": 0.89,
+     "sd": 0.026457513110645932,
+     "n": 3,
+     "values": [
+      0.92,
+      0.87,
+      0.88
+     ]
+    },
+    "20": {
+     "mean": 0.88,
+     "sd": 0.017320508075688787,
+     "n": 3,
+     "values": [
+      0.89,
+      0.86,
+      0.89
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.g_dt05.dR1_vs_brian2": {
+  "value": -0.06972222222222224,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.g_dt05.pass": {
+  "value": false,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E3.h_hard.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.9522222222222222,
+    "sd": 0.0069388866648871185,
+    "n": 3,
+    "values": [
+     0.9499999999999998,
+     0.96,
+     0.9466666666666667
+    ]
+   },
+   "R5": {
+    "mean": 0.9933333333333333,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     0.9933333333333333,
+     0.9933333333333333,
+     0.9933333333333333
+    ]
+   },
+   "SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 0.9899999999999999,
+    "sd": 0.010000000000000009,
+    "n": 3,
+    "values": [
+     0.99,
+     1.0,
+     0.98
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.9466666666666667,
+     "sd": 0.020816659994661302,
+     "n": 3,
+     "values": [
+      0.94,
+      0.97,
+      0.93
+     ]
+    },
+    "10": {
+     "mean": 0.9566666666666667,
+     "sd": 0.011547005383792525,
+     "n": 3,
+     "values": [
+      0.97,
+      0.95,
+      0.95
+     ]
+    },
+    "20": {
+     "mean": 0.9533333333333333,
+     "sd": 0.011547005383792525,
+     "n": 3,
+     "values": [
+      0.94,
+      0.96,
+      0.96
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.h_hard.dR1_vs_brian2": {
+  "value": -0.0019444444444445264,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.h_hard.pass": {
+  "value": true,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E3.i_shared.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.9466666666666667,
+    "sd": 0.012018504251546692,
+    "n": 3,
+    "values": [
+     0.9333333333333332,
+     0.9500000000000001,
+     0.9566666666666667
+    ]
+   },
+   "R5": {
+    "mean": 0.9933333333333333,
+    "sd": 0.0033333333333334103,
+    "n": 3,
+    "values": [
+     0.9899999999999999,
+     0.9933333333333333,
+     0.9966666666666667
+    ]
+   },
+   "SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 0.9966666666666667,
+    "sd": 0.005773502691896262,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     0.99
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.9366666666666666,
+     "sd": 0.005773502691896198,
+     "n": 3,
+     "values": [
+      0.94,
+      0.93,
+      0.94
+     ]
+    },
+    "10": {
+     "mean": 0.9333333333333332,
+     "sd": 0.0305505046330389,
+     "n": 3,
+     "values": [
+      0.9,
+      0.94,
+      0.96
+     ]
+    },
+    "20": {
+     "mean": 0.9700000000000001,
+     "sd": 0.010000000000000009,
+     "n": 3,
+     "values": [
+      0.96,
+      0.98,
+      0.97
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.i_shared.dR1_vs_brian2": {
+  "value": -0.007500000000000062,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.i_shared.pass": {
+  "value": true,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E3.j_lfsr.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.96,
+    "sd": 0.012018504251546663,
+    "n": 3,
+    "values": [
+     0.9466666666666667,
+     0.9700000000000001,
+     0.9633333333333333
+    ]
+   },
+   "R5": {
+    "mean": 0.9977777777777778,
+    "sd": 0.001924500897298733,
+    "n": 3,
+    "values": [
+     0.9966666666666667,
+     0.9966666666666667,
+     1.0
+    ]
+   },
+   "SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 0.9966666666666667,
+    "sd": 0.005773502691896262,
+    "n": 3,
+    "values": [
+     1.0,
+     0.99,
+     1.0
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.9633333333333333,
+     "sd": 0.011547005383792525,
+     "n": 3,
+     "values": [
+      0.95,
+      0.97,
+      0.97
+     ]
+    },
+    "10": {
+     "mean": 0.96,
+     "sd": 0.010000000000000009,
+     "n": 3,
+     "values": [
+      0.95,
+      0.96,
+      0.97
+     ]
+    },
+    "20": {
+     "mean": 0.9566666666666667,
+     "sd": 0.020816659994661344,
+     "n": 3,
+     "values": [
+      0.94,
+      0.98,
+      0.95
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.j_lfsr.dR1_vs_brian2": {
+  "value": 0.005833333333333246,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.j_lfsr.pass": {
+  "value": true,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E3.k_fixed.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.9622222222222222,
+    "sd": 0.016777409856157218,
+    "n": 3,
+    "values": [
+     0.96,
+     0.9466666666666667,
+     0.98
+    ]
+   },
+   "R5": {
+    "mean": 0.9944444444444445,
+    "sd": 0.00962250448649373,
+    "n": 3,
+    "values": [
+     1.0,
+     0.9833333333333334,
+     1.0
+    ]
+   },
+   "SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.9766666666666666,
+     "sd": 0.011547005383792525,
+     "n": 3,
+     "values": [
+      0.97,
+      0.97,
+      0.99
+     ]
+    },
+    "10": {
+     "mean": 0.9366666666666665,
+     "sd": 0.041633319989322626,
+     "n": 3,
+     "values": [
+      0.95,
+      0.89,
+      0.97
+     ]
+    },
+    "20": {
+     "mean": 0.9733333333333333,
+     "sd": 0.011547005383792525,
+     "n": 3,
+     "values": [
+      0.96,
+      0.98,
+      0.98
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.k_fixed.dR1_vs_brian2": {
+  "value": 0.008055555555555483,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.k_fixed.pass": {
+  "value": true,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E3.l_hw.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.9588888888888888,
+    "sd": 0.009622504486493856,
+    "n": 3,
+    "values": [
+     0.9700000000000001,
+     0.9533333333333333,
+     0.9533333333333333
+    ]
+   },
+   "R5": {
+    "mean": 0.9933333333333333,
+    "sd": 0.005773502691896263,
+    "n": 3,
+    "values": [
+     0.9966666666666667,
+     0.9966666666666667,
+     0.9866666666666667
+    ]
+   },
+   "SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 0.9933333333333333,
+    "sd": 0.005773502691896262,
+    "n": 3,
+    "values": [
+     0.99,
+     0.99,
+     1.0
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.96,
+     "sd": 0.010000000000000009,
+     "n": 3,
+     "values": [
+      0.97,
+      0.95,
+      0.96
+     ]
+    },
+    "10": {
+     "mean": 0.9366666666666666,
+     "sd": 0.02081665999466128,
+     "n": 3,
+     "values": [
+      0.96,
+      0.93,
+      0.92
+     ]
+    },
+    "20": {
+     "mean": 0.98,
+     "sd": 0.0,
+     "n": 3,
+     "values": [
+      0.98,
+      0.98,
+      0.98
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.l_hw.dR1_vs_brian2": {
+  "value": 0.004722222222222072,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.l_hw.pass": {
+  "value": true,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E2.fidelity.l_hw_vs_brian2": {
+  "value": [
+   {
+    "pa": 0,
+    "pb": 0,
+    "pearson_r": 0.9824969969756141,
+    "mean_abs_diff": 0.034772916666666674,
+    "mean_a": 0.2048229166666667,
+    "mean_b": 0.20791666666666667
+   },
+   {
+    "pa": 0,
+    "pb": 1,
+    "pearson_r": 0.9854445443601233,
+    "mean_abs_diff": 0.03278541666666667,
+    "mean_a": 0.2048229166666667,
+    "mean_b": 0.2062041666666667
+   },
+   {
+    "pa": 0,
+    "pb": 2,
+    "pearson_r": 0.9855357955131366,
+    "mean_abs_diff": 0.03242916666666667,
+    "mean_a": 0.2048229166666667,
+    "mean_b": 0.2062854166666667
+   },
+   {
+    "pa": 0,
+    "pb": 3,
+    "pearson_r": 0.9850143652364636,
+    "mean_abs_diff": 0.0324375,
+    "mean_a": 0.2048229166666667,
+    "mean_b": 0.20512708333333335
+   },
+   {
+    "pa": 1,
+    "pb": 0,
+    "pearson_r": 0.9834584255980743,
+    "mean_abs_diff": 0.03351666666666667,
+    "mean_a": 0.20371666666666666,
+    "mean_b": 0.20791666666666667
+   },
+   {
+    "pa": 1,
+    "pb": 1,
+    "pearson_r": 0.9854338824464974,
+    "mean_abs_diff": 0.0325625,
+    "mean_a": 0.20371666666666666,
+    "mean_b": 0.2062041666666667
+   },
+   {
+    "pa": 1,
+    "pb": 2,
+    "pearson_r": 0.9856942311566905,
+    "mean_abs_diff": 0.03181875000000001,
+    "mean_a": 0.20371666666666666,
+    "mean_b": 0.2062854166666667
+   },
+   {
+    "pa": 1,
+    "pb": 3,
+    "pearson_r": 0.9856265619530447,
+    "mean_abs_diff": 0.03203125,
+    "mean_a": 0.20371666666666666,
+    "mean_b": 0.20512708333333335
+   },
+   {
+    "pa": 2,
+    "pb": 0,
+    "pearson_r": 0.9824558209878411,
+    "mean_abs_diff": 0.03459583333333333,
+    "mean_a": 0.2041,
+    "mean_b": 0.20791666666666667
+   },
+   {
+    "pa": 2,
+    "pb": 1,
+    "pearson_r": 0.9852853955948577,
+    "mean_abs_diff": 0.032758333333333334,
+    "mean_a": 0.2041,
+    "mean_b": 0.2062041666666667
+   },
+   {
+    "pa": 2,
+    "pb": 2,
+    "pearson_r": 0.9858435672194205,
+    "mean_abs_diff": 0.03234375,
+    "mean_a": 0.2041,
+    "mean_b": 0.2062854166666667
+   },
+   {
+    "pa": 2,
+    "pb": 3,
+    "pearson_r": 0.9860399275047842,
+    "mean_abs_diff": 0.031877083333333334,
+    "mean_a": 0.2041,
+    "mean_b": 0.20512708333333335
+   }
+  ],
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.l_hw_dt05.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.8233333333333334,
+    "sd": 0.023333333333333324,
+    "n": 3,
+    "values": [
+     0.8066666666666666,
+     0.8133333333333334,
+     0.85
+    ]
+   },
+   "R5": {
+    "mean": 0.9722222222222222,
+    "sd": 0.005091750772173104,
+    "n": 3,
+    "values": [
+     0.9733333333333333,
+     0.9666666666666667,
+     0.9766666666666666
+    ]
+   },
+   "SL4": {
+    "mean": 0.9965635738831615,
+    "sd": 0.0034364261168384758,
+    "n": 3,
+    "values": [
+     0.9965635738831615,
+     1.0,
+     0.993127147766323
+    ]
+   },
+   "ens_R1": {
+    "mean": 0.9700000000000001,
+    "sd": 1.3597399555105182e-16,
+    "n": 3,
+    "values": [
+     0.97,
+     0.97,
+     0.97
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.8266666666666667,
+     "sd": 0.03511884584284244,
+     "n": 3,
+     "values": [
+      0.83,
+      0.79,
+      0.86
+     ]
+    },
+    "10": {
+     "mean": 0.8033333333333333,
+     "sd": 0.032145502536643146,
+     "n": 3,
+     "values": [
+      0.79,
+      0.78,
+      0.84
+     ]
+    },
+    "20": {
+     "mean": 0.84,
+     "sd": 0.03605551275463986,
+     "n": 3,
+     "values": [
+      0.8,
+      0.87,
+      0.85
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.l_hw_dt05.dR1_vs_brian2": {
+  "value": -0.13083333333333336,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.l_hw_dt05.pass": {
+  "value": false,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E3.l_hw_w4.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.9622222222222222,
+    "sd": 0.005091750772173165,
+    "n": 3,
+    "values": [
+     0.9566666666666667,
+     0.9666666666666667,
+     0.9633333333333334
+    ]
+   },
+   "R5": {
+    "mean": 0.9966666666666667,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     0.9966666666666667,
+     0.9966666666666667,
+     0.9966666666666667
+    ]
+   },
+   "SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 0.9966666666666667,
+    "sd": 0.005773502691896262,
+    "n": 3,
+    "values": [
+     1.0,
+     0.99,
+     1.0
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.96,
+     "sd": 0.026457513110645866,
+     "n": 3,
+     "values": [
+      0.93,
+      0.97,
+      0.98
+     ]
+    },
+    "10": {
+     "mean": 0.9433333333333334,
+     "sd": 0.015275252316519434,
+     "n": 3,
+     "values": [
+      0.96,
+      0.94,
+      0.93
+     ]
+    },
+    "20": {
+     "mean": 0.9833333333333334,
+     "sd": 0.005773502691896263,
+     "n": 3,
+     "values": [
+      0.98,
+      0.99,
+      0.98
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.l_hw_w4.dR1_vs_brian2": {
+  "value": 0.008055555555555483,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.l_hw_w4.pass": {
+  "value": true,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E3.l_hw_w4max.agg": {
+  "value": {
+   "R1": {
+    "mean": 0.9633333333333333,
+    "sd": 0.012018504251546616,
+    "n": 3,
+    "values": [
+     0.9766666666666666,
+     0.9533333333333333,
+     0.96
+    ]
+   },
+   "R5": {
+    "mean": 0.9955555555555556,
+    "sd": 0.001924500897298797,
+    "n": 3,
+    "values": [
+     0.9966666666666667,
+     0.9933333333333333,
+     0.9966666666666667
+    ]
+   },
+   "SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ens_R1": {
+    "mean": 0.9933333333333333,
+    "sd": 0.011547005383792525,
+    "n": 3,
+    "values": [
+     1.0,
+     0.98,
+     1.0
+    ]
+   },
+   "ens_SL4": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 3,
+    "values": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "R1_by_model_seed": {
+    "0": {
+     "mean": 0.96,
+     "sd": 0.017320508075688787,
+     "n": 3,
+     "values": [
+      0.98,
+      0.95,
+      0.95
+     ]
+    },
+    "10": {
+     "mean": 0.9533333333333335,
+     "sd": 0.02081665999466128,
+     "n": 3,
+     "values": [
+      0.96,
+      0.93,
+      0.97
+     ]
+    },
+    "20": {
+     "mean": 0.9766666666666666,
+     "sd": 0.01527525231651948,
+     "n": 3,
+     "values": [
+      0.99,
+      0.98,
+      0.96
+     ]
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E3.l_hw_w4max.dR1_vs_brian2": {
+  "value": 0.009166666666666545,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "mean R1(cfg) - mean R1(Brian2)"
+ },
+ "E3.l_hw_w4max.pass": {
+  "value": true,
+  "label": "DERIVED",
+  "source": "results/e3_summary.json",
+  "note": "pass = |dR1| <= 2 pp AND |dR1| <= max(2*sqrt(sd_b^2+sd_c^2), 1 pp)"
+ },
+ "E2.fidelity.brian2_vs_brian2": {
+  "value": [
+   {
+    "pa": 0,
+    "pb": 1,
+    "pearson_r": 0.9840988729119191,
+    "mean_abs_diff": 0.03345833333333333,
+    "mean_a": 0.20791666666666667,
+    "mean_b": 0.2062041666666667
+   },
+   {
+    "pa": 0,
+    "pb": 2,
+    "pearson_r": 0.9841636923202713,
+    "mean_abs_diff": 0.03331875,
+    "mean_a": 0.20791666666666667,
+    "mean_b": 0.2062854166666667
+   },
+   {
+    "pa": 0,
+    "pb": 3,
+    "pearson_r": 0.9840553222231945,
+    "mean_abs_diff": 0.033043750000000004,
+    "mean_a": 0.20791666666666667,
+    "mean_b": 0.20512708333333335
+   },
+   {
+    "pa": 1,
+    "pb": 2,
+    "pearson_r": 0.9868231672063155,
+    "mean_abs_diff": 0.031197916666666665,
+    "mean_a": 0.2062041666666667,
+    "mean_b": 0.2062854166666667
+   },
+   {
+    "pa": 1,
+    "pb": 3,
+    "pearson_r": 0.9867573648869753,
+    "mean_abs_diff": 0.03139375,
+    "mean_a": 0.2062041666666667,
+    "mean_b": 0.20512708333333335
+   },
+   {
+    "pa": 2,
+    "pb": 3,
+    "pearson_r": 0.9869147756410859,
+    "mean_abs_diff": 0.031100000000000006,
+    "mean_a": 0.2062854166666667,
+    "mean_b": 0.20512708333333335
+   }
+  ],
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E2.fidelity.float_vs_float": {
+  "value": [
+   {
+    "pa": 0,
+    "pb": 1,
+    "pearson_r": 0.9863746806114687,
+    "mean_abs_diff": 0.031218750000000003,
+    "mean_a": 0.20506875,
+    "mean_b": 0.20444583333333333
+   },
+   {
+    "pa": 0,
+    "pb": 2,
+    "pearson_r": 0.9864940085966909,
+    "mean_abs_diff": 0.03154166666666667,
+    "mean_a": 0.20506875,
+    "mean_b": 0.20545208333333334
+   },
+   {
+    "pa": 1,
+    "pb": 2,
+    "pearson_r": 0.9859178063309806,
+    "mean_abs_diff": 0.031927083333333335,
+    "mean_a": 0.20444583333333333,
+    "mean_b": 0.20545208333333334
+   }
+  ],
+  "label": "MEASURED",
+  "source": "results/e3_summary.json"
+ },
+ "E4.l_hw": {
+  "value": {
+   "config": "l_hw",
+   "seeds": [
+    0,
+    10,
+    20
+   ],
+   "n_module_runs": 1200,
+   "dt": 0.0001,
+   "input_spikes_per_query": {
+    "p0": 7973.0,
+    "p1": 7984.88,
+    "p50": 8474.5,
+    "p99": 8854.739999999998,
+    "p100": 9027.0,
+    "mean": 8451.85
+   },
+   "events_per_step": {
+    "p50": 2.0,
+    "p99": 7.0,
+    "p99.9": 8.0,
+    "p100": 13.0,
+    "mean": 2.414814285714286,
+    "max": 13
+   },
+   "frac_steps_zero_events": 0.08939142857142857,
+   "e_spikes_per_module_run": {
+    "p0": 49.0,
+    "p1": 57.0,
+    "p50": 81.0,
+    "p99": 116.01999999999998,
+    "p100": 143.0,
+    "mean": 81.92916666666666
+   },
+   "i_spikes_per_module_run": {
+    "p0": 49.0,
+    "p1": 57.0,
+    "p50": 81.0,
+    "p99": 116.01999999999998,
+    "p100": 143.0,
+    "mean": 81.835
+   },
+   "max_events_in_one_delay_slot_per_neuron": 57,
+   "weights": {
+    "n": 5644800,
+    "max": 0.195609655114606,
+    "mean": 0.09955661896524194,
+    "frac_below_1_255": 0.00017768565759637188,
+    "frac_below_half_lsb8": 1.4703798185941043e-05,
+    "frac_zero_after_q8": 1.4703798185941043e-05,
+    "frac_zero_after_q4": 0.049647285997732424,
+    "hist_edges": [
+     0.0,
+     0.025,
+     0.05,
+     0.07500000000000001,
+     0.1,
+     0.125,
+     0.15000000000000002,
+     0.17500000000000002,
+     0.2,
+     0.225,
+     0.25,
+     0.275,
+     0.30000000000000004,
+     0.325,
+     0.35000000000000003,
+     0.375,
+     0.4,
+     0.42500000000000004,
+     0.45,
+     0.47500000000000003,
+     0.5,
+     0.525,
+     0.55,
+     0.5750000000000001,
+     0.6000000000000001,
+     0.625,
+     0.65,
+     0.675,
+     0.7000000000000001,
+     0.7250000000000001,
+     0.75,
+     0.775,
+     0.8,
+     0.8250000000000001,
+     0.8500000000000001,
+     0.875,
+     0.9,
+     0.925,
+     0.9500000000000001,
+     0.9750000000000001,
+     1.0
+    ],
+    "hist_counts": [
+     150121,
+     513434,
+     857878,
+     1156670,
+     1340712,
+     1171944,
+     445077,
+     8964,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "theta_mV": {
+    "p0": 35.34805606281471,
+    "p1": 35.63614631852226,
+    "p50": 36.63365911472704,
+    "p99": 38.736620927660155,
+    "p100": 39.463066160247884,
+    "mean": 36.77367188917978
+   },
+   "v_e_mV": {
+    "p0": -96.12374877929688,
+    "p1": -78.37150680541993,
+    "p50": -45.60859680175781,
+    "p99": -36.70664962768555,
+    "p100": -29.015151977539062,
+    "mean": -48.436910525058565,
+    "min_all": -97.88021850585938,
+    "max_all": -28.095458984375
+   },
+   "ge_e": {
+    "p50": 3.679411764705882,
+    "p99": 5.129411764705882,
+    "p99.9": 5.651960784313726,
+    "p100": 7.060049019607843,
+    "mean": 3.6351490070611594,
+    "max_all": 7.553676470588235
+   },
+   "gi_e": {
+    "p50": 0.0,
+    "p99": 61.06397058823529,
+    "p99.9": 174.6188725490196,
+    "p100": 384.6634803921569,
+    "mean": 2.346641676237163,
+    "max_all": 487.71372549019605
+   },
+   "v_i_mV": {
+    "p0": -60.0,
+    "p1": -60.0,
+    "p50": -60.0,
+    "p99": -56.33551025390625,
+    "p100": -41.4451904296875,
+    "mean": -59.88317611070179,
+    "min_all": -60.0,
+    "max_all": -41.4451904296875
+   },
+   "ge_i": {
+    "p50": 0.0,
+    "p99": 0.0,
+    "p99.9": 1.559313725490196,
+    "p100": 10.4,
+    "mean": 0.005236602415966388,
+    "max_all": 10.4
+   },
+   "int_extremes": {
+    "vmin": -6414678.0,
+    "vmax": -1841264.0,
+    "gemax": 30819.0,
+    "gimax": 1989872.0,
+    "gei_max": 42432.0,
+    "vimin": -3932160.0,
+    "vimax": -2716152.0
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e4_l_hw.json"
+ },
+ "E4.a_float": {
+  "value": {
+   "config": "a_float",
+   "seeds": [
+    0,
+    10,
+    20
+   ],
+   "n_module_runs": 1200,
+   "dt": 0.0001,
+   "input_spikes_per_query": {
+    "p0": 7905.0,
+    "p1": 7963.98,
+    "p50": 8458.0,
+    "p99": 8925.09,
+    "p100": 9123.0,
+    "mean": 8451.758333333333
+   },
+   "events_per_step": {
+    "p50": 2.0,
+    "p99": 7.0,
+    "p99.9": 8.0,
+    "p100": 13.0,
+    "mean": 2.4147880952380953,
+    "max": 13
+   },
+   "frac_steps_zero_events": 0.08888476190476191,
+   "e_spikes_per_module_run": {
+    "p0": 52.0,
+    "p1": 58.0,
+    "p50": 81.0,
+    "p99": 108.00999999999999,
+    "p100": 137.0,
+    "mean": 81.1925
+   },
+   "i_spikes_per_module_run": {
+    "p0": 52.0,
+    "p1": 57.99,
+    "p50": 81.0,
+    "p99": 108.00999999999999,
+    "p100": 137.0,
+    "mean": 81.04583333333333
+   },
+   "max_events_in_one_delay_slot_per_neuron": 17,
+   "weights": {
+    "n": 5644800,
+    "max": 0.195609655114606,
+    "mean": 0.09955661896524194,
+    "frac_below_1_255": 0.00017768565759637188,
+    "frac_below_half_lsb8": 1.4703798185941043e-05,
+    "frac_zero_after_q8": 1.4703798185941043e-05,
+    "frac_zero_after_q4": 0.049647285997732424,
+    "hist_edges": [
+     0.0,
+     0.025,
+     0.05,
+     0.07500000000000001,
+     0.1,
+     0.125,
+     0.15000000000000002,
+     0.17500000000000002,
+     0.2,
+     0.225,
+     0.25,
+     0.275,
+     0.30000000000000004,
+     0.325,
+     0.35000000000000003,
+     0.375,
+     0.4,
+     0.42500000000000004,
+     0.45,
+     0.47500000000000003,
+     0.5,
+     0.525,
+     0.55,
+     0.5750000000000001,
+     0.6000000000000001,
+     0.625,
+     0.65,
+     0.675,
+     0.7000000000000001,
+     0.7250000000000001,
+     0.75,
+     0.775,
+     0.8,
+     0.8250000000000001,
+     0.8500000000000001,
+     0.875,
+     0.9,
+     0.925,
+     0.9500000000000001,
+     0.9750000000000001,
+     1.0
+    ],
+    "hist_counts": [
+     150121,
+     513434,
+     857878,
+     1156670,
+     1340712,
+     1171944,
+     445077,
+     8964,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "theta_mV": {
+    "p0": 35.34805606281471,
+    "p1": 35.63614631852226,
+    "p50": 36.63365911472704,
+    "p99": 38.736620927660155,
+    "p100": 39.463066160247884,
+    "mean": 36.77367188917978
+   },
+   "v_e_mV": {
+    "p0": -95.92333827135384,
+    "p1": -76.3359772633891,
+    "p50": -45.493368926863205,
+    "p99": -36.59271738406257,
+    "p100": -29.600723495065804,
+    "mean": -48.03411998664195,
+    "min_all": -104.96000000000001,
+    "max_all": -29.27565331227011
+   },
+   "ge_e": {
+    "p50": 2.3955741775266723,
+    "p99": 3.391689089866005,
+    "p99.9": 3.748933020883452,
+    "p100": 4.856398864663648,
+    "mean": 2.3699818719079917,
+    "max_all": 5.33867771317737
+   },
+   "gi_e": {
+    "p50": 1.5985685353450787e-10,
+    "p99": 50.0886929408,
+    "p99.9": 131.784,
+    "p100": 384.73312,
+    "mean": 1.9358394193840396,
+    "max_all": 402.35328
+   },
+   "v_i_mV": {
+    "p0": -60.00000000000035,
+    "p1": -60.00000000000035,
+    "p50": -59.99999999999965,
+    "p99": -56.32183981615506,
+    "p100": -41.44444696037897,
+    "mean": -59.882766013228405,
+    "min_all": -99.60000000000001,
+    "max_all": -41.44444696037897
+   },
+   "ge_i": {
+    "p50": 2.4585e-320,
+    "p99": 2.8865733947196624e-08,
+    "p99.9": 1.5609842070887905,
+    "p100": 10.4,
+    "mean": 0.005753552625970208,
+    "max_all": 10.4
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e4_a_float.json"
+ },
+ "E4.l_hw_dt05": {
+  "value": {
+   "config": "l_hw_dt05",
+   "seeds": [
+    0,
+    10,
+    20
+   ],
+   "n_module_runs": 1200,
+   "dt": 0.0005,
+   "input_spikes_per_query": {
+    "p0": 7893.0,
+    "p1": 7946.46,
+    "p50": 8477.5,
+    "p99": 8874.5,
+    "p100": 8924.0,
+    "mean": 8448.07
+   },
+   "events_per_step": {
+    "p50": 12.0,
+    "p99": 21.0,
+    "p99.9": 24.0,
+    "p100": 29.0,
+    "mean": 12.06867142857143,
+    "max": 29
+   },
+   "frac_steps_zero_events": 0.0,
+   "e_spikes_per_module_run": {
+    "p0": 53.0,
+    "p1": 60.0,
+    "p50": 96.0,
+    "p99": 287.06999999999994,
+    "p100": 2800.0,
+    "mean": 118.47916666666667
+   },
+   "i_spikes_per_module_run": {
+    "p0": 53.0,
+    "p1": 60.0,
+    "p50": 96.0,
+    "p99": 287.06999999999994,
+    "p100": 2800.0,
+    "mean": 118.27666666666667
+   },
+   "max_events_in_one_delay_slot_per_neuron": 70,
+   "weights": {
+    "n": 5644800,
+    "max": 0.195609655114606,
+    "mean": 0.09955661896524194,
+    "frac_below_1_255": 0.00017768565759637188,
+    "frac_below_half_lsb8": 1.4703798185941043e-05,
+    "frac_zero_after_q8": 1.4703798185941043e-05,
+    "frac_zero_after_q4": 0.049647285997732424,
+    "hist_edges": [
+     0.0,
+     0.025,
+     0.05,
+     0.07500000000000001,
+     0.1,
+     0.125,
+     0.15000000000000002,
+     0.17500000000000002,
+     0.2,
+     0.225,
+     0.25,
+     0.275,
+     0.30000000000000004,
+     0.325,
+     0.35000000000000003,
+     0.375,
+     0.4,
+     0.42500000000000004,
+     0.45,
+     0.47500000000000003,
+     0.5,
+     0.525,
+     0.55,
+     0.5750000000000001,
+     0.6000000000000001,
+     0.625,
+     0.65,
+     0.675,
+     0.7000000000000001,
+     0.7250000000000001,
+     0.75,
+     0.775,
+     0.8,
+     0.8250000000000001,
+     0.8500000000000001,
+     0.875,
+     0.9,
+     0.925,
+     0.9500000000000001,
+     0.9750000000000001,
+     1.0
+    ],
+    "hist_counts": [
+     150121,
+     513434,
+     857878,
+     1156670,
+     1340712,
+     1171944,
+     445077,
+     8964,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "theta_mV": {
+    "p0": 35.34805606281471,
+    "p1": 35.63614631852226,
+    "p50": 36.63365911472704,
+    "p99": 38.736620927660155,
+    "p100": 39.463066160247884,
+    "mean": 36.77367188917978
+   },
+   "v_e_mV": {
+    "p0": -241.06578063964844,
+    "p1": -134.50931747436525,
+    "p50": -50.175140380859375,
+    "p99": -36.10015731811524,
+    "p100": 7.9351654052734375,
+    "mean": -57.169536879058114,
+    "min_all": -256.0,
+    "max_all": 255.99998474121094
+   },
+   "ge_e": {
+    "p50": 3.167156862745098,
+    "p99": 4.574754901960784,
+    "p99.9": 5.063725490196078,
+    "p100": 6.2806372549019605,
+    "mean": 3.0085377576447234,
+    "max_all": 7.180392156862745
+   },
+   "gi_e": {
+    "p50": 0.0,
+    "p99": 68.0,
+    "p99.9": 374.0,
+    "p100": 663.0,
+    "mean": 2.4635630952380954,
+    "max_all": 2056.0311274509804
+   },
+   "v_i_mV": {
+    "p0": -60.0,
+    "p1": -60.0,
+    "p50": -60.0,
+    "p99": -54.943115234375,
+    "p100": -44.287506103515625,
+    "mean": -59.86154997792925,
+    "min_all": -60.0,
+    "max_all": -44.287506103515625
+   },
+   "ge_i": {
+    "p50": 0.0,
+    "p99": 0.0,
+    "p99.9": 1.3,
+    "p100": 10.4,
+    "mean": 0.006625686274509804,
+    "max_all": 10.4
+   },
+   "int_extremes": {
+    "vmin": -16777216.0,
+    "vmax": 16777215.0,
+    "gemax": 29296.0,
+    "gimax": 8388607.0,
+    "gei_max": 42432.0,
+    "vimin": -3932160.0,
+    "vimax": -2902426.0
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e4_l_hw_dt05.json"
+ },
+ "E5": {
+  "value": {
+   "module": "E1 seed 0, offset 50 (test module)",
+   "query": "first test query (seed 0)",
+   "l_hw": {
+    "x925_core": 5,
+    "a725_core": 1,
+    "x925": {
+     "median_s": 0.018188,
+     "min_s": 0.018178,
+     "max_s": 0.018358,
+     "reps": 25,
+     "e_spikes": 80,
+     "in_spikes": 8597,
+     "i_spikes": 80
+    },
+    "a725": {
+     "median_s": 0.032695,
+     "min_s": 0.032649,
+     "max_s": 0.032934,
+     "reps": 25,
+     "e_spikes": 80,
+     "in_spikes": 8597,
+     "i_spikes": 80
+    },
+    "aarch64_instructions_per_run": 253135606,
+    "callgrind_ir": {
+     "reps2": 514257777,
+     "reps3": 767393383
+    },
+    "rv64": {
+     "available": true,
+     "insns_per_run": 290113906,
+     "raw": {
+      "2": 592011079,
+      "3": 882124985
+     },
+     "flags": "-O3 -std=c99 -static -march=rv64gc -mabi=lp64d",
+     "method": "qemu-riscv64 8.2.2 in_asm+exec log counting"
+    },
+    "u54_estimate": {
+     "instructions_used": 290113906,
+     "instruction_source": "rv64 (qemu)",
+     "clock_hz": 600000000.0,
+     "time_s_ipc_1.0": 0.48352317666666667,
+     "time_s_ipc_0.5": 0.9670463533333333
+    }
+   },
+   "l_hw_dt05": {
+    "x925_core": 5,
+    "a725_core": 1,
+    "x925": {
+     "median_s": 0.011366,
+     "min_s": 0.011356,
+     "max_s": 0.01151,
+     "reps": 25,
+     "e_spikes": 116,
+     "in_spikes": 8563,
+     "i_spikes": 116
+    },
+    "a725": {
+     "median_s": 0.018012,
+     "min_s": 0.017986,
+     "max_s": 0.018091,
+     "reps": 25,
+     "e_spikes": 116,
+     "in_spikes": 8563,
+     "i_spikes": 116
+    },
+    "aarch64_instructions_per_run": 97361695,
+    "callgrind_ir": {
+     "reps2": 202712176,
+     "reps3": 300073871
+    },
+    "rv64": {
+     "available": true,
+     "insns_per_run": 113010406,
+     "raw": {
+      "2": 237809461,
+      "3": 350819867
+     },
+     "flags": "-O3 -std=c99 -static -march=rv64gc -mabi=lp64d",
+     "method": "qemu-riscv64 8.2.2 in_asm+exec log counting"
+    },
+    "u54_estimate": {
+     "instructions_used": 113010406,
+     "instruction_source": "rv64 (qemu)",
+     "clock_hz": 600000000.0,
+     "time_s_ipc_1.0": 0.18835067666666666,
+     "time_s_ipc_0.5": 0.3767013533333333
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e5_bench.json"
+ },
+ "E5.gpu": {
+  "value": {
+   "device": "NVIDIA GB10",
+   "dtype": "float32",
+   "runs": [
+    {
+     "batch": 600,
+     "wall_s": 3.929612159729004,
+     "module_runs_per_s": 152.68682394381065,
+     "mean_e_spikes": 79.76333333333334
+    },
+    {
+     "batch": 1200,
+     "wall_s": 7.101855754852295,
+     "module_runs_per_s": 168.96992017616074,
+     "mean_e_spikes": 80.05
+    },
+    {
+     "batch": 2400,
+     "wall_s": 15.189400911331177,
+     "module_runs_per_s": 158.0049150068597,
+     "mean_e_spikes": 80.11
+    },
+    {
+     "batch": 4800,
+     "wall_s": 33.873751163482666,
+     "module_runs_per_s": 141.7026409869422,
+     "mean_e_spikes": 79.86166666666666
+    }
+   ],
+   "best_module_runs_per_s": 168.96992017616074
+  },
+  "label": "MEASURED",
+  "source": "results/e5_gpu.json"
+ },
+ "E6": {
+  "value": {
+   "assumptions": {
+    "mults_per_lane": 2,
+    "MUL_E": 6,
+    "MUL_I": 4,
+    "overhead_cycles_per_step": 2,
+    "spike_gen": "16 xorshift32 generators x 4 draws/cycle",
+    "module_run": "hard reset + 350 ms presentation (no rest)"
+   },
+   "module_bytes_8bit": {
+    "total": 316054,
+    "weights": 313600,
+    "meta": {
+     "theta": 1600,
+     "labels": 800,
+     "mask": 50,
+     "delay_seed": 4
+    }
+   },
+   "module_bytes_4bit": {
+    "total": 159254,
+    "weights": 156800
+   },
+   "dt0.1ms": {
+    "n_traces": 1200,
+    "steps_per_run": 3500,
+    "rows": [
+     {
+      "L": 50,
+      "f_MHz": 100.0,
+      "cycles_per_run_mean": 148490.4,
+      "cycles_per_run_max": 148992.0,
+      "t_run_mean_ms": 1.4849039999999998,
+      "t_run_max_ms": 1.4899200000000001,
+      "resident_t_query_ms": 1.4849039999999998,
+      "resident_queries_per_s": 673.4442091879341,
+      "upd_cycles_per_step": 40,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.036885714285714286,
+      "speedup_vs_C_X925_single_core": 12.248603276710146,
+      "speedup_vs_U54_est_ipc1": 325.6258833343211,
+      "speedup_vs_U54_est_ipc0.5": 651.2517666686422,
+      "dsp_multipliers_resident": 400,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.0014849039999999998,
+        "t_query_s": 0.044547119999999996,
+        "queries_per_s": 22.44814030626447,
+        "bound": "compute"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.0014849039999999998,
+        "t_query_s": 0.044547119999999996,
+        "queries_per_s": 22.44814030626447,
+        "bound": "compute"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.0014849039999999998,
+        "t_query_s": 0.044547119999999996,
+        "queries_per_s": 22.44814030626447,
+        "bound": "compute"
+       }
+      }
+     },
+     {
+      "L": 50,
+      "f_MHz": 125.0,
+      "cycles_per_run_mean": 148490.4,
+      "cycles_per_run_max": 148992.0,
+      "t_run_mean_ms": 1.1879232000000002,
+      "t_run_max_ms": 1.1919359999999999,
+      "resident_t_query_ms": 1.1879232000000002,
+      "resident_queries_per_s": 841.8052614849175,
+      "upd_cycles_per_step": 40,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.036885714285714286,
+      "speedup_vs_C_X925_single_core": 15.31075409588768,
+      "speedup_vs_U54_est_ipc1": 407.0323541679013,
+      "speedup_vs_U54_est_ipc0.5": 814.0647083358026,
+      "dsp_multipliers_resident": 400,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.001264216,
+        "t_query_s": 0.037926480000000005,
+        "queries_per_s": 26.36680229749768,
+        "bound": "ddr"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.0011879232,
+        "t_query_s": 0.035637696,
+        "queries_per_s": 28.060175382830582,
+        "bound": "compute"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.0011879232,
+        "t_query_s": 0.035637696,
+        "queries_per_s": 28.060175382830582,
+        "bound": "compute"
+       }
+      }
+     },
+     {
+      "L": 50,
+      "f_MHz": 150.0,
+      "cycles_per_run_mean": 148490.4,
+      "cycles_per_run_max": 148992.0,
+      "t_run_mean_ms": 0.989936,
+      "t_run_max_ms": 0.99328,
+      "resident_t_query_ms": 0.989936,
+      "resident_queries_per_s": 1010.166313781901,
+      "upd_cycles_per_step": 40,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.036885714285714286,
+      "speedup_vs_C_X925_single_core": 18.372904915065213,
+      "speedup_vs_U54_est_ipc1": 488.4388250014815,
+      "speedup_vs_U54_est_ipc0.5": 976.877650002963,
+      "dsp_multipliers_resident": 400,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.001264216,
+        "t_query_s": 0.037926480000000005,
+        "queries_per_s": 26.36680229749768,
+        "bound": "ddr"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.000989936,
+        "t_query_s": 0.02969808,
+        "queries_per_s": 33.6722104593967,
+        "bound": "compute"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.000989936,
+        "t_query_s": 0.02969808,
+        "queries_per_s": 33.6722104593967,
+        "bound": "compute"
+       }
+      }
+     },
+     {
+      "L": 100,
+      "f_MHz": 100.0,
+      "cycles_per_run_mean": 77745.2,
+      "cycles_per_run_max": 77996.0,
+      "t_run_mean_ms": 0.7774520000000001,
+      "t_run_max_ms": 0.77996,
+      "resident_t_query_ms": 0.7774520000000001,
+      "resident_queries_per_s": 1286.2530419884442,
+      "upd_cycles_per_step": 20,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.036885714285714286,
+      "speedup_vs_C_X925_single_core": 23.39437032768582,
+      "speedup_vs_U54_est_ipc1": 621.9331568594159,
+      "speedup_vs_U54_est_ipc0.5": 1243.8663137188319,
+      "dsp_multipliers_resident": 800,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.001264216,
+        "t_query_s": 0.037926480000000005,
+        "queries_per_s": 26.36680229749768,
+        "bound": "ddr"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.0007774520000000001,
+        "t_query_s": 0.023323560000000004,
+        "queries_per_s": 42.875101399614806,
+        "bound": "compute"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.0007774520000000001,
+        "t_query_s": 0.023323560000000004,
+        "queries_per_s": 42.875101399614806,
+        "bound": "compute"
+       }
+      }
+     },
+     {
+      "L": 100,
+      "f_MHz": 125.0,
+      "cycles_per_run_mean": 77745.2,
+      "cycles_per_run_max": 77996.0,
+      "t_run_mean_ms": 0.6219616,
+      "t_run_max_ms": 0.6239680000000001,
+      "resident_t_query_ms": 0.6219616,
+      "resident_queries_per_s": 1607.8163024855555,
+      "upd_cycles_per_step": 20,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.036885714285714286,
+      "speedup_vs_C_X925_single_core": 29.242962909607282,
+      "speedup_vs_U54_est_ipc1": 777.41644607427,
+      "speedup_vs_U54_est_ipc0.5": 1554.83289214854,
+      "dsp_multipliers_resident": 800,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.001264216,
+        "t_query_s": 0.037926480000000005,
+        "queries_per_s": 26.36680229749768,
+        "bound": "ddr"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.000632108,
+        "t_query_s": 0.018963240000000003,
+        "queries_per_s": 52.73360459499536,
+        "bound": "ddr"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.0006219616,
+        "t_query_s": 0.018658848,
+        "queries_per_s": 53.593876749518515,
+        "bound": "compute"
+       }
+      }
+     },
+     {
+      "L": 100,
+      "f_MHz": 150.0,
+      "cycles_per_run_mean": 77745.2,
+      "cycles_per_run_max": 77996.0,
+      "t_run_mean_ms": 0.5183013333333334,
+      "t_run_max_ms": 0.5199733333333333,
+      "resident_t_query_ms": 0.5183013333333334,
+      "resident_queries_per_s": 1929.3795629826664,
+      "upd_cycles_per_step": 20,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.036885714285714286,
+      "speedup_vs_C_X925_single_core": 35.09155549152874,
+      "speedup_vs_U54_est_ipc1": 932.8997352891239,
+      "speedup_vs_U54_est_ipc0.5": 1865.7994705782478,
+      "dsp_multipliers_resident": 800,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.001264216,
+        "t_query_s": 0.037926480000000005,
+        "queries_per_s": 26.36680229749768,
+        "bound": "ddr"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.000632108,
+        "t_query_s": 0.018963240000000003,
+        "queries_per_s": 52.73360459499536,
+        "bound": "ddr"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.0005183013333333334,
+        "t_query_s": 0.01554904,
+        "queries_per_s": 64.31265209942221,
+        "bound": "compute"
+       }
+      }
+     },
+     {
+      "L": 200,
+      "f_MHz": 100.0,
+      "cycles_per_run_mean": 52574.28,
+      "cycles_per_run_max": 52619.0,
+      "t_run_mean_ms": 0.5257428,
+      "t_run_max_ms": 0.5261899999999999,
+      "resident_t_query_ms": 0.5257428,
+      "resident_queries_per_s": 1902.070746380169,
+      "upd_cycles_per_step": 10,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.01192,
+      "speedup_vs_C_X925_single_core": 34.594862735162515,
+      "speedup_vs_U54_est_ipc1": 919.6952895344771,
+      "speedup_vs_U54_est_ipc0.5": 1839.3905790689541,
+      "dsp_multipliers_resident": 1600,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.001264216,
+        "t_query_s": 0.037926480000000005,
+        "queries_per_s": 26.36680229749768,
+        "bound": "ddr"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.000632108,
+        "t_query_s": 0.018963240000000003,
+        "queries_per_s": 52.73360459499536,
+        "bound": "ddr"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.0005257428,
+        "t_query_s": 0.015772284,
+        "queries_per_s": 63.402358212672304,
+        "bound": "compute"
+       }
+      }
+     },
+     {
+      "L": 200,
+      "f_MHz": 125.0,
+      "cycles_per_run_mean": 52574.28,
+      "cycles_per_run_max": 52619.0,
+      "t_run_mean_ms": 0.42059424,
+      "t_run_max_ms": 0.420952,
+      "resident_t_query_ms": 0.42059424,
+      "resident_queries_per_s": 2377.5884329752116,
+      "upd_cycles_per_step": 10,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.01192,
+      "speedup_vs_C_X925_single_core": 43.24357841895314,
+      "speedup_vs_U54_est_ipc1": 1149.6191119180962,
+      "speedup_vs_U54_est_ipc0.5": 2299.2382238361924,
+      "dsp_multipliers_resident": 1600,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.001264216,
+        "t_query_s": 0.037926480000000005,
+        "queries_per_s": 26.36680229749768,
+        "bound": "ddr"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.000632108,
+        "t_query_s": 0.018963240000000003,
+        "queries_per_s": 52.73360459499536,
+        "bound": "ddr"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.00042059424,
+        "t_query_s": 0.0126178272,
+        "queries_per_s": 79.25294776584037,
+        "bound": "compute"
+       }
+      }
+     },
+     {
+      "L": 200,
+      "f_MHz": 150.0,
+      "cycles_per_run_mean": 52574.28,
+      "cycles_per_run_max": 52619.0,
+      "t_run_mean_ms": 0.3504952,
+      "t_run_max_ms": 0.35079333333333335,
+      "resident_t_query_ms": 0.3504952,
+      "resident_queries_per_s": 2853.1061195702537,
+      "upd_cycles_per_step": 10,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.01192,
+      "speedup_vs_C_X925_single_core": 51.892294102743776,
+      "speedup_vs_U54_est_ipc1": 1379.5429343017156,
+      "speedup_vs_U54_est_ipc0.5": 2759.085868603431,
+      "dsp_multipliers_resident": 1600,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.001264216,
+        "t_query_s": 0.037926480000000005,
+        "queries_per_s": 26.36680229749768,
+        "bound": "ddr"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.000632108,
+        "t_query_s": 0.018963240000000003,
+        "queries_per_s": 52.73360459499536,
+        "bound": "ddr"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.0003504952,
+        "t_query_s": 0.010514856,
+        "queries_per_s": 95.10353731900847,
+        "bound": "compute"
+       }
+      }
+     }
+    ],
+    "sensitivity_mults_per_lane": {
+     "L100_mults1_cycles_mean": 147000.76,
+     "L100_mults5_cycles_mean": 56966.82
+    },
+    "c_x925_median_s": 0.018188,
+    "u54": {
+     "instructions_used": 290113906,
+     "instruction_source": "rv64 (qemu)",
+     "clock_hz": 600000000.0,
+     "time_s_ipc_1.0": 0.48352317666666667,
+     "time_s_ipc_0.5": 0.9670463533333333
+    }
+   },
+   "dt0.5ms": {
+    "n_traces": 1200,
+    "steps_per_run": 700,
+    "rows": [
+     {
+      "L": 50,
+      "f_MHz": 100.0,
+      "cycles_per_run_mean": 69039.2,
+      "cycles_per_run_max": 72832.0,
+      "t_run_mean_ms": 0.6903920000000001,
+      "t_run_max_ms": 0.72832,
+      "resident_t_query_ms": 0.6903920000000001,
+      "resident_queries_per_s": 1448.4524733774433,
+      "upd_cycles_per_step": 40,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.9816000000000001,
+      "speedup_vs_C_X925_single_core": 16.463110812408022,
+      "speedup_vs_U54_est_ipc1": 272.81700348014846,
+      "speedup_vs_U54_est_ipc0.5": 545.6340069602969,
+      "dsp_multipliers_resident": 400,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.001264216,
+        "t_query_s": 0.037926480000000005,
+        "queries_per_s": 26.36680229749768,
+        "bound": "ddr"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.0006903920000000001,
+        "t_query_s": 0.020711760000000003,
+        "queries_per_s": 48.281749112581444,
+        "bound": "compute"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.0006903920000000001,
+        "t_query_s": 0.020711760000000003,
+        "queries_per_s": 48.281749112581444,
+        "bound": "compute"
+       }
+      }
+     },
+     {
+      "L": 50,
+      "f_MHz": 125.0,
+      "cycles_per_run_mean": 69039.2,
+      "cycles_per_run_max": 72832.0,
+      "t_run_mean_ms": 0.5523136000000001,
+      "t_run_max_ms": 0.582656,
+      "resident_t_query_ms": 0.5523136000000001,
+      "resident_queries_per_s": 1810.5655917218041,
+      "upd_cycles_per_step": 40,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.9816000000000001,
+      "speedup_vs_C_X925_single_core": 20.578888515510023,
+      "speedup_vs_U54_est_ipc1": 341.02125435018553,
+      "speedup_vs_U54_est_ipc0.5": 682.0425087003711,
+      "dsp_multipliers_resident": 400,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.001264216,
+        "t_query_s": 0.037926480000000005,
+        "queries_per_s": 26.36680229749768,
+        "bound": "ddr"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.000632108,
+        "t_query_s": 0.018963240000000003,
+        "queries_per_s": 52.73360459499536,
+        "bound": "ddr"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.0005523136000000001,
+        "t_query_s": 0.016569408000000004,
+        "queries_per_s": 60.3521863907268,
+        "bound": "compute"
+       }
+      }
+     },
+     {
+      "L": 50,
+      "f_MHz": 150.0,
+      "cycles_per_run_mean": 69039.2,
+      "cycles_per_run_max": 72832.0,
+      "t_run_mean_ms": 0.46026133333333336,
+      "t_run_max_ms": 0.4855466666666666,
+      "resident_t_query_ms": 0.46026133333333336,
+      "resident_queries_per_s": 2172.678710066165,
+      "upd_cycles_per_step": 40,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.9816000000000001,
+      "speedup_vs_C_X925_single_core": 24.69466621861203,
+      "speedup_vs_U54_est_ipc1": 409.22550522022266,
+      "speedup_vs_U54_est_ipc0.5": 818.4510104404453,
+      "dsp_multipliers_resident": 400,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.001264216,
+        "t_query_s": 0.037926480000000005,
+        "queries_per_s": 26.36680229749768,
+        "bound": "ddr"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.000632108,
+        "t_query_s": 0.018963240000000003,
+        "queries_per_s": 52.73360459499536,
+        "bound": "ddr"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.0004602613333333334,
+        "t_query_s": 0.013807840000000002,
+        "queries_per_s": 72.42262366887216,
+        "bound": "compute"
+       }
+      }
+     },
+     {
+      "L": 100,
+      "f_MHz": 100.0,
+      "cycles_per_run_mean": 35219.6,
+      "cycles_per_run_max": 37116.0,
+      "t_run_mean_ms": 0.352196,
+      "t_run_max_ms": 0.37116,
+      "resident_t_query_ms": 0.352196,
+      "resident_queries_per_s": 2839.3281013980854,
+      "upd_cycles_per_step": 20,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.9816000000000001,
+      "speedup_vs_C_X925_single_core": 32.27180320049064,
+      "speedup_vs_U54_est_ipc1": 534.7893691770113,
+      "speedup_vs_U54_est_ipc0.5": 1069.5787383540226,
+      "dsp_multipliers_resident": 800,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.001264216,
+        "t_query_s": 0.037926480000000005,
+        "queries_per_s": 26.36680229749768,
+        "bound": "ddr"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.000632108,
+        "t_query_s": 0.018963240000000003,
+        "queries_per_s": 52.73360459499536,
+        "bound": "ddr"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.000352196,
+        "t_query_s": 0.01056588,
+        "queries_per_s": 94.64427004660284,
+        "bound": "compute"
+       }
+      }
+     },
+     {
+      "L": 100,
+      "f_MHz": 125.0,
+      "cycles_per_run_mean": 35219.6,
+      "cycles_per_run_max": 37116.0,
+      "t_run_mean_ms": 0.2817568,
+      "t_run_max_ms": 0.296928,
+      "resident_t_query_ms": 0.2817568,
+      "resident_queries_per_s": 3549.1601267476067,
+      "upd_cycles_per_step": 20,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.9816000000000001,
+      "speedup_vs_C_X925_single_core": 40.3397540006133,
+      "speedup_vs_U54_est_ipc1": 668.4867114712641,
+      "speedup_vs_U54_est_ipc0.5": 1336.9734229425283,
+      "dsp_multipliers_resident": 800,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.001264216,
+        "t_query_s": 0.037926480000000005,
+        "queries_per_s": 26.36680229749768,
+        "bound": "ddr"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.000632108,
+        "t_query_s": 0.018963240000000003,
+        "queries_per_s": 52.73360459499536,
+        "bound": "ddr"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.000316054,
+        "t_query_s": 0.009481620000000001,
+        "queries_per_s": 105.46720918999073,
+        "bound": "ddr"
+       }
+      }
+     },
+     {
+      "L": 100,
+      "f_MHz": 150.0,
+      "cycles_per_run_mean": 35219.6,
+      "cycles_per_run_max": 37116.0,
+      "t_run_mean_ms": 0.2347973333333333,
+      "t_run_max_ms": 0.24743999999999997,
+      "resident_t_query_ms": 0.2347973333333333,
+      "resident_queries_per_s": 4258.992152097128,
+      "upd_cycles_per_step": 20,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.9816000000000001,
+      "speedup_vs_C_X925_single_core": 48.40770480073596,
+      "speedup_vs_U54_est_ipc1": 802.184053765517,
+      "speedup_vs_U54_est_ipc0.5": 1604.368107531034,
+      "dsp_multipliers_resident": 800,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.001264216,
+        "t_query_s": 0.037926480000000005,
+        "queries_per_s": 26.36680229749768,
+        "bound": "ddr"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.000632108,
+        "t_query_s": 0.018963240000000003,
+        "queries_per_s": 52.73360459499536,
+        "bound": "ddr"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.000316054,
+        "t_query_s": 0.009481620000000001,
+        "queries_per_s": 105.46720918999073,
+        "bound": "ddr"
+       }
+      }
+     },
+     {
+      "L": 200,
+      "f_MHz": 100.0,
+      "cycles_per_run_mean": 18366.82,
+      "cycles_per_run_max": 19300.0,
+      "t_run_mean_ms": 0.18366820000000003,
+      "t_run_max_ms": 0.193,
+      "resident_t_query_ms": 0.18366820000000003,
+      "resident_queries_per_s": 5444.600643987364,
+      "upd_cycles_per_step": 10,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.9580857142857144,
+      "speedup_vs_C_X925_single_core": 61.88333091956037,
+      "speedup_vs_U54_est_ipc1": 1025.494215474789,
+      "speedup_vs_U54_est_ipc0.5": 2050.988430949578,
+      "dsp_multipliers_resident": 1600,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.001264216,
+        "t_query_s": 0.037926480000000005,
+        "queries_per_s": 26.36680229749768,
+        "bound": "ddr"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.000632108,
+        "t_query_s": 0.018963240000000003,
+        "queries_per_s": 52.73360459499536,
+        "bound": "ddr"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.000316054,
+        "t_query_s": 0.009481620000000001,
+        "queries_per_s": 105.46720918999073,
+        "bound": "ddr"
+       }
+      }
+     },
+     {
+      "L": 200,
+      "f_MHz": 125.0,
+      "cycles_per_run_mean": 18366.82,
+      "cycles_per_run_max": 19300.0,
+      "t_run_mean_ms": 0.14693456,
+      "t_run_max_ms": 0.1544,
+      "resident_t_query_ms": 0.14693456,
+      "resident_queries_per_s": 6805.750804984205,
+      "upd_cycles_per_step": 10,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.9580857142857144,
+      "speedup_vs_C_X925_single_core": 77.35416364945047,
+      "speedup_vs_U54_est_ipc1": 1281.8677693434863,
+      "speedup_vs_U54_est_ipc0.5": 2563.7355386869726,
+      "dsp_multipliers_resident": 1600,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.001264216,
+        "t_query_s": 0.037926480000000005,
+        "queries_per_s": 26.36680229749768,
+        "bound": "ddr"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.000632108,
+        "t_query_s": 0.018963240000000003,
+        "queries_per_s": 52.73360459499536,
+        "bound": "ddr"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.000316054,
+        "t_query_s": 0.009481620000000001,
+        "queries_per_s": 105.46720918999073,
+        "bound": "ddr"
+       }
+      }
+     },
+     {
+      "L": 200,
+      "f_MHz": 150.0,
+      "cycles_per_run_mean": 18366.82,
+      "cycles_per_run_max": 19300.0,
+      "t_run_mean_ms": 0.12244546666666668,
+      "t_run_max_ms": 0.12866666666666665,
+      "resident_t_query_ms": 0.12244546666666668,
+      "resident_queries_per_s": 8166.900965981045,
+      "upd_cycles_per_step": 10,
+      "gen_cycles_per_step": 13,
+      "frac_steps_accumulation_bound": 0.9580857142857144,
+      "speedup_vs_C_X925_single_core": 92.82499637934056,
+      "speedup_vs_U54_est_ipc1": 1538.2413232121835,
+      "speedup_vs_U54_est_ipc0.5": 3076.482646424367,
+      "dsp_multipliers_resident": 1600,
+      "streaming": {
+       "0.5GBps": {
+        "t_load_slot_s": 0.001264216,
+        "t_slot_s": 0.001264216,
+        "t_query_s": 0.037926480000000005,
+        "queries_per_s": 26.36680229749768,
+        "bound": "ddr"
+       },
+       "1GBps": {
+        "t_load_slot_s": 0.000632108,
+        "t_slot_s": 0.000632108,
+        "t_query_s": 0.018963240000000003,
+        "queries_per_s": 52.73360459499536,
+        "bound": "ddr"
+       },
+       "2GBps": {
+        "t_load_slot_s": 0.000316054,
+        "t_slot_s": 0.000316054,
+        "t_query_s": 0.009481620000000001,
+        "queries_per_s": 105.46720918999073,
+        "bound": "ddr"
+       }
+      }
+     }
+    ],
+    "sensitivity_mults_per_lane": {
+     "L100_mults1_cycles_mean": 36703.6,
+     "L100_mults5_cycles_mean": 35195.26
+    },
+    "c_x925_median_s": 0.011366,
+    "u54": {
+     "instructions_used": 113010406,
+     "instruction_source": "rv64 (qemu)",
+     "clock_hz": 600000000.0,
+     "time_s_ipc_1.0": 0.18835067666666666,
+     "time_s_ipc_0.5": 0.3767013533333333
+    }
+   },
+   "lsram": {
+    "device_blocks_MPFS250T": 812,
+    "by_lanes": {
+     "50": {
+      "8bit": {
+       "depth": 6272,
+       "width": 400,
+       "blocks_per_bank": {
+        "x40": 130,
+        "x20": 140,
+        "x10": 160
+       },
+       "blocks_4_banks": {
+        "x40": 520,
+        "x20": 560,
+        "x10": 640
+       }
+      },
+      "4bit": {
+       "depth": 6272,
+       "width": 200,
+       "blocks_per_bank": {
+        "x40": 65,
+        "x20": 70,
+        "x10": 80
+       },
+       "blocks_4_banks": {
+        "x40": 260,
+        "x20": 280,
+        "x10": 320
+       }
+      }
+     },
+     "100": {
+      "8bit": {
+       "depth": 3136,
+       "width": 800,
+       "blocks_per_bank": {
+        "x40": 140,
+        "x20": 160,
+        "x10": 160
+       },
+       "blocks_4_banks": {
+        "x40": 560,
+        "x20": 640,
+        "x10": 640
+       }
+      },
+      "4bit": {
+       "depth": 3136,
+       "width": 400,
+       "blocks_per_bank": {
+        "x40": 70,
+        "x20": 80,
+        "x10": 80
+       },
+       "blocks_4_banks": {
+        "x40": 280,
+        "x20": 320,
+        "x10": 320
+       }
+      }
+     },
+     "200": {
+      "8bit": {
+       "depth": 1568,
+       "width": 1600,
+       "blocks_per_bank": {
+        "x40": 160,
+        "x20": 160,
+        "x10": 160
+       },
+       "blocks_4_banks": {
+        "x40": 640,
+        "x20": 640,
+        "x10": 640
+       }
+      },
+      "4bit": {
+       "depth": 1568,
+       "width": 800,
+       "blocks_per_bank": {
+        "x40": 80,
+        "x20": 80,
+        "x10": 80
+       },
+       "blocks_4_banks": {
+        "x40": 320,
+        "x20": 320,
+        "x10": 320
+       }
+      }
+     }
+    },
+    "ring_buffer_bits_per_engine": {
+     "0.1ms_101slots": 969600,
+     "1ms_binned_12slots": 115200
+    },
+    "ring_buffer_lsram_blocks_per_engine": {
+     "0.1ms_101slots": 48,
+     "1ms_binned_12slots": 6
+    }
+   }
+  },
+  "label": "DERIVED",
+  "source": "results/e6_cyclemodel.json"
+ },
+ "E7.a_float": {
+  "value": {
+   "config": "a_float",
+   "n_cal_modules": 24,
+   "n_test_modules": 108,
+   "n_cal_queries": 600,
+   "n_test_queries": 2700,
+   "brian2rec": {
+    "threshold": 180,
+    "cal_R1_by_threshold": {
+     "0": 0.735,
+     "5": 0.7116666666666667,
+     "10": 0.7783333333333333,
+     "20": 0.81,
+     "40": 0.8516666666666667,
+     "60": 0.85,
+     "80": 0.8533333333333334,
+     "100": 0.86,
+     "120": 0.86,
+     "140": 0.86,
+     "160": 0.8583333333333333,
+     "180": 0.8633333333333333,
+     "200": 0.8633333333333333
+    },
+    "R1": 0.5492592592592592,
+    "R5": 0.6922222222222222,
+    "R1_threshold0": 0.3451851851851852,
+    "seq_R1": {
+     "2": 0.7298999629492404,
+     "4": 0.885799035965888,
+     "10": 0.9758454106280193
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e7_a_float.json"
+ },
+ "E7.a_float_P1": {
+  "value": {
+   "config": "a_float_P1",
+   "n_cal_modules": 24,
+   "n_test_modules": 108,
+   "n_cal_queries": 600,
+   "n_test_queries": 2700,
+   "brian2rec": {
+    "threshold": 100,
+    "cal_R1_by_threshold": {
+     "0": 0.715,
+     "5": 0.715,
+     "10": 0.7716666666666666,
+     "20": 0.81,
+     "40": 0.84,
+     "60": 0.845,
+     "80": 0.8483333333333334,
+     "100": 0.8583333333333333,
+     "120": 0.855,
+     "140": 0.8566666666666667,
+     "160": 0.8583333333333333,
+     "180": 0.8583333333333333,
+     "200": 0.855
+    },
+    "R1": 0.5525925925925926,
+    "R5": 0.6877777777777778,
+    "R1_threshold0": 0.3459259259259259,
+    "seq_R1": {
+     "2": 0.7347165616895146,
+     "4": 0.8717093066370041,
+     "10": 0.9639539204756596
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e7_a_float_P1.json"
+ },
+ "E7.f_nodelay": {
+  "value": {
+   "config": "f_nodelay",
+   "n_cal_modules": 24,
+   "n_test_modules": 108,
+   "n_cal_queries": 600,
+   "n_test_queries": 2700,
+   "brian2rec": {
+    "threshold": 160,
+    "cal_R1_by_threshold": {
+     "0": 0.7033333333333334,
+     "5": 0.7166666666666667,
+     "10": 0.7683333333333333,
+     "20": 0.7966666666666666,
+     "40": 0.8166666666666667,
+     "60": 0.82,
+     "80": 0.8233333333333334,
+     "100": 0.8216666666666667,
+     "120": 0.825,
+     "140": 0.8266666666666667,
+     "160": 0.8366666666666667,
+     "180": 0.8333333333333334,
+     "200": 0.835
+    },
+    "R1": 0.44814814814814813,
+    "R5": 0.6674074074074074,
+    "R1_threshold0": 0.2374074074074074,
+    "seq_R1": {
+     "2": 0.6383845868840311,
+     "4": 0.8212829069336299,
+     "10": 0.9565217391304348
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e7_f_nodelay.json"
+ },
+ "E7.l_hw": {
+  "value": {
+   "config": "l_hw",
+   "n_cal_modules": 24,
+   "n_test_modules": 108,
+   "n_cal_queries": 600,
+   "n_test_queries": 2700,
+   "brian2rec": {
+    "threshold": 120,
+    "cal_R1_by_threshold": {
+     "0": 0.74,
+     "5": 0.7016666666666667,
+     "10": 0.7516666666666667,
+     "20": 0.7916666666666666,
+     "40": 0.835,
+     "60": 0.8366666666666667,
+     "80": 0.8416666666666667,
+     "100": 0.855,
+     "120": 0.8583333333333333,
+     "140": 0.8583333333333333,
+     "160": 0.8583333333333333,
+     "180": 0.8516666666666667,
+     "200": 0.845
+    },
+    "R1": 0.544074074074074,
+    "R5": 0.6922222222222222,
+    "R1_threshold0": 0.3351851851851852,
+    "seq_R1": {
+     "2": 0.7139681363467951,
+     "4": 0.8557656655543197,
+     "10": 0.9658119658119658
+    }
+   },
+   "enginerec": {
+    "threshold": 80,
+    "cal_R1_by_threshold": {
+     "0": 0.74,
+     "5": 0.7033333333333334,
+     "10": 0.77,
+     "20": 0.805,
+     "40": 0.8416666666666667,
+     "60": 0.85,
+     "80": 0.8666666666666667,
+     "100": 0.8566666666666667,
+     "120": 0.8516666666666667,
+     "140": 0.855,
+     "160": 0.8516666666666667,
+     "180": 0.8533333333333334,
+     "200": 0.8566666666666667
+    },
+    "R1": 0.5314814814814814,
+    "R5": 0.6840740740740741,
+    "R1_threshold0": 0.3351851851851852,
+    "seq_R1": {
+     "2": 0.7054464616524638,
+     "4": 0.8602150537634409,
+     "10": 0.9672984020810108
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e7_l_hw.json"
+ },
+ "E7.l_hw_P1": {
+  "value": {
+   "config": "l_hw_P1",
+   "n_cal_modules": 24,
+   "n_test_modules": 108,
+   "n_cal_queries": 600,
+   "n_test_queries": 2700,
+   "brian2rec": {
+    "threshold": 100,
+    "cal_R1_by_threshold": {
+     "0": 0.72,
+     "5": 0.7133333333333334,
+     "10": 0.7766666666666666,
+     "20": 0.8083333333333333,
+     "40": 0.83,
+     "60": 0.8416666666666667,
+     "80": 0.845,
+     "100": 0.85,
+     "120": 0.845,
+     "140": 0.8466666666666667,
+     "160": 0.85,
+     "180": 0.8483333333333334,
+     "200": 0.8466666666666667
+    },
+    "R1": 0.5425925925925926,
+    "R5": 0.6907407407407408,
+    "R1_threshold0": 0.3351851851851852,
+    "seq_R1": {
+     "2": 0.7187847350870693,
+     "4": 0.8613274008157211,
+     "10": 0.9687848383500557
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e7_l_hw_P1.json"
+ },
+ "E7.l_hw_dt05": {
+  "value": {
+   "config": "l_hw_dt05",
+   "n_cal_modules": 24,
+   "n_test_modules": 108,
+   "n_cal_queries": 600,
+   "n_test_queries": 2700,
+   "brian2rec": {
+    "threshold": 60,
+    "cal_R1_by_threshold": {
+     "0": 0.5216666666666666,
+     "5": 0.6633333333333333,
+     "10": 0.6983333333333334,
+     "20": 0.7233333333333334,
+     "40": 0.7433333333333333,
+     "60": 0.745,
+     "80": 0.7333333333333333,
+     "100": 0.745,
+     "120": 0.7283333333333334,
+     "140": 0.715,
+     "160": 0.7216666666666667,
+     "180": 0.7316666666666667,
+     "200": 0.7216666666666667
+    },
+    "R1": 0.3377777777777778,
+    "R5": 0.5944444444444444,
+    "R1_threshold0": 0.1037037037037037,
+    "seq_R1": {
+     "2": 0.5487217487958503,
+     "4": 0.7526881720430108,
+     "10": 0.9279078409513192
+    }
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e7_l_hw_dt05.json"
+ },
+ "E8": {
+  "value": {
+   "inputs": {
+    "x925": {
+     "median_s": 1644.0114247334714,
+     "max_s": 1845.275179485965,
+     "n": 10
+    },
+    "a725": {
+     "median_s": 2621.450722296955,
+     "max_s": 2822.517995187023,
+     "n": 8
+    }
+   },
+   "module_trainings": 60,
+   "epochs": 30,
+   "concurrency": 18,
+   "epochs30": {
+    "core_hours": 30.582708709358123,
+    "wall_h_18_procs": 3.136131105763359,
+    "wall_h_18_procs_x925_only_estimate": 3.0754586324766082
+   },
+   "epochs60": {
+    "core_hours": 61.165417418716245,
+    "wall_h_18_procs": 6.272262211526718,
+    "wall_h_18_procs_x925_only_estimate": 6.1509172649532164
+   }
+  },
+  "label": "DERIVED",
+  "source": "results/e8_training_projection.json"
+ },
+ "E1.brian2.clean_timing": {
+  "value": {
+   "note": "one E1 test module (seed 0, offset 50), 100 test images, test mode, pinned core; other jobs excluded from these cores via taskset",
+   "x925": {
+    "core": 19,
+    "n_images": 100,
+    "median_s_per_image": 0.2572891699965112,
+    "p10": 0.2562645422236528,
+    "p90": 0.2582322909496725,
+    "present_350ms_median_s": 0.1557975549949333,
+    "rest_150ms_median_s": 0.10151883200160228,
+    "test_call_wall_s": 26.560641837015282
+   },
+   "a725": {
+    "core": 14,
+    "n_images": 100,
+    "median_s_per_image": 0.5114738790143747,
+    "p10": 0.5030866931832861,
+    "p90": 0.5152662038919515,
+    "present_350ms_median_s": 0.3275290295132436,
+    "rest_150ms_median_s": 0.1831569590140134,
+    "test_call_wall_s": 52.43831321998732
+   }
+  },
+  "label": "MEASURED",
+  "source": "results/e1_brian2_clean_timing.json"
+ },
+ "paper.TableI.ModularSNN.NordlandFS": {
+  "value": {
+   "SL1": 0.42,
+   "SL2": 0.55,
+   "SL4": 0.67,
+   "SL10": 0.78
+  },
+  "label": "EXTERNAL",
+  "source": "https://arxiv.org/html/2311.13186 (Table I)"
+ },
+ "paper.TableI.Ens3.NordlandFS": {
+  "value": {
+   "SL1": 0.5,
+   "SL2": 0.62,
+   "SL4": 0.72,
+   "SL10": 0.8
+  },
+  "label": "EXTERNAL",
+  "source": "https://arxiv.org/html/2311.13186 (Table I)"
+ }
+}
