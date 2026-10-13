@@ -1,0 +1,11 @@
+__pycache__/
+*.so
+golden_c/snn_golden_bench
+golden_c/snn_golden_verify
+envs/
+data/
+VPRSNN/
+e1/
+e3/
+e7/
+cache/
