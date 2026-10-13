@@ -1,0 +1,110 @@
+{
+ "config": {
+  "name": "l_hw",
+  "dt": 0.0001,
+  "arith": "fixed",
+  "weight_bits": 8,
+  "weight_scale": "unit",
+  "delay_mode": "hash_1ms_binned",
+  "reset_mode": "hard",
+  "input_sharing": "shared",
+  "rng": "lfsr",
+  "count_window": "auto"
+ },
+ "dt_us": 100,
+ "delay_mode_c": 3,
+ "n_modules": 4,
+ "n_queries": 20,
+ "modules": [
+  {
+   "file": "module_0.bin",
+   "e1_seed": 0,
+   "offset": 50,
+   "delay_seed": 351
+  },
+  {
+   "file": "module_1.bin",
+   "e1_seed": 0,
+   "offset": 75,
+   "delay_seed": 526
+  },
+  {
+   "file": "module_2.bin",
+   "e1_seed": 0,
+   "offset": 100,
+   "delay_seed": 701
+  },
+  {
+   "file": "module_3.bin",
+   "e1_seed": 0,
+   "offset": 125,
+   "delay_seed": 876
+  }
+ ],
+ "query_places": [
+  91,
+  105,
+  89,
+  66,
+  24,
+  94,
+  7,
+  106,
+  90,
+  123,
+  23,
+  112,
+  49,
+  117,
+  25,
+  21,
+  35,
+  119,
+  116,
+  39
+ ],
+ "streams": [
+  50266203,
+  50266217,
+  50266201,
+  50266178,
+  50266136,
+  50266206,
+  50266119,
+  50266218,
+  50266202,
+  50266235,
+  50266135,
+  50266224,
+  50266161,
+  50266229,
+  50266137,
+  50266133,
+  50266147,
+  50266231,
+  50266228,
+  50266151
+ ],
+ "expected_total_e_spikes": 6716,
+ "fixed_constants_dt0.1ms": {
+  "V_REST_E": -4259840,
+  "V_RESET_E": -4259840,
+  "V_REST_I": -3932160,
+  "V_RESET_I": -2949120,
+  "V_TH_I": -2621440,
+  "E_INH_E": -6553600,
+  "V_INIT_E": -6881280,
+  "V_INIT_I": -6553600,
+  "KV_E": 1073742,
+  "KV_I": 10737418,
+  "KC_E": 33686,
+  "KC_I": 336860,
+  "DGE": 58982,
+  "DGI": 52429,
+  "W_EI": 42432,
+  "W_IE": 69360,
+  "REF_E": 50,
+  "REF_I": 20,
+  "T_LOCK": 501
+ }
+}
