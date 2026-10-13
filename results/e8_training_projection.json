@@ -1,0 +1,27 @@
+{
+ "inputs": {
+  "x925": {
+   "median_s": 1644.0114247334714,
+   "max_s": 1845.275179485965,
+   "n": 10
+  },
+  "a725": {
+   "median_s": 2621.450722296955,
+   "max_s": 2822.517995187023,
+   "n": 8
+  }
+ },
+ "module_trainings": 60,
+ "epochs": 30,
+ "concurrency": 18,
+ "epochs30": {
+  "core_hours": 30.582708709358123,
+  "wall_h_18_procs": 3.136131105763359,
+  "wall_h_18_procs_x925_only_estimate": 3.0754586324766082
+ },
+ "epochs60": {
+  "core_hours": 61.165417418716245,
+  "wall_h_18_procs": 6.272262211526718,
+  "wall_h_18_procs_x925_only_estimate": 6.1509172649532164
+ }
+}

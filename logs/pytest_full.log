@@ -1,0 +1,126 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.17, pytest-9.1.1, pluggy-1.6.0 -- /home/bejaine/polarfire-fpga/envs/vprsnn/bin/python
+cachedir: .pytest_cache
+rootdir: /home/bejaine/polarfire-fpga
+plugins: anyio-4.15.1
+collecting ... collected 13 items
+
+tests/test_brian2_exact.py::test_brian2_raster_exact PASSED              [  7%]
+tests/test_golden_c.py::test_bit_exact_hw[l_hw-20] PASSED                [ 15%]
+tests/test_golden_c.py::test_bit_exact_hw[l_hw_w4-5] PASSED              [ 23%]
+tests/test_golden_c.py::test_bit_exact_hw[l_hw_dt05-10] PASSED           [ 30%]
+tests/test_golden_c.py::test_bit_exact_carry_hash01 PASSED               [ 38%]
+tests/test_golden_c.py::test_constants_match[0.0001] PASSED              [ 46%]
+tests/test_golden_c.py::test_constants_match[0.0002] PASSED              [ 53%]
+tests/test_golden_c.py::test_constants_match[0.0005] PASSED              [ 61%]
+tests/test_shared_inhibition.py::test_identity_random_vectors PASSED     [ 69%]
+tests/test_shared_inhibition.py::test_engine_matrix_vs_shared_count[float-hard] PASSED [ 76%]
+tests/test_shared_inhibition.py::test_engine_matrix_vs_shared_count[fixed-hard] PASSED [ 84%]
+tests/test_shared_inhibition.py::test_engine_matrix_vs_shared_count[float-carry] PASSED [ 92%]
+tests/test_shared_inhibition.py::test_engine_matrix_vs_shared_count[fixed-carry] PASSED [100%]
+
+=============================== warnings summary ===============================
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:88: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:92: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/brian2/parsing/statements.py:15: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    VARIABLE = Word(f"{alphas}_", f"{alphas + nums}_").setResultsName("variable")
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/brian2/parsing/statements.py:17: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    OP = Regex(r"(\+|\-|\*|/|//|%|\*\*|>>|<<|&|\^|\|)?=").setResultsName("operation")
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/brian2/parsing/statements.py:20: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    ).setResultsName("expression")
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/brian2/parsing/statements.py:21: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    COMMENT = Optional(CharsNotIn("#")).setResultsName("comment")
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/brian2/equations/equations.py:77: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    ).setResultsName("identifier")
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/brian2/equations/equations.py:86: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    ).setResultsName("expression")
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/brian2/equations/equations.py:91: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    UNIT = Word(string.ascii_letters + string.digits + "*/.- ").setResultsName("unit")
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/brian2/equations/equations.py:99: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    ).setResultsName("flags")
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/brian2/equations/equations.py:109: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    ).setResultsName(PARAMETER)
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/brian2/equations/equations.py:115: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    ).setResultsName(SUBEXPRESSION)
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/brian2/equations/equations.py:122: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    ).setResultsName(DIFFERENTIAL_EQUATION)
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/brian2/stateupdaters/explicit.py:235: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    ).setResultsName("identifier")
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/brian2/stateupdaters/explicit.py:238: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    EXPRESSION = restOfLine.setResultsName("expression")
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/brian2/stateupdaters/explicit.py:241: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    STATEMENT = Group(TEMP_VAR + Suppress("=") + EXPRESSION).setResultsName("statement")
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/brian2/stateupdaters/explicit.py:246: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    ).setResultsName("output")
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/brian2/stateupdaters/explicit.py:257: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parsed = ExplicitStateUpdater.DESCRIPTION.parseString(
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/pyparsing/util.py:466: PyparsingDeprecationWarning: 'parseAll' argument is deprecated, use 'parse_all'
+    return fn(self, *args, **kwargs)
+
+tests/test_brian2_exact.py::test_brian2_raster_exact
+  /home/bejaine/polarfire-fpga/envs/vprsnn/lib/python3.11/site-packages/brian2/groups/neurongroup.py:50: PyparsingDeprecationWarning: 'setResultsName' deprecated - use 'set_results_name'
+    ).setResultsName("identifier")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================= 13 passed, 39 warnings in 22.76s =======================

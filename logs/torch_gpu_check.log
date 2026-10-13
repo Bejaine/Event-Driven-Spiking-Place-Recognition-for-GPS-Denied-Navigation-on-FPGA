@@ -1,0 +1,4 @@
+torch 2.14.1+cu130 cuda avail True cuda 13.0
+NVIDIA GB10
+max abs err float64 vs CPU 1.8758328224066645e-12
+fp32 matmul TFLOP/s 6.18

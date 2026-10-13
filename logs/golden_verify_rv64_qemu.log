@@ -1,0 +1,5 @@
+module 0: PASS (20/20 queries bit-exact)
+module 1: PASS (20/20 queries bit-exact)
+module 2: PASS (20/20 queries bit-exact)
+module 3: PASS (20/20 queries bit-exact)
+ALL PASS; module runs timed: 80; median_s 0.062935 min_s 0.062093 max_s 0.080008

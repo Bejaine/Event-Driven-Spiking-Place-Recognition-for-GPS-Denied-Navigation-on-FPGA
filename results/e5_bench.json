@@ -1,0 +1,92 @@
+{
+ "module": "E1 seed 0, offset 50 (test module)",
+ "query": "first test query (seed 0)",
+ "l_hw": {
+  "x925_core": 5,
+  "a725_core": 1,
+  "x925": {
+   "median_s": 0.018188,
+   "min_s": 0.018178,
+   "max_s": 0.018358,
+   "reps": 25,
+   "e_spikes": 80,
+   "in_spikes": 8597,
+   "i_spikes": 80
+  },
+  "a725": {
+   "median_s": 0.032695,
+   "min_s": 0.032649,
+   "max_s": 0.032934,
+   "reps": 25,
+   "e_spikes": 80,
+   "in_spikes": 8597,
+   "i_spikes": 80
+  },
+  "aarch64_instructions_per_run": 253135606,
+  "callgrind_ir": {
+   "reps2": 514257777,
+   "reps3": 767393383
+  },
+  "rv64": {
+   "available": true,
+   "insns_per_run": 290113906,
+   "raw": {
+    "2": 592011079,
+    "3": 882124985
+   },
+   "flags": "-O3 -std=c99 -static -march=rv64gc -mabi=lp64d",
+   "method": "qemu-riscv64 8.2.2 in_asm+exec log counting"
+  },
+  "u54_estimate": {
+   "instructions_used": 290113906,
+   "instruction_source": "rv64 (qemu)",
+   "clock_hz": 600000000.0,
+   "time_s_ipc_1.0": 0.48352317666666667,
+   "time_s_ipc_0.5": 0.9670463533333333
+  }
+ },
+ "l_hw_dt05": {
+  "x925_core": 5,
+  "a725_core": 1,
+  "x925": {
+   "median_s": 0.011366,
+   "min_s": 0.011356,
+   "max_s": 0.01151,
+   "reps": 25,
+   "e_spikes": 116,
+   "in_spikes": 8563,
+   "i_spikes": 116
+  },
+  "a725": {
+   "median_s": 0.018012,
+   "min_s": 0.017986,
+   "max_s": 0.018091,
+   "reps": 25,
+   "e_spikes": 116,
+   "in_spikes": 8563,
+   "i_spikes": 116
+  },
+  "aarch64_instructions_per_run": 97361695,
+  "callgrind_ir": {
+   "reps2": 202712176,
+   "reps3": 300073871
+  },
+  "rv64": {
+   "available": true,
+   "insns_per_run": 113010406,
+   "raw": {
+    "2": 237809461,
+    "3": 350819867
+   },
+   "flags": "-O3 -std=c99 -static -march=rv64gc -mabi=lp64d",
+   "method": "qemu-riscv64 8.2.2 in_asm+exec log counting"
+  },
+  "u54_estimate": {
+   "instructions_used": 113010406,
+   "instruction_source": "rv64 (qemu)",
+   "clock_hz": 600000000.0,
+   "time_s_ipc_1.0": 0.18835067666666666,
+   "time_s_ipc_0.5": 0.3767013533333333
+  }
+ }
+}

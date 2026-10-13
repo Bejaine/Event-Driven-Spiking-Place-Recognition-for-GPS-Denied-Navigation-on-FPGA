@@ -1,0 +1,883 @@
+{
+ "assumptions": {
+  "mults_per_lane": 2,
+  "MUL_E": 6,
+  "MUL_I": 4,
+  "overhead_cycles_per_step": 2,
+  "spike_gen": "16 xorshift32 generators x 4 draws/cycle",
+  "module_run": "hard reset + 350 ms presentation (no rest)"
+ },
+ "module_bytes_8bit": {
+  "total": 316054,
+  "weights": 313600,
+  "meta": {
+   "theta": 1600,
+   "labels": 800,
+   "mask": 50,
+   "delay_seed": 4
+  }
+ },
+ "module_bytes_4bit": {
+  "total": 159254,
+  "weights": 156800
+ },
+ "dt0.1ms": {
+  "n_traces": 1200,
+  "steps_per_run": 3500,
+  "rows": [
+   {
+    "L": 50,
+    "f_MHz": 100.0,
+    "cycles_per_run_mean": 148490.4,
+    "cycles_per_run_max": 148992.0,
+    "t_run_mean_ms": 1.4849039999999998,
+    "t_run_max_ms": 1.4899200000000001,
+    "resident_t_query_ms": 1.4849039999999998,
+    "resident_queries_per_s": 673.4442091879341,
+    "upd_cycles_per_step": 40,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.036885714285714286,
+    "speedup_vs_C_X925_single_core": 12.248603276710146,
+    "speedup_vs_U54_est_ipc1": 325.6258833343211,
+    "speedup_vs_U54_est_ipc0.5": 651.2517666686422,
+    "dsp_multipliers_resident": 400,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.0014849039999999998,
+      "t_query_s": 0.044547119999999996,
+      "queries_per_s": 22.44814030626447,
+      "bound": "compute"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.0014849039999999998,
+      "t_query_s": 0.044547119999999996,
+      "queries_per_s": 22.44814030626447,
+      "bound": "compute"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.0014849039999999998,
+      "t_query_s": 0.044547119999999996,
+      "queries_per_s": 22.44814030626447,
+      "bound": "compute"
+     }
+    }
+   },
+   {
+    "L": 50,
+    "f_MHz": 125.0,
+    "cycles_per_run_mean": 148490.4,
+    "cycles_per_run_max": 148992.0,
+    "t_run_mean_ms": 1.1879232000000002,
+    "t_run_max_ms": 1.1919359999999999,
+    "resident_t_query_ms": 1.1879232000000002,
+    "resident_queries_per_s": 841.8052614849175,
+    "upd_cycles_per_step": 40,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.036885714285714286,
+    "speedup_vs_C_X925_single_core": 15.31075409588768,
+    "speedup_vs_U54_est_ipc1": 407.0323541679013,
+    "speedup_vs_U54_est_ipc0.5": 814.0647083358026,
+    "dsp_multipliers_resident": 400,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.001264216,
+      "t_query_s": 0.037926480000000005,
+      "queries_per_s": 26.36680229749768,
+      "bound": "ddr"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.0011879232,
+      "t_query_s": 0.035637696,
+      "queries_per_s": 28.060175382830582,
+      "bound": "compute"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.0011879232,
+      "t_query_s": 0.035637696,
+      "queries_per_s": 28.060175382830582,
+      "bound": "compute"
+     }
+    }
+   },
+   {
+    "L": 50,
+    "f_MHz": 150.0,
+    "cycles_per_run_mean": 148490.4,
+    "cycles_per_run_max": 148992.0,
+    "t_run_mean_ms": 0.989936,
+    "t_run_max_ms": 0.99328,
+    "resident_t_query_ms": 0.989936,
+    "resident_queries_per_s": 1010.166313781901,
+    "upd_cycles_per_step": 40,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.036885714285714286,
+    "speedup_vs_C_X925_single_core": 18.372904915065213,
+    "speedup_vs_U54_est_ipc1": 488.4388250014815,
+    "speedup_vs_U54_est_ipc0.5": 976.877650002963,
+    "dsp_multipliers_resident": 400,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.001264216,
+      "t_query_s": 0.037926480000000005,
+      "queries_per_s": 26.36680229749768,
+      "bound": "ddr"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.000989936,
+      "t_query_s": 0.02969808,
+      "queries_per_s": 33.6722104593967,
+      "bound": "compute"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.000989936,
+      "t_query_s": 0.02969808,
+      "queries_per_s": 33.6722104593967,
+      "bound": "compute"
+     }
+    }
+   },
+   {
+    "L": 100,
+    "f_MHz": 100.0,
+    "cycles_per_run_mean": 77745.2,
+    "cycles_per_run_max": 77996.0,
+    "t_run_mean_ms": 0.7774520000000001,
+    "t_run_max_ms": 0.77996,
+    "resident_t_query_ms": 0.7774520000000001,
+    "resident_queries_per_s": 1286.2530419884442,
+    "upd_cycles_per_step": 20,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.036885714285714286,
+    "speedup_vs_C_X925_single_core": 23.39437032768582,
+    "speedup_vs_U54_est_ipc1": 621.9331568594159,
+    "speedup_vs_U54_est_ipc0.5": 1243.8663137188319,
+    "dsp_multipliers_resident": 800,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.001264216,
+      "t_query_s": 0.037926480000000005,
+      "queries_per_s": 26.36680229749768,
+      "bound": "ddr"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.0007774520000000001,
+      "t_query_s": 0.023323560000000004,
+      "queries_per_s": 42.875101399614806,
+      "bound": "compute"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.0007774520000000001,
+      "t_query_s": 0.023323560000000004,
+      "queries_per_s": 42.875101399614806,
+      "bound": "compute"
+     }
+    }
+   },
+   {
+    "L": 100,
+    "f_MHz": 125.0,
+    "cycles_per_run_mean": 77745.2,
+    "cycles_per_run_max": 77996.0,
+    "t_run_mean_ms": 0.6219616,
+    "t_run_max_ms": 0.6239680000000001,
+    "resident_t_query_ms": 0.6219616,
+    "resident_queries_per_s": 1607.8163024855555,
+    "upd_cycles_per_step": 20,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.036885714285714286,
+    "speedup_vs_C_X925_single_core": 29.242962909607282,
+    "speedup_vs_U54_est_ipc1": 777.41644607427,
+    "speedup_vs_U54_est_ipc0.5": 1554.83289214854,
+    "dsp_multipliers_resident": 800,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.001264216,
+      "t_query_s": 0.037926480000000005,
+      "queries_per_s": 26.36680229749768,
+      "bound": "ddr"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.000632108,
+      "t_query_s": 0.018963240000000003,
+      "queries_per_s": 52.73360459499536,
+      "bound": "ddr"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.0006219616,
+      "t_query_s": 0.018658848,
+      "queries_per_s": 53.593876749518515,
+      "bound": "compute"
+     }
+    }
+   },
+   {
+    "L": 100,
+    "f_MHz": 150.0,
+    "cycles_per_run_mean": 77745.2,
+    "cycles_per_run_max": 77996.0,
+    "t_run_mean_ms": 0.5183013333333334,
+    "t_run_max_ms": 0.5199733333333333,
+    "resident_t_query_ms": 0.5183013333333334,
+    "resident_queries_per_s": 1929.3795629826664,
+    "upd_cycles_per_step": 20,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.036885714285714286,
+    "speedup_vs_C_X925_single_core": 35.09155549152874,
+    "speedup_vs_U54_est_ipc1": 932.8997352891239,
+    "speedup_vs_U54_est_ipc0.5": 1865.7994705782478,
+    "dsp_multipliers_resident": 800,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.001264216,
+      "t_query_s": 0.037926480000000005,
+      "queries_per_s": 26.36680229749768,
+      "bound": "ddr"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.000632108,
+      "t_query_s": 0.018963240000000003,
+      "queries_per_s": 52.73360459499536,
+      "bound": "ddr"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.0005183013333333334,
+      "t_query_s": 0.01554904,
+      "queries_per_s": 64.31265209942221,
+      "bound": "compute"
+     }
+    }
+   },
+   {
+    "L": 200,
+    "f_MHz": 100.0,
+    "cycles_per_run_mean": 52574.28,
+    "cycles_per_run_max": 52619.0,
+    "t_run_mean_ms": 0.5257428,
+    "t_run_max_ms": 0.5261899999999999,
+    "resident_t_query_ms": 0.5257428,
+    "resident_queries_per_s": 1902.070746380169,
+    "upd_cycles_per_step": 10,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.01192,
+    "speedup_vs_C_X925_single_core": 34.594862735162515,
+    "speedup_vs_U54_est_ipc1": 919.6952895344771,
+    "speedup_vs_U54_est_ipc0.5": 1839.3905790689541,
+    "dsp_multipliers_resident": 1600,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.001264216,
+      "t_query_s": 0.037926480000000005,
+      "queries_per_s": 26.36680229749768,
+      "bound": "ddr"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.000632108,
+      "t_query_s": 0.018963240000000003,
+      "queries_per_s": 52.73360459499536,
+      "bound": "ddr"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.0005257428,
+      "t_query_s": 0.015772284,
+      "queries_per_s": 63.402358212672304,
+      "bound": "compute"
+     }
+    }
+   },
+   {
+    "L": 200,
+    "f_MHz": 125.0,
+    "cycles_per_run_mean": 52574.28,
+    "cycles_per_run_max": 52619.0,
+    "t_run_mean_ms": 0.42059424,
+    "t_run_max_ms": 0.420952,
+    "resident_t_query_ms": 0.42059424,
+    "resident_queries_per_s": 2377.5884329752116,
+    "upd_cycles_per_step": 10,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.01192,
+    "speedup_vs_C_X925_single_core": 43.24357841895314,
+    "speedup_vs_U54_est_ipc1": 1149.6191119180962,
+    "speedup_vs_U54_est_ipc0.5": 2299.2382238361924,
+    "dsp_multipliers_resident": 1600,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.001264216,
+      "t_query_s": 0.037926480000000005,
+      "queries_per_s": 26.36680229749768,
+      "bound": "ddr"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.000632108,
+      "t_query_s": 0.018963240000000003,
+      "queries_per_s": 52.73360459499536,
+      "bound": "ddr"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.00042059424,
+      "t_query_s": 0.0126178272,
+      "queries_per_s": 79.25294776584037,
+      "bound": "compute"
+     }
+    }
+   },
+   {
+    "L": 200,
+    "f_MHz": 150.0,
+    "cycles_per_run_mean": 52574.28,
+    "cycles_per_run_max": 52619.0,
+    "t_run_mean_ms": 0.3504952,
+    "t_run_max_ms": 0.35079333333333335,
+    "resident_t_query_ms": 0.3504952,
+    "resident_queries_per_s": 2853.1061195702537,
+    "upd_cycles_per_step": 10,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.01192,
+    "speedup_vs_C_X925_single_core": 51.892294102743776,
+    "speedup_vs_U54_est_ipc1": 1379.5429343017156,
+    "speedup_vs_U54_est_ipc0.5": 2759.085868603431,
+    "dsp_multipliers_resident": 1600,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.001264216,
+      "t_query_s": 0.037926480000000005,
+      "queries_per_s": 26.36680229749768,
+      "bound": "ddr"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.000632108,
+      "t_query_s": 0.018963240000000003,
+      "queries_per_s": 52.73360459499536,
+      "bound": "ddr"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.0003504952,
+      "t_query_s": 0.010514856,
+      "queries_per_s": 95.10353731900847,
+      "bound": "compute"
+     }
+    }
+   }
+  ],
+  "sensitivity_mults_per_lane": {
+   "L100_mults1_cycles_mean": 147000.76,
+   "L100_mults5_cycles_mean": 56966.82
+  },
+  "c_x925_median_s": 0.018188,
+  "u54": {
+   "instructions_used": 290113906,
+   "instruction_source": "rv64 (qemu)",
+   "clock_hz": 600000000.0,
+   "time_s_ipc_1.0": 0.48352317666666667,
+   "time_s_ipc_0.5": 0.9670463533333333
+  }
+ },
+ "dt0.5ms": {
+  "n_traces": 1200,
+  "steps_per_run": 700,
+  "rows": [
+   {
+    "L": 50,
+    "f_MHz": 100.0,
+    "cycles_per_run_mean": 69039.2,
+    "cycles_per_run_max": 72832.0,
+    "t_run_mean_ms": 0.6903920000000001,
+    "t_run_max_ms": 0.72832,
+    "resident_t_query_ms": 0.6903920000000001,
+    "resident_queries_per_s": 1448.4524733774433,
+    "upd_cycles_per_step": 40,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.9816000000000001,
+    "speedup_vs_C_X925_single_core": 16.463110812408022,
+    "speedup_vs_U54_est_ipc1": 272.81700348014846,
+    "speedup_vs_U54_est_ipc0.5": 545.6340069602969,
+    "dsp_multipliers_resident": 400,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.001264216,
+      "t_query_s": 0.037926480000000005,
+      "queries_per_s": 26.36680229749768,
+      "bound": "ddr"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.0006903920000000001,
+      "t_query_s": 0.020711760000000003,
+      "queries_per_s": 48.281749112581444,
+      "bound": "compute"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.0006903920000000001,
+      "t_query_s": 0.020711760000000003,
+      "queries_per_s": 48.281749112581444,
+      "bound": "compute"
+     }
+    }
+   },
+   {
+    "L": 50,
+    "f_MHz": 125.0,
+    "cycles_per_run_mean": 69039.2,
+    "cycles_per_run_max": 72832.0,
+    "t_run_mean_ms": 0.5523136000000001,
+    "t_run_max_ms": 0.582656,
+    "resident_t_query_ms": 0.5523136000000001,
+    "resident_queries_per_s": 1810.5655917218041,
+    "upd_cycles_per_step": 40,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.9816000000000001,
+    "speedup_vs_C_X925_single_core": 20.578888515510023,
+    "speedup_vs_U54_est_ipc1": 341.02125435018553,
+    "speedup_vs_U54_est_ipc0.5": 682.0425087003711,
+    "dsp_multipliers_resident": 400,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.001264216,
+      "t_query_s": 0.037926480000000005,
+      "queries_per_s": 26.36680229749768,
+      "bound": "ddr"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.000632108,
+      "t_query_s": 0.018963240000000003,
+      "queries_per_s": 52.73360459499536,
+      "bound": "ddr"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.0005523136000000001,
+      "t_query_s": 0.016569408000000004,
+      "queries_per_s": 60.3521863907268,
+      "bound": "compute"
+     }
+    }
+   },
+   {
+    "L": 50,
+    "f_MHz": 150.0,
+    "cycles_per_run_mean": 69039.2,
+    "cycles_per_run_max": 72832.0,
+    "t_run_mean_ms": 0.46026133333333336,
+    "t_run_max_ms": 0.4855466666666666,
+    "resident_t_query_ms": 0.46026133333333336,
+    "resident_queries_per_s": 2172.678710066165,
+    "upd_cycles_per_step": 40,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.9816000000000001,
+    "speedup_vs_C_X925_single_core": 24.69466621861203,
+    "speedup_vs_U54_est_ipc1": 409.22550522022266,
+    "speedup_vs_U54_est_ipc0.5": 818.4510104404453,
+    "dsp_multipliers_resident": 400,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.001264216,
+      "t_query_s": 0.037926480000000005,
+      "queries_per_s": 26.36680229749768,
+      "bound": "ddr"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.000632108,
+      "t_query_s": 0.018963240000000003,
+      "queries_per_s": 52.73360459499536,
+      "bound": "ddr"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.0004602613333333334,
+      "t_query_s": 0.013807840000000002,
+      "queries_per_s": 72.42262366887216,
+      "bound": "compute"
+     }
+    }
+   },
+   {
+    "L": 100,
+    "f_MHz": 100.0,
+    "cycles_per_run_mean": 35219.6,
+    "cycles_per_run_max": 37116.0,
+    "t_run_mean_ms": 0.352196,
+    "t_run_max_ms": 0.37116,
+    "resident_t_query_ms": 0.352196,
+    "resident_queries_per_s": 2839.3281013980854,
+    "upd_cycles_per_step": 20,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.9816000000000001,
+    "speedup_vs_C_X925_single_core": 32.27180320049064,
+    "speedup_vs_U54_est_ipc1": 534.7893691770113,
+    "speedup_vs_U54_est_ipc0.5": 1069.5787383540226,
+    "dsp_multipliers_resident": 800,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.001264216,
+      "t_query_s": 0.037926480000000005,
+      "queries_per_s": 26.36680229749768,
+      "bound": "ddr"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.000632108,
+      "t_query_s": 0.018963240000000003,
+      "queries_per_s": 52.73360459499536,
+      "bound": "ddr"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.000352196,
+      "t_query_s": 0.01056588,
+      "queries_per_s": 94.64427004660284,
+      "bound": "compute"
+     }
+    }
+   },
+   {
+    "L": 100,
+    "f_MHz": 125.0,
+    "cycles_per_run_mean": 35219.6,
+    "cycles_per_run_max": 37116.0,
+    "t_run_mean_ms": 0.2817568,
+    "t_run_max_ms": 0.296928,
+    "resident_t_query_ms": 0.2817568,
+    "resident_queries_per_s": 3549.1601267476067,
+    "upd_cycles_per_step": 20,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.9816000000000001,
+    "speedup_vs_C_X925_single_core": 40.3397540006133,
+    "speedup_vs_U54_est_ipc1": 668.4867114712641,
+    "speedup_vs_U54_est_ipc0.5": 1336.9734229425283,
+    "dsp_multipliers_resident": 800,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.001264216,
+      "t_query_s": 0.037926480000000005,
+      "queries_per_s": 26.36680229749768,
+      "bound": "ddr"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.000632108,
+      "t_query_s": 0.018963240000000003,
+      "queries_per_s": 52.73360459499536,
+      "bound": "ddr"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.000316054,
+      "t_query_s": 0.009481620000000001,
+      "queries_per_s": 105.46720918999073,
+      "bound": "ddr"
+     }
+    }
+   },
+   {
+    "L": 100,
+    "f_MHz": 150.0,
+    "cycles_per_run_mean": 35219.6,
+    "cycles_per_run_max": 37116.0,
+    "t_run_mean_ms": 0.2347973333333333,
+    "t_run_max_ms": 0.24743999999999997,
+    "resident_t_query_ms": 0.2347973333333333,
+    "resident_queries_per_s": 4258.992152097128,
+    "upd_cycles_per_step": 20,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.9816000000000001,
+    "speedup_vs_C_X925_single_core": 48.40770480073596,
+    "speedup_vs_U54_est_ipc1": 802.184053765517,
+    "speedup_vs_U54_est_ipc0.5": 1604.368107531034,
+    "dsp_multipliers_resident": 800,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.001264216,
+      "t_query_s": 0.037926480000000005,
+      "queries_per_s": 26.36680229749768,
+      "bound": "ddr"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.000632108,
+      "t_query_s": 0.018963240000000003,
+      "queries_per_s": 52.73360459499536,
+      "bound": "ddr"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.000316054,
+      "t_query_s": 0.009481620000000001,
+      "queries_per_s": 105.46720918999073,
+      "bound": "ddr"
+     }
+    }
+   },
+   {
+    "L": 200,
+    "f_MHz": 100.0,
+    "cycles_per_run_mean": 18366.82,
+    "cycles_per_run_max": 19300.0,
+    "t_run_mean_ms": 0.18366820000000003,
+    "t_run_max_ms": 0.193,
+    "resident_t_query_ms": 0.18366820000000003,
+    "resident_queries_per_s": 5444.600643987364,
+    "upd_cycles_per_step": 10,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.9580857142857144,
+    "speedup_vs_C_X925_single_core": 61.88333091956037,
+    "speedup_vs_U54_est_ipc1": 1025.494215474789,
+    "speedup_vs_U54_est_ipc0.5": 2050.988430949578,
+    "dsp_multipliers_resident": 1600,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.001264216,
+      "t_query_s": 0.037926480000000005,
+      "queries_per_s": 26.36680229749768,
+      "bound": "ddr"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.000632108,
+      "t_query_s": 0.018963240000000003,
+      "queries_per_s": 52.73360459499536,
+      "bound": "ddr"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.000316054,
+      "t_query_s": 0.009481620000000001,
+      "queries_per_s": 105.46720918999073,
+      "bound": "ddr"
+     }
+    }
+   },
+   {
+    "L": 200,
+    "f_MHz": 125.0,
+    "cycles_per_run_mean": 18366.82,
+    "cycles_per_run_max": 19300.0,
+    "t_run_mean_ms": 0.14693456,
+    "t_run_max_ms": 0.1544,
+    "resident_t_query_ms": 0.14693456,
+    "resident_queries_per_s": 6805.750804984205,
+    "upd_cycles_per_step": 10,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.9580857142857144,
+    "speedup_vs_C_X925_single_core": 77.35416364945047,
+    "speedup_vs_U54_est_ipc1": 1281.8677693434863,
+    "speedup_vs_U54_est_ipc0.5": 2563.7355386869726,
+    "dsp_multipliers_resident": 1600,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.001264216,
+      "t_query_s": 0.037926480000000005,
+      "queries_per_s": 26.36680229749768,
+      "bound": "ddr"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.000632108,
+      "t_query_s": 0.018963240000000003,
+      "queries_per_s": 52.73360459499536,
+      "bound": "ddr"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.000316054,
+      "t_query_s": 0.009481620000000001,
+      "queries_per_s": 105.46720918999073,
+      "bound": "ddr"
+     }
+    }
+   },
+   {
+    "L": 200,
+    "f_MHz": 150.0,
+    "cycles_per_run_mean": 18366.82,
+    "cycles_per_run_max": 19300.0,
+    "t_run_mean_ms": 0.12244546666666668,
+    "t_run_max_ms": 0.12866666666666665,
+    "resident_t_query_ms": 0.12244546666666668,
+    "resident_queries_per_s": 8166.900965981045,
+    "upd_cycles_per_step": 10,
+    "gen_cycles_per_step": 13,
+    "frac_steps_accumulation_bound": 0.9580857142857144,
+    "speedup_vs_C_X925_single_core": 92.82499637934056,
+    "speedup_vs_U54_est_ipc1": 1538.2413232121835,
+    "speedup_vs_U54_est_ipc0.5": 3076.482646424367,
+    "dsp_multipliers_resident": 1600,
+    "streaming": {
+     "0.5GBps": {
+      "t_load_slot_s": 0.001264216,
+      "t_slot_s": 0.001264216,
+      "t_query_s": 0.037926480000000005,
+      "queries_per_s": 26.36680229749768,
+      "bound": "ddr"
+     },
+     "1GBps": {
+      "t_load_slot_s": 0.000632108,
+      "t_slot_s": 0.000632108,
+      "t_query_s": 0.018963240000000003,
+      "queries_per_s": 52.73360459499536,
+      "bound": "ddr"
+     },
+     "2GBps": {
+      "t_load_slot_s": 0.000316054,
+      "t_slot_s": 0.000316054,
+      "t_query_s": 0.009481620000000001,
+      "queries_per_s": 105.46720918999073,
+      "bound": "ddr"
+     }
+    }
+   }
+  ],
+  "sensitivity_mults_per_lane": {
+   "L100_mults1_cycles_mean": 36703.6,
+   "L100_mults5_cycles_mean": 35195.26
+  },
+  "c_x925_median_s": 0.011366,
+  "u54": {
+   "instructions_used": 113010406,
+   "instruction_source": "rv64 (qemu)",
+   "clock_hz": 600000000.0,
+   "time_s_ipc_1.0": 0.18835067666666666,
+   "time_s_ipc_0.5": 0.3767013533333333
+  }
+ },
+ "lsram": {
+  "device_blocks_MPFS250T": 812,
+  "by_lanes": {
+   "50": {
+    "8bit": {
+     "depth": 6272,
+     "width": 400,
+     "blocks_per_bank": {
+      "x40": 130,
+      "x20": 140,
+      "x10": 160
+     },
+     "blocks_4_banks": {
+      "x40": 520,
+      "x20": 560,
+      "x10": 640
+     }
+    },
+    "4bit": {
+     "depth": 6272,
+     "width": 200,
+     "blocks_per_bank": {
+      "x40": 65,
+      "x20": 70,
+      "x10": 80
+     },
+     "blocks_4_banks": {
+      "x40": 260,
+      "x20": 280,
+      "x10": 320
+     }
+    }
+   },
+   "100": {
+    "8bit": {
+     "depth": 3136,
+     "width": 800,
+     "blocks_per_bank": {
+      "x40": 140,
+      "x20": 160,
+      "x10": 160
+     },
+     "blocks_4_banks": {
+      "x40": 560,
+      "x20": 640,
+      "x10": 640
+     }
+    },
+    "4bit": {
+     "depth": 3136,
+     "width": 400,
+     "blocks_per_bank": {
+      "x40": 70,
+      "x20": 80,
+      "x10": 80
+     },
+     "blocks_4_banks": {
+      "x40": 280,
+      "x20": 320,
+      "x10": 320
+     }
+    }
+   },
+   "200": {
+    "8bit": {
+     "depth": 1568,
+     "width": 1600,
+     "blocks_per_bank": {
+      "x40": 160,
+      "x20": 160,
+      "x10": 160
+     },
+     "blocks_4_banks": {
+      "x40": 640,
+      "x20": 640,
+      "x10": 640
+     }
+    },
+    "4bit": {
+     "depth": 1568,
+     "width": 800,
+     "blocks_per_bank": {
+      "x40": 80,
+      "x20": 80,
+      "x10": 80
+     },
+     "blocks_4_banks": {
+      "x40": 320,
+      "x20": 320,
+      "x10": 320
+     }
+    }
+   }
+  },
+  "ring_buffer_bits_per_engine": {
+   "0.1ms_101slots": 969600,
+   "1ms_binned_12slots": 115200
+  },
+  "ring_buffer_lsram_blocks_per_engine": {
+   "0.1ms_101slots": 48,
+   "1ms_binned_12slots": 6
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "device": "NVIDIA GB10",
+ "dtype": "float32",
+ "runs": [
+  {
+   "batch": 600,
+   "wall_s": 3.929612159729004,
+   "module_runs_per_s": 152.68682394381065,
+   "mean_e_spikes": 79.76333333333334
+  },
+  {
+   "batch": 1200,
+   "wall_s": 7.101855754852295,
+   "module_runs_per_s": 168.96992017616074,
+   "mean_e_spikes": 80.05
+  },
+  {
+   "batch": 2400,
+   "wall_s": 15.189400911331177,
+   "module_runs_per_s": 158.0049150068597,
+   "mean_e_spikes": 80.11
+  },
+  {
+   "batch": 4800,
+   "wall_s": 33.873751163482666,
+   "module_runs_per_s": 141.7026409869422,
+   "mean_e_spikes": 79.86166666666666
+  }
+ ],
+ "best_module_runs_per_s": 168.96992017616074
+}

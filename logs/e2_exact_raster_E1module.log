@@ -1,0 +1,4 @@
+E1 seed 0 module offset 50, 10 test queries, carry mode
+Brian2 E spikes 728, I spikes 728 | snnsim E 728, I 728
+identical E raster: True; identical I raster: True
+EXACT

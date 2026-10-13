@@ -1,0 +1,23 @@
+{
+ "note": "one E1 test module (seed 0, offset 50), 100 test images, test mode, pinned core; other jobs excluded from these cores via taskset",
+ "x925": {
+  "core": 19,
+  "n_images": 100,
+  "median_s_per_image": 0.2572891699965112,
+  "p10": 0.2562645422236528,
+  "p90": 0.2582322909496725,
+  "present_350ms_median_s": 0.1557975549949333,
+  "rest_150ms_median_s": 0.10151883200160228,
+  "test_call_wall_s": 26.560641837015282
+ },
+ "a725": {
+  "core": 14,
+  "n_images": 100,
+  "median_s_per_image": 0.5114738790143747,
+  "p10": 0.5030866931832861,
+  "p90": 0.5152662038919515,
+  "present_350ms_median_s": 0.3275290295132436,
+  "rest_150ms_median_s": 0.1831569590140134,
+  "test_call_wall_s": 52.43831321998732
+ }
+}

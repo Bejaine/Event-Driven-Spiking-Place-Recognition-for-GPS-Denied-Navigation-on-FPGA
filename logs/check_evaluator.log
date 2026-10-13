@@ -1,0 +1,5 @@
+seed 0: repo thr 40 R1 0.96 R5 0.99 SL4 1.0 | in-memory thr 40 R1 0.96 R5 0.99 SL4 1.0 -> MATCH
+seed 10: repo thr 20 R1 0.94 R5 1.0 SL4 1.0 | in-memory thr 20 R1 0.94 R5 1.0 SL4 1.0 -> MATCH
+seed 20: repo thr 20 R1 0.96 R5 1.0 SL4 1.0 | in-memory thr 20 R1 0.96 R5 1.0 SL4 1.0 -> MATCH
+ensemble: repo R1 1.0 SL4 1.0 | in-memory 1.0 1.0 -> MATCH
+ALL MATCH
