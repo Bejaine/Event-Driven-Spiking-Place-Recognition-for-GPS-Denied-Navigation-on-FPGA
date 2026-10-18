@@ -1,0 +1,3 @@
+torch 2.11.0 cuda 12.6 available True
+device Orin
+2048x2048 matmul max rel err 1.0305066013873728e-06
