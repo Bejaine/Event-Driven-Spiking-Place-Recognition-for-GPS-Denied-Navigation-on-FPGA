@@ -1,0 +1,4 @@
+l_hw {"core": 3, "median_s": 0.051181, "min_s": 0.051147, "max_s": 0.056308, "reps": 25, "e_spikes": 80, "in_spikes": 8597, "i_spikes": 80, "all_spike_counts_identical": true, "cpu_freq_khz_during": {"mean": 1720076.1904761905, "min": 1267200.0, "max": 1728000.0, "p50": 1728000.0}, "temp_cpu_c_start": 59.187, "temp_cpu_mC_during": {"mean": 59894.19047619047, "min": 59281.0, "max": 60281.0, "p50": 59875 254489838
+l_hw_dt05 {"core": 3, "median_s": 0.028818, "min_s": 0.028805, "max_s": 0.034452, "reps": 25, "e_spikes": 116, "in_spikes": 8563, "i_spikes": 116, "all_spike_counts_identical": true, "cpu_freq_khz_during": {"mean": 1709162.2641509434, "min": 1344000.0, "max": 1728000.0, "p50": 1728000.0}, "temp_cpu_c_start": 59.687, "temp_cpu_mC_during": {"mean": 59760.15094339623, "min": 59437.0, "max": 60156.0, "p50": 597 97653264
+verify ALL PASS 0.049754
+wrote results/orin_cpu.json

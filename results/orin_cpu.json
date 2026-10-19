@@ -1,0 +1,591 @@
+{
+ "module": "E1 seed 0, offset 50 (golden_vectors/module_0.bin, delay seed 351)",
+ "query": "first test query (seed 0), stream 12345",
+ "uptime_before": "05:24:10 up  6:27,  1 user,  load average: 0.91, 0.61, 0.27",
+ "l_hw": {
+  "single": {
+   "core": 3,
+   "median_s": 0.051181,
+   "min_s": 0.051147,
+   "max_s": 0.056308,
+   "reps": 25,
+   "e_spikes": 80,
+   "in_spikes": 8597,
+   "i_spikes": 80,
+   "all_spike_counts_identical": true,
+   "cpu_freq_khz_during": {
+    "mean": 1720076.1904761905,
+    "min": 1267200.0,
+    "max": 1728000.0,
+    "p50": 1728000.0
+   },
+   "temp_cpu_c_start": 59.187,
+   "temp_cpu_mC_during": {
+    "mean": 59894.19047619047,
+    "min": 59281.0,
+    "max": 60281.0,
+    "p50": 59875.0
+   },
+   "power_csv": "logs/orin/power/j2_single_dt100.csv.gz"
+  },
+  "aarch64_instructions_per_run": 254489838,
+  "cycles_per_run": 87126009,
+  "ipc": 2.920939922773233,
+  "raw": {
+   "2": {
+    "instructions": 518066295,
+    "cycles": 178607378
+   },
+   "3": {
+    "instructions": 772556133,
+    "cycles": 265733387
+   }
+  },
+  "method": "tools/perfcount (perf_event_open, user-space only), reps3 - reps2"
+ },
+ "l_hw_dt05": {
+  "single": {
+   "core": 3,
+   "median_s": 0.028818,
+   "min_s": 0.028805,
+   "max_s": 0.034452,
+   "reps": 25,
+   "e_spikes": 116,
+   "in_spikes": 8563,
+   "i_spikes": 116,
+   "all_spike_counts_identical": true,
+   "cpu_freq_khz_during": {
+    "mean": 1709162.2641509434,
+    "min": 1344000.0,
+    "max": 1728000.0,
+    "p50": 1728000.0
+   },
+   "temp_cpu_c_start": 59.687,
+   "temp_cpu_mC_during": {
+    "mean": 59760.15094339623,
+    "min": 59437.0,
+    "max": 60156.0,
+    "p50": 59718.0
+   },
+   "power_csv": "logs/orin/power/j2_single_dt500.csv.gz"
+  },
+  "aarch64_instructions_per_run": 97653264,
+  "cycles_per_run": 49283725,
+  "ipc": 1.9814505498519035,
+  "raw": {
+   "2": {
+    "instructions": 204395522,
+    "cycles": 102106147
+   },
+   "3": {
+    "instructions": 302048786,
+    "cycles": 151389872
+   }
+  },
+  "method": "tools/perfcount (perf_event_open, user-space only), reps3 - reps2"
+ },
+ "verify": {
+  "result": "ALL PASS",
+  "runs_timed": 240,
+  "median_s": 0.049754,
+  "min_s": 0.048012,
+  "max_s": 0.058828,
+  "stdout": [
+   "module 0: PASS (20/20 queries bit-exact)",
+   "module 1: PASS (20/20 queries bit-exact)",
+   "module 2: PASS (20/20 queries bit-exact)",
+   "module 3: PASS (20/20 queries bit-exact)",
+   "ALL PASS; module runs timed: 240; median_s 0.049754 min_s 0.048012 max_s 0.058828"
+  ]
+ },
+ "power": {
+  "idle_1": {
+   "seconds": 60,
+   "power": {
+    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j5_idle_1.csv",
+    "n_samples": 6000,
+    "duration_s": 59.99009990692139,
+    "P_VDD_IN": {
+     "mean": 5075.233150000098,
+     "min": 5052.7,
+     "max": 5836.0,
+     "p50": 5052.7
+    },
+    "P_VDD_CPU_GPU_CV": {
+     "mean": 718.1359333332902,
+     "min": 703.9,
+     "max": 1444.5,
+     "p50": 703.9
+    },
+    "P_VDD_SOC": {
+     "mean": 1449.1732000001005,
+     "min": 1446.8,
+     "max": 1449.2,
+     "p50": 1449.2
+    },
+    "f_cpu0": {
+     "mean": 738457.6,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu1": {
+     "mean": 738457.6,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu2": {
+     "mean": 738457.6,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu3": {
+     "mean": 738624.0,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu4": {
+     "mean": 729932.8,
+     "min": 729600.0,
+     "max": 1113600.0,
+     "p50": 729600.0
+    },
+    "f_cpu5": {
+     "mean": 729932.8,
+     "min": 729600.0,
+     "max": 1113600.0,
+     "p50": 729600.0
+    },
+    "f_gpu": {
+     "mean": 306000000.0,
+     "min": 306000000.0,
+     "max": 306000000.0,
+     "p50": 306000000.0
+    },
+    "T_cpu-thermal": {
+     "mean": 59023.28366666667,
+     "min": 58437.0,
+     "max": 60000.0,
+     "p50": 59000.0
+    },
+    "T_gpu-thermal": {
+     "mean": 59426.1925,
+     "min": 58843.0,
+     "max": 60312.0,
+     "p50": 59437.0
+    },
+    "T_tj-thermal": {
+     "mean": 59878.80783333333,
+     "min": 59437.0,
+     "max": 60500.0,
+     "p50": 59875.0
+    }
+   },
+   "power_csv": "logs/orin/power/j5_idle_1.csv.gz"
+  },
+  "single_core": {
+   "cores": [
+    3
+   ],
+   "wall_s": 59.33737254142761,
+   "module_runs": 1172,
+   "module_runs_per_s": 19.75146437739123,
+   "per_core": [
+    {
+     "core": 3,
+     "median_s": 0.050603,
+     "reps": 1172,
+     "e_spikes": 80,
+     "all_spike_counts_identical": true
+    }
+   ],
+   "power": {
+    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j5_single.csv",
+    "n_samples": 5891,
+    "duration_s": 58.90000009536743,
+    "P_VDD_IN": {
+     "mean": 6081.431301986558,
+     "min": 5131.0,
+     "max": 7183.4,
+     "p50": 6061.1
+    },
+    "P_VDD_CPU_GPU_CV": {
+     "mean": 1629.913868613156,
+     "min": 743.0,
+     "max": 2377.5,
+     "p50": 1600.6
+    },
+    "P_VDD_SOC": {
+     "mean": 1449.7512816159044,
+     "min": 1446.8,
+     "max": 1522.6,
+     "p50": 1446.8
+    },
+    "f_cpu0": {
+     "mean": 1727830.5211339332,
+     "min": 1344000.0,
+     "max": 1728000.0,
+     "p50": 1728000.0
+    },
+    "f_cpu1": {
+     "mean": 1727830.5211339332,
+     "min": 1344000.0,
+     "max": 1728000.0,
+     "p50": 1728000.0
+    },
+    "f_cpu2": {
+     "mean": 1727830.5211339332,
+     "min": 1344000.0,
+     "max": 1728000.0,
+     "p50": 1728000.0
+    },
+    "f_cpu3": {
+     "mean": 1727830.5211339332,
+     "min": 1344000.0,
+     "max": 1728000.0,
+     "p50": 1728000.0
+    },
+    "f_cpu4": {
+     "mean": 746391.4445764726,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu5": {
+     "mean": 746391.4445764726,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_gpu": {
+     "mean": 306000000.0,
+     "min": 306000000.0,
+     "max": 306000000.0,
+     "p50": 306000000.0
+    },
+    "T_cpu-thermal": {
+     "mean": 59582.43116618571,
+     "min": 58562.0,
+     "max": 60781.0,
+     "p50": 59593.0
+    },
+    "T_gpu-thermal": {
+     "mean": 59554.55830928535,
+     "min": 58906.0,
+     "max": 60125.0,
+     "p50": 59531.0
+    },
+    "T_tj-thermal": {
+     "mean": 59881.10032252589,
+     "min": 59406.0,
+     "max": 60781.0,
+     "p50": 59906.0
+    }
+   },
+   "power_csv": "logs/orin/power/j5_single.csv.gz"
+  },
+  "idle_2": {
+   "seconds": 60,
+   "power": {
+    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j5_idle_2.csv",
+    "n_samples": 6000,
+    "duration_s": 59.99009990692139,
+    "P_VDD_IN": {
+     "mean": 5096.280566667112,
+     "min": 5052.7,
+     "max": 5982.9,
+     "p50": 5091.8
+    },
+    "P_VDD_CPU_GPU_CV": {
+     "mean": 731.56199999998,
+     "min": 703.9,
+     "max": 1522.6,
+     "p50": 703.9
+    },
+    "P_VDD_SOC": {
+     "mean": 1449.1500000001006,
+     "min": 1446.8,
+     "max": 1449.2,
+     "p50": 1449.2
+    },
+    "f_cpu0": {
+     "mean": 748006.4,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu1": {
+     "mean": 747840.0,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu2": {
+     "mean": 747840.0,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu3": {
+     "mean": 747840.0,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu4": {
+     "mean": 730688.0,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu5": {
+     "mean": 730700.8,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_gpu": {
+     "mean": 306000000.0,
+     "min": 306000000.0,
+     "max": 306000000.0,
+     "p50": 306000000.0
+    },
+    "T_cpu-thermal": {
+     "mean": 58836.899,
+     "min": 58312.0,
+     "max": 59625.0,
+     "p50": 58812.0
+    },
+    "T_gpu-thermal": {
+     "mean": 59231.248,
+     "min": 58750.0,
+     "max": 60031.0,
+     "p50": 59218.0
+    },
+    "T_tj-thermal": {
+     "mean": 59695.952666666664,
+     "min": 59312.0,
+     "max": 60281.0,
+     "p50": 59687.0
+    }
+   },
+   "power_csv": "logs/orin/power/j5_idle_2.csv.gz"
+  },
+  "parallel_4": {
+   "cores": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "wall_s": 70.01360130310059,
+   "module_runs": 4688,
+   "module_runs_per_s": 66.95841826082999,
+   "per_core": [
+    {
+     "core": 2,
+     "median_s": 0.0511825,
+     "reps": 1172,
+     "e_spikes": 80,
+     "all_spike_counts_identical": true
+    },
+    {
+     "core": 3,
+     "median_s": 0.050971,
+     "reps": 1172,
+     "e_spikes": 80,
+     "all_spike_counts_identical": true
+    },
+    {
+     "core": 4,
+     "median_s": 0.050895,
+     "reps": 1172,
+     "e_spikes": 80,
+     "all_spike_counts_identical": true
+    },
+    {
+     "core": 5,
+     "median_s": 0.050894,
+     "reps": 1172,
+     "e_spikes": 80,
+     "all_spike_counts_identical": true
+    }
+   ],
+   "power": {
+    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j5_par4.csv",
+    "n_samples": 7000,
+    "duration_s": 69.99000000953674,
+    "P_VDD_IN": {
+     "mean": 7626.788342858042,
+     "min": 5091.8,
+     "max": 8301.9,
+     "p50": 7990.1
+    },
+    "P_VDD_CPU_GPU_CV": {
+     "mean": 3040.15790000037,
+     "min": 743.0,
+     "max": 3535.2,
+     "p50": 3385.3
+    },
+    "P_VDD_SOC": {
+     "mean": 1474.3378285712363,
+     "min": 1442.1,
+     "max": 1520.1,
+     "p50": 1481.1
+    },
+    "f_cpu0": {
+     "mean": 1635006.1714285715,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 1728000.0
+    },
+    "f_cpu1": {
+     "mean": 1634731.8857142858,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 1728000.0
+    },
+    "f_cpu2": {
+     "mean": 1634731.8857142858,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 1728000.0
+    },
+    "f_cpu3": {
+     "mean": 1634731.8857142858,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 1728000.0
+    },
+    "f_cpu4": {
+     "mean": 1628544.0,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 1728000.0
+    },
+    "f_cpu5": {
+     "mean": 1628544.0,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 1728000.0
+    },
+    "f_gpu": {
+     "mean": 306000000.0,
+     "min": 306000000.0,
+     "max": 306000000.0,
+     "p50": 306000000.0
+    },
+    "T_cpu-thermal": {
+     "mean": 61357.04285714286,
+     "min": 58468.0,
+     "max": 62625.0,
+     "p50": 61375.0
+    },
+    "T_gpu-thermal": {
+     "mean": 60635.749285714286,
+     "min": 58812.0,
+     "max": 61781.0,
+     "p50": 60812.0
+    },
+    "T_tj-thermal": {
+     "mean": 61410.61014285714,
+     "min": 59312.0,
+     "max": 62625.0,
+     "p50": 61406.0
+    }
+   },
+   "power_csv": "logs/orin/power/j5_par4.csv.gz"
+  },
+  "idle_3": {
+   "seconds": 60,
+   "power": {
+    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j5_idle_3.csv",
+    "n_samples": 6000,
+    "duration_s": 59.990100145339966,
+    "P_VDD_IN": {
+     "mean": 5094.085233333771,
+     "min": 4935.2,
+     "max": 5444.4,
+     "p50": 5091.8
+    },
+    "P_VDD_CPU_GPU_CV": {
+     "mean": 731.7522333333308,
+     "min": 586.6,
+     "max": 938.5,
+     "p50": 743.0
+    },
+    "P_VDD_SOC": {
+     "mean": 1449.2313333334348,
+     "min": 1446.8,
+     "max": 1486.0,
+     "p50": 1449.2
+    },
+    "f_cpu0": {
+     "mean": 739660.8,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu1": {
+     "mean": 739660.8,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu2": {
+     "mean": 739660.8,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu3": {
+     "mean": 739507.2,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu4": {
+     "mean": 731174.4,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu5": {
+     "mean": 731174.4,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_gpu": {
+     "mean": 306000000.0,
+     "min": 306000000.0,
+     "max": 306000000.0,
+     "p50": 306000000.0
+    },
+    "T_cpu-thermal": {
+     "mean": 59495.72516666666,
+     "min": 58812.0,
+     "max": 60250.0,
+     "p50": 59500.0
+    },
+    "T_gpu-thermal": {
+     "mean": 59892.613666666664,
+     "min": 59218.0,
+     "max": 60718.0,
+     "p50": 59906.0
+    },
+    "T_tj-thermal": {
+     "mean": 60329.44766666667,
+     "min": 59812.0,
+     "max": 61000.0,
+     "p50": 60343.0
+    }
+   },
+   "power_csv": "logs/orin/power/j5_idle_3.csv.gz"
+  }
+ },
+ "uptime_after": "05:30:04 up  6:33,  1 user,  load average: 1.26, 1.24, 0.65"
+}
