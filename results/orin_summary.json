@@ -1,0 +1,798 @@
+{
+ "C.l_hw.a78ae.median_s": {
+  "value": 0.051181,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json",
+  "note": "core 3, 25 reps, CPU 1728 MHz (p50), MAXN_SUPER",
+  "dgx": {
+   "x925": 0.018188,
+   "a725": 0.032695
+  }
+ },
+ "C.l_hw.spikes": {
+  "value": [
+   80,
+   8597,
+   80
+  ],
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json",
+  "note": "E, input, I",
+  "dgx": [
+   80,
+   8597,
+   80
+  ]
+ },
+ "C.l_hw.aarch64_instructions_per_run": {
+  "value": 254489838,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json",
+  "note": "perf_event_open user-space, reps3 - reps2, gcc 11.4 -O3",
+  "dgx": 253135606
+ },
+ "C.l_hw.ipc": {
+  "value": 2.920939922773233,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json"
+ },
+ "C.l_hw_dt05.a78ae.median_s": {
+  "value": 0.028818,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json",
+  "note": "core 3, 25 reps, CPU 1728 MHz (p50), MAXN_SUPER",
+  "dgx": {
+   "x925": 0.011366,
+   "a725": 0.018012
+  }
+ },
+ "C.l_hw_dt05.spikes": {
+  "value": [
+   116,
+   8563,
+   116
+  ],
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json",
+  "note": "E, input, I",
+  "dgx": [
+   116,
+   8563,
+   116
+  ]
+ },
+ "C.l_hw_dt05.aarch64_instructions_per_run": {
+  "value": 97653264,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json",
+  "note": "perf_event_open user-space, reps3 - reps2, gcc 11.4 -O3",
+  "dgx": 97361695
+ },
+ "C.l_hw_dt05.ipc": {
+  "value": 1.9814505498519035,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json"
+ },
+ "C.verify.median_s": {
+  "value": 0.049754,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json",
+  "note": "240 runs (4 modules x 20 queries x 3), ALL PASS"
+ },
+ "C.single_core.power_W.VDD_IN": {
+  "value": 6.081431301986558,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json"
+ },
+ "C.single_core.power_W.idle_VDD_IN": {
+  "value": 5.0885329833336606,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json"
+ },
+ "C.single_core.power_W.VDD_CPU_GPU_CV": {
+  "value": 1.629913868613156,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json"
+ },
+ "C.single_core.power_W.idle_VDD_CPU_GPU_CV": {
+  "value": 0.7271500555555336,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json"
+ },
+ "C.single_core.module_runs_per_s": {
+  "value": 19.75146437739123,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json"
+ },
+ "C.single_core.energy_mJ_per_run.above_idle": {
+  "value": 50.26960531541303,
+  "label": "DERIVED",
+  "source": "results/orin_cpu.json",
+  "note": "(P_load - P_idle) / rate, VDD_IN"
+ },
+ "C.single_core.energy_mJ_per_run.total": {
+  "value": 307.89774296166854,
+  "label": "DERIVED",
+  "source": "results/orin_cpu.json",
+  "note": "P_load / rate, VDD_IN"
+ },
+ "C.single_core.energy_mJ_per_query.above_idle": {
+  "value": 201.07842126165212,
+  "label": "DERIVED",
+  "source": "results/orin_cpu.json",
+  "note": "4 x per-run above-idle energy"
+ },
+ "C.single_core.energy_mJ_per_query.total": {
+  "value": 1231.5909718466742,
+  "label": "DERIVED",
+  "source": "results/orin_cpu.json",
+  "note": "4 x per-run total energy"
+ },
+ "C.parallel_4cores.power_W.VDD_IN": {
+  "value": 7.626788342858042,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json"
+ },
+ "C.parallel_4cores.power_W.idle_VDD_IN": {
+  "value": 5.0885329833336606,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json"
+ },
+ "C.parallel_4cores.power_W.VDD_CPU_GPU_CV": {
+  "value": 3.04015790000037,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json"
+ },
+ "C.parallel_4cores.power_W.idle_VDD_CPU_GPU_CV": {
+  "value": 0.7271500555555336,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json"
+ },
+ "C.parallel_4cores.module_runs_per_s": {
+  "value": 66.95841826082999,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json"
+ },
+ "C.parallel_4cores.energy_mJ_per_run.above_idle": {
+  "value": 37.907934886347746,
+  "label": "DERIVED",
+  "source": "results/orin_cpu.json",
+  "note": "(P_load - P_idle) / rate, VDD_IN"
+ },
+ "C.parallel_4cores.energy_mJ_per_run.total": {
+  "value": 113.90335287116001,
+  "label": "DERIVED",
+  "source": "results/orin_cpu.json",
+  "note": "P_load / rate, VDD_IN"
+ },
+ "C.parallel_4cores.energy_mJ_per_query.above_idle": {
+  "value": 151.63173954539099,
+  "label": "DERIVED",
+  "source": "results/orin_cpu.json",
+  "note": "4 x per-run energy; the 4 modules of a query run concurrently on cores 2-5"
+ },
+ "C.parallel_4cores.energy_mJ_per_query.total": {
+  "value": 455.61341148464004,
+  "label": "DERIVED",
+  "source": "results/orin_cpu.json",
+  "note": "4 x per-run energy; the 4 modules of a query run concurrently on cores 2-5"
+ },
+ "C.parallel_4cores.query_latency_s": {
+  "value": 0.0511825,
+  "label": "MEASURED",
+  "source": "results/orin_cpu.json",
+  "note": "4 modules of one query on 4 cores in parallel = slowest per-core median module run"
+ },
+ "Brian2.a78ae.median_s_per_image": {
+  "value": 2.0861567139991166,
+  "label": "MEASURED",
+  "source": "results/orin_brian2_timing.json",
+  "note": "VPRSNN test mode, E1 S0 offset 50, core 3",
+  "dgx": {
+   "x925": 0.2572891699965112,
+   "a725": 0.5114738790143747
+  }
+ },
+ "Brian2.a78ae.present_350ms_median_s": {
+  "value": 1.1953709280001021,
+  "label": "MEASURED",
+  "source": "results/orin_brian2_timing.json",
+  "dgx": {
+   "x925": 0.1557975549949333,
+   "a725": 0.3275290295132436
+  }
+ },
+ "Brian2.a78ae.rest_150ms_median_s": {
+  "value": 0.8908336969998345,
+  "label": "MEASURED",
+  "source": "results/orin_brian2_timing.json",
+  "dgx": {
+   "x925": 0.10151883200160228,
+   "a725": 0.1831569590140134
+  }
+ },
+ "Brian2.output_identical_to_dgx": {
+  "value": {
+   "identical": true,
+   "max_abs_diff": 0.0,
+   "orin_total_spikes": 8206.0,
+   "dgx_total_spikes": 8206.0
+  },
+  "label": "MEASURED",
+  "source": "results/orin_brian2_timing.json",
+  "note": "resultPopVecs100_test_E30.npy, offset 50"
+ },
+ "CUDA.dt100.single_run_kernel_s": {
+  "value": 0.026147,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json",
+  "note": "module_0, query 0, stream 12345; batch 1"
+ },
+ "CUDA.dt100.query_4_modules_kernel_s": {
+  "value": 0.027951,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json",
+  "note": "4 modules of query 0 in one launch"
+ },
+ "CUDA.dt100.query_4_modules_e2e_s": {
+  "value": 0.028071,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json",
+  "note": "incl. run-list upload and count copy-back"
+ },
+ "CUDA.dt100.best_module_runs_per_s": {
+  "value": 737.11,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json"
+ },
+ "CUDA.dt100.bit_exact": {
+  "value": true,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json",
+  "note": "every run of every batch compared with the C model"
+ },
+ "CUDA.dt500.single_run_kernel_s": {
+  "value": 0.007973,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json",
+  "note": "module_0, query 0, stream 12345; batch 1"
+ },
+ "CUDA.dt500.query_4_modules_kernel_s": {
+  "value": 0.009704,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json",
+  "note": "4 modules of query 0 in one launch"
+ },
+ "CUDA.dt500.query_4_modules_e2e_s": {
+  "value": 0.009771,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json",
+  "note": "incl. run-list upload and count copy-back"
+ },
+ "CUDA.dt500.best_module_runs_per_s": {
+  "value": 2120.26,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json"
+ },
+ "CUDA.dt500.bit_exact": {
+  "value": true,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json",
+  "note": "every run of every batch compared with the C model"
+ },
+ "CUDA.loop_batch4.power_W.VDD_IN": {
+  "value": 7.136005180218024,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json"
+ },
+ "CUDA.loop_batch4.power_W.idle_VDD_IN": {
+  "value": 5.101349558333643,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json"
+ },
+ "CUDA.loop_batch4.power_W.VDD_CPU_GPU_CV": {
+  "value": 2.4912641072928983,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json"
+ },
+ "CUDA.loop_batch4.power_W.idle_VDD_CPU_GPU_CV": {
+  "value": 0.7359717750000014,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json"
+ },
+ "CUDA.loop_batch4.module_runs_per_s": {
+  "value": 142.88,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json"
+ },
+ "CUDA.loop_batch4.energy_mJ_per_run.above_idle": {
+  "value": 14.240310903446117,
+  "label": "DERIVED",
+  "source": "results/orin_cuda.json",
+  "note": "(P_load - P_idle) / rate, VDD_IN"
+ },
+ "CUDA.loop_batch4.energy_mJ_per_run.total": {
+  "value": 49.94404521429189,
+  "label": "DERIVED",
+  "source": "results/orin_cuda.json",
+  "note": "P_load / rate, VDD_IN"
+ },
+ "CUDA.loop_batch4.energy_mJ_per_query.above_idle": {
+  "value": 56.96124361378447,
+  "label": "DERIVED",
+  "source": "results/orin_cuda.json",
+  "note": "4 x per-run energy; one launch = one query (4 modules concurrently)"
+ },
+ "CUDA.loop_batch4.energy_mJ_per_query.total": {
+  "value": 199.77618085716756,
+  "label": "DERIVED",
+  "source": "results/orin_cuda.json",
+  "note": "4 x per-run energy; one launch = one query (4 modules concurrently)"
+ },
+ "CUDA.loop_batch96.power_W.VDD_IN": {
+  "value": 9.777203647058766,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json"
+ },
+ "CUDA.loop_batch96.power_W.idle_VDD_IN": {
+  "value": 5.104834983333578,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json"
+ },
+ "CUDA.loop_batch96.power_W.VDD_CPU_GPU_CV": {
+  "value": 4.691334504201958,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json"
+ },
+ "CUDA.loop_batch96.power_W.idle_VDD_CPU_GPU_CV": {
+  "value": 0.7371741000000007,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json"
+ },
+ "CUDA.loop_batch96.module_runs_per_s": {
+  "value": 713.58,
+  "label": "MEASURED",
+  "source": "results/orin_cuda.json"
+ },
+ "CUDA.loop_batch96.energy_mJ_per_run.above_idle": {
+  "value": 6.5477853411323,
+  "label": "DERIVED",
+  "source": "results/orin_cuda.json",
+  "note": "(P_load - P_idle) / rate, VDD_IN"
+ },
+ "CUDA.loop_batch96.energy_mJ_per_run.total": {
+  "value": 13.701622308723291,
+  "label": "DERIVED",
+  "source": "results/orin_cuda.json",
+  "note": "P_load / rate, VDD_IN"
+ },
+ "CUDA.loop_batch96.energy_mJ_per_query.above_idle": {
+  "value": 26.1911413645292,
+  "label": "DERIVED",
+  "source": "results/orin_cuda.json",
+  "note": "4 x per-run energy"
+ },
+ "CUDA.loop_batch96.energy_mJ_per_query.total": {
+  "value": 54.806489234893164,
+  "label": "DERIVED",
+  "source": "results/orin_cuda.json",
+  "note": "4 x per-run energy"
+ },
+ "torch.float32.batch600.power_W.VDD_IN": {
+  "value": 16.129307213114625,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float32.batch600.power_W.idle_VDD_IN": {
+  "value": 5.108869050000227,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float32.batch600.power_W.VDD_CPU_GPU_CV": {
+  "value": 5.140327540983554,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float32.batch600.power_W.idle_VDD_CPU_GPU_CV": {
+  "value": 0.7318499833333337,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float32.batch600.module_runs_per_s": {
+  "value": 46.43982702695042,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json",
+  "note": "mean E spikes 80.45"
+ },
+ "torch.float32.batch600.energy_mJ_per_run.above_idle": {
+  "value": 237.3057538891975,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "(P_load - P_idle) / rate, VDD_IN"
+ },
+ "torch.float32.batch600.energy_mJ_per_run.total": {
+  "value": 347.3162637697662,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "P_load / rate, VDD_IN"
+ },
+ "torch.float32.batch600.energy_mJ_per_query.above_idle": {
+  "value": 949.22301555679,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "4 x per-run above-idle energy"
+ },
+ "torch.float32.batch600.energy_mJ_per_query.total": {
+  "value": 1389.2650550790647,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "4 x per-run total energy"
+ },
+ "torch.float32.batch1200.power_W.VDD_IN": {
+  "value": 16.970935742971772,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float32.batch1200.power_W.idle_VDD_IN": {
+  "value": 5.108869050000227,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float32.batch1200.power_W.VDD_CPU_GPU_CV": {
+  "value": 5.110271204819437,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float32.batch1200.power_W.idle_VDD_CPU_GPU_CV": {
+  "value": 0.7318499833333337,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float32.batch1200.module_runs_per_s": {
+  "value": 47.75927653242454,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json",
+  "note": "mean E spikes 80.08"
+ },
+ "torch.float32.batch1200.energy_mJ_per_run.above_idle": {
+  "value": 248.37199292410128,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "(P_load - P_idle) / rate, VDD_IN"
+ },
+ "torch.float32.batch1200.energy_mJ_per_run.total": {
+  "value": 355.3432332973036,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "P_load / rate, VDD_IN"
+ },
+ "torch.float32.batch1200.energy_mJ_per_query.above_idle": {
+  "value": 993.4879716964051,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "4 x per-run above-idle energy"
+ },
+ "torch.float32.batch1200.energy_mJ_per_query.total": {
+  "value": 1421.3729331892143,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "4 x per-run total energy"
+ },
+ "torch.float32.batch2400.power_W.VDD_IN": {
+  "value": 17.57438005447217,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float32.batch2400.power_W.idle_VDD_IN": {
+  "value": 5.108869050000227,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float32.batch2400.power_W.VDD_CPU_GPU_CV": {
+  "value": 5.211650659962248,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float32.batch2400.power_W.idle_VDD_CPU_GPU_CV": {
+  "value": 0.7318499833333337,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float32.batch2400.module_runs_per_s": {
+  "value": 50.107934611893704,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json",
+  "note": "mean E spikes 79.85"
+ },
+ "torch.float32.batch2400.energy_mJ_per_run.above_idle": {
+  "value": 248.77319532370242,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "(P_load - P_idle) / rate, VDD_IN"
+ },
+ "torch.float32.batch2400.energy_mJ_per_run.total": {
+  "value": 350.7304819205357,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "P_load / rate, VDD_IN"
+ },
+ "torch.float32.batch2400.energy_mJ_per_query.above_idle": {
+  "value": 995.0927812948097,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "4 x per-run above-idle energy"
+ },
+ "torch.float32.batch2400.energy_mJ_per_query.total": {
+  "value": 1402.9219276821427,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "4 x per-run total energy"
+ },
+ "torch.float32.batch4800.power_W.VDD_IN": {
+  "value": 17.978558803235103,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float32.batch4800.power_W.idle_VDD_IN": {
+  "value": 5.108869050000227,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float32.batch4800.power_W.VDD_CPU_GPU_CV": {
+  "value": 5.278786415093507,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float32.batch4800.power_W.idle_VDD_CPU_GPU_CV": {
+  "value": 0.7318499833333337,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float32.batch4800.module_runs_per_s": {
+  "value": 51.50509883910843,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json",
+  "note": "mean E spikes 79.92"
+ },
+ "torch.float32.batch4800.energy_mJ_per_run.above_idle": {
+  "value": 249.87214942421912,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "(P_load - P_idle) / rate, VDD_IN"
+ },
+ "torch.float32.batch4800.energy_mJ_per_run.total": {
+  "value": 349.063669587287,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "P_load / rate, VDD_IN"
+ },
+ "torch.float32.batch4800.energy_mJ_per_query.above_idle": {
+  "value": 999.4885976968765,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "4 x per-run above-idle energy"
+ },
+ "torch.float32.batch4800.energy_mJ_per_query.total": {
+  "value": 1396.254678349148,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "4 x per-run total energy"
+ },
+ "torch.float16.batch600.power_W.VDD_IN": {
+  "value": 15.497742210618311,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float16.batch600.power_W.idle_VDD_IN": {
+  "value": 5.108869050000227,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float16.batch600.power_W.VDD_CPU_GPU_CV": {
+  "value": 5.081202872062519,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float16.batch600.power_W.idle_VDD_CPU_GPU_CV": {
+  "value": 0.7318499833333337,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float16.batch600.module_runs_per_s": {
+  "value": 49.32177479668296,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json",
+  "note": "mean E spikes 90.33"
+ },
+ "torch.float16.batch600.energy_mJ_per_run.above_idle": {
+  "value": 210.63461733572422,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "(P_load - P_idle) / rate, VDD_IN"
+ },
+ "torch.float16.batch600.energy_mJ_per_run.total": {
+  "value": 314.2170425639383,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "P_load / rate, VDD_IN"
+ },
+ "torch.float16.batch600.energy_mJ_per_query.above_idle": {
+  "value": 842.5384693428969,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "4 x per-run above-idle energy"
+ },
+ "torch.float16.batch600.energy_mJ_per_query.total": {
+  "value": 1256.8681702557533,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "4 x per-run total energy"
+ },
+ "torch.float16.batch1200.power_W.VDD_IN": {
+  "value": 17.01088731481456,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float16.batch1200.power_W.idle_VDD_IN": {
+  "value": 5.108869050000227,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float16.batch1200.power_W.VDD_CPU_GPU_CV": {
+  "value": 5.357817685185244,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float16.batch1200.power_W.idle_VDD_CPU_GPU_CV": {
+  "value": 0.7318499833333337,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float16.batch1200.module_runs_per_s": {
+  "value": 55.353534295973056,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json",
+  "note": "mean E spikes 90.21"
+ },
+ "torch.float16.batch1200.energy_mJ_per_run.above_idle": {
+  "value": 215.0182172862664,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "(P_load - P_idle) / rate, VDD_IN"
+ },
+ "torch.float16.batch1200.energy_mJ_per_run.total": {
+  "value": 307.3134810842981,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "P_load / rate, VDD_IN"
+ },
+ "torch.float16.batch1200.energy_mJ_per_query.above_idle": {
+  "value": 860.0728691450656,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "4 x per-run above-idle energy"
+ },
+ "torch.float16.batch1200.energy_mJ_per_query.total": {
+  "value": 1229.2539243371923,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "4 x per-run total energy"
+ },
+ "torch.float16.batch2400.power_W.VDD_IN": {
+  "value": 17.705174371108555,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float16.batch2400.power_W.idle_VDD_IN": {
+  "value": 5.108869050000227,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float16.batch2400.power_W.VDD_CPU_GPU_CV": {
+  "value": 5.464703063511588,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float16.batch2400.power_W.idle_VDD_CPU_GPU_CV": {
+  "value": 0.7318499833333337,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float16.batch2400.module_runs_per_s": {
+  "value": 58.728469567992214,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json",
+  "note": "mean E spikes 90.23"
+ },
+ "torch.float16.batch2400.energy_mJ_per_run.above_idle": {
+  "value": 214.48379999967648,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "(P_load - P_idle) / rate, VDD_IN"
+ },
+ "torch.float16.batch2400.energy_mJ_per_run.total": {
+  "value": 301.47515338554143,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "P_load / rate, VDD_IN"
+ },
+ "torch.float16.batch2400.energy_mJ_per_query.above_idle": {
+  "value": 857.9351999987059,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "4 x per-run above-idle energy"
+ },
+ "torch.float16.batch2400.energy_mJ_per_query.total": {
+  "value": 1205.9006135421657,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "4 x per-run total energy"
+ },
+ "torch.float16.batch4800.power_W.VDD_IN": {
+  "value": 18.191321797809774,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float16.batch4800.power_W.idle_VDD_IN": {
+  "value": 5.108869050000227,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float16.batch4800.power_W.VDD_CPU_GPU_CV": {
+  "value": 5.571448268397599,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float16.batch4800.power_W.idle_VDD_CPU_GPU_CV": {
+  "value": 0.7318499833333337,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json"
+ },
+ "torch.float16.batch4800.module_runs_per_s": {
+  "value": 60.91009407802394,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json",
+  "note": "mean E spikes 90.42"
+ },
+ "torch.float16.batch4800.energy_mJ_per_run.above_idle": {
+  "value": 214.783000187971,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "(P_load - P_idle) / rate, VDD_IN"
+ },
+ "torch.float16.batch4800.energy_mJ_per_run.total": {
+  "value": 298.65857331474905,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "P_load / rate, VDD_IN"
+ },
+ "torch.float16.batch4800.energy_mJ_per_query.above_idle": {
+  "value": 859.132000751884,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "4 x per-run above-idle energy"
+ },
+ "torch.float16.batch4800.energy_mJ_per_query.total": {
+  "value": 1194.6342932589962,
+  "label": "DERIVED",
+  "source": "results/orin_gpu.json",
+  "note": "4 x per-run total energy"
+ },
+ "torch.float32.best_module_runs_per_s": {
+  "value": 51.50509883910843,
+  "label": "MEASURED",
+  "source": "results/orin_gpu.json",
+  "note": "tooling engine, float32, scatter-bound (snnsim/engine_torch.py), not an optimised deployment",
+  "dgx": 168.96992017616074
+ },
+ "J6.orin_e4_l_hw.json": {
+  "value": "see file",
+  "label": "MEASURED",
+  "source": "results/orin_e4_l_hw.json"
+ },
+ "J6.orin_e3_summary.json": {
+  "value": "see file",
+  "label": "MEASURED",
+  "source": "results/orin_e3_summary.json"
+ }
+}

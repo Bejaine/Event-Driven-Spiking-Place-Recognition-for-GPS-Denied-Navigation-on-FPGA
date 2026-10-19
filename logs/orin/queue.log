@@ -1,0 +1,71 @@
+=== 2026-10-19T21:27:22+05:30 J4 CUDA port
+bench 100 {'workload': 'module_0, query 0, stream 12345', 'kernel_median_s': 0.026147, 'kernel_min_s': 0.026132, 'e2e_median_s': 0.026197, 'e_spikes': 80, 'bit_exact_vs_c': True}
+bench 500 {'workload': 'module_0, query 0, stream 12345', 'kernel_median_s': 0.007973, 'kernel_min_s': 0.007963, 'e2e_median_s': 0.008027, 'e_spikes': 116, 'bit_exact_vs_c': True}
+loop_batch4 {'batch': 4, 'module_runs_per_s': 142.88, 'wall_s': 60.0222}
+loop_batch96 {'batch': 96, 'module_runs_per_s': 713.58, 'wall_s': 60.0014}
+wrote results/orin_cuda.json
+=== 2026-10-19T21:45:32+05:30 J4 torch engine
+{'dtype': 'float32', 'batch': 600, 'wall_s': 12.919944763183594, 'module_runs_per_s': 46.43982702695042, 'mean_e_spikes': 80.45166666666667}
+{'dtype': 'float32', 'batch': 1200, 'wall_s': 25.12600874900818, 'module_runs_per_s': 47.75927653242454, 'mean_e_spikes': 80.08416666666666}
+{'dtype': 'float32', 'batch': 2400, 'wall_s': 47.89660596847534, 'module_runs_per_s': 50.107934611893704, 'mean_e_spikes': 79.85333333333334}
+{'dtype': 'float32', 'batch': 4800, 'wall_s': 93.19465661048889, 'module_runs_per_s': 51.50509883910843, 'mean_e_spikes': 79.92333333333333}
+{'dtype': 'float16', 'batch': 600, 'wall_s': 12.16501235961914, 'module_runs_per_s': 49.32177479668296, 'mean_e_spikes': 90.32833333333333}
+{'dtype': 'float16', 'batch': 1200, 'wall_s': 21.678832530975342, 'module_runs_per_s': 55.353534295973056, 'mean_e_spikes': 90.21416666666667}
+{'dtype': 'float16', 'batch': 2400, 'wall_s': 40.86604022979736, 'module_runs_per_s': 58.728469567992214, 'mean_e_spikes': 90.22583333333333}
+{'dtype': 'float16', 'batch': 4800, 'wall_s': 78.80467224121094, 'module_runs_per_s': 60.91009407802394, 'mean_e_spikes': 90.41770833333334}
+wrote results/orin_gpu.json
+=== 2026-10-19T22:24:45+05:30 J3 Brian2
+{
+ "cpu": [
+  3
+ ],
+ "n_images": 100,
+ "median_s_per_image": 2.0861567139991166,
+ "p10": 2.073436042999674,
+ "p90": 2.097738460999608,
+ "present_350ms_median_s": 1.1953709280001021,
+ "rest_150ms_median_s": 0.8908336969998345,
+ "test_call_wall_s": 323.2879292159996,
+ "total_wall_s": 324.38311620900004,
+ "result_vs_dgx": {
+  "identical": true,
+  "max_abs_diff": 0.0,
+  "orin_total_spikes": 8206.0,
+  "dgx_total_spikes": 8206.0
+ },
+ "other_net_runs": [
+  [
+   0.5,
+   80.67145357700065
+  ]
+ ]
+}
+=== 2026-10-19T22:30:17+05:30 J6 e4_activity l_hw seed 0
+ },
+ "events_per_step": {
+  "p50": 2.0,
+  "p99": 7.0,
+  "p99.9": 8.0,
+  "p100": 13.0,
+  "mean": 2.414814285714286,
+  "max": 13
+ },
+ "frac_steps_zero_events": 0.08939142857142857,
+ "e_spikes_per_module_run": {
+  "p0": 49.0,
+  "p1": 57.0,
+  "p50": 80.0,
+  "p99": 114.00999999999999,
+  "p100": 142.0,
+  "mean": 81.2775
+ },
+ "max_events_in_one_delay_slot_per_neuron": 55
+}
+=== 2026-10-19T22:35:38+05:30 J6 e3_run l_hw P0
+=== 2026-10-19T22:58:03+05:30 J6 e3_run a_float P0
+=== 2026-10-19T23:21:21+05:30 J6 e3_evaluate
+a_float {'R1': 0.96, 'ens_R1': 0.99, 'SL4': 1.0}
+l_hw {'R1': 0.97, 'ens_R1': 0.99, 'SL4': 1.0}
+brian2 {'R1': 0.9533, 'ens_R1': 1.0, 'SL4': 1.0}
+=== 2026-10-19T23:21:34+05:30 gzip power logs
+=== 2026-10-19T23:21:35+05:30 QUEUE DONE

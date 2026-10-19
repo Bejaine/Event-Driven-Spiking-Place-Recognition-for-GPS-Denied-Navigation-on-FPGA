@@ -13,7 +13,7 @@
    "mean_e_spikes": 80.45166666666667,
    "max_mem_bytes": 181542912,
    "power": {
-    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j4_torch_float32_600.csv",
+    "file": "logs/orin/power/j4_torch_float32_600.csv.gz",
     "n_samples": 1220,
     "duration_s": 12.190000057220459,
     "P_VDD_IN": {
@@ -95,7 +95,7 @@
      "p50": 63937.0
     }
    },
-   "power_csv": "logs/orin/power/j4_torch_float32_600.csv"
+   "power_csv": "logs/orin/power/j4_torch_float32_600.csv.gz"
   },
   {
    "dtype": "float32",
@@ -105,7 +105,7 @@
    "mean_e_spikes": 80.08416666666666,
    "max_mem_bytes": 314262528,
    "power": {
-    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j4_torch_float32_1200.csv",
+    "file": "logs/orin/power/j4_torch_float32_1200.csv.gz",
     "n_samples": 2490,
     "duration_s": 24.890000104904175,
     "P_VDD_IN": {
@@ -187,7 +187,7 @@
      "p50": 65156.0
     }
    },
-   "power_csv": "logs/orin/power/j4_torch_float32_1200.csv"
+   "power_csv": "logs/orin/power/j4_torch_float32_1200.csv.gz"
   },
   {
    "dtype": "float32",
@@ -197,7 +197,7 @@
    "mean_e_spikes": 79.85333333333334,
    "max_mem_bytes": 581771776,
    "power": {
-    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j4_torch_float32_2400.csv",
+    "file": "logs/orin/power/j4_torch_float32_2400.csv.gz",
     "n_samples": 4773,
     "duration_s": 47.72000002861023,
     "P_VDD_IN": {
@@ -279,7 +279,7 @@
      "p50": 67312.0
     }
    },
-   "power_csv": "logs/orin/power/j4_torch_float32_2400.csv"
+   "power_csv": "logs/orin/power/j4_torch_float32_2400.csv.gz"
   },
   {
    "dtype": "float32",
@@ -289,7 +289,7 @@
    "mean_e_spikes": 79.92333333333333,
    "max_mem_bytes": 1116355584,
    "power": {
-    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j4_torch_float32_4800.csv",
+    "file": "logs/orin/power/j4_torch_float32_4800.csv.gz",
     "n_samples": 9275,
     "duration_s": 92.74000000953674,
     "P_VDD_IN": {
@@ -371,7 +371,7 @@
      "p50": 70625.0
     }
    },
-   "power_csv": "logs/orin/power/j4_torch_float32_4800.csv"
+   "power_csv": "logs/orin/power/j4_torch_float32_4800.csv.gz"
   },
   {
    "dtype": "float16",
@@ -381,7 +381,7 @@
    "mean_e_spikes": 90.32833333333333,
    "max_mem_bytes": 123645440,
    "power": {
-    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j4_torch_float16_600.csv",
+    "file": "logs/orin/power/j4_torch_float16_600.csv.gz",
     "n_samples": 1149,
     "duration_s": 11.480000019073486,
     "P_VDD_IN": {
@@ -463,7 +463,7 @@
      "p50": 64031.0
     }
    },
-   "power_csv": "logs/orin/power/j4_torch_float16_600.csv"
+   "power_csv": "logs/orin/power/j4_torch_float16_600.csv.gz"
   },
   {
    "dtype": "float16",
@@ -473,7 +473,7 @@
    "mean_e_spikes": 90.21416666666667,
    "max_mem_bytes": 206559744,
    "power": {
-    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j4_torch_float16_1200.csv",
+    "file": "logs/orin/power/j4_torch_float16_1200.csv.gz",
     "n_samples": 2160,
     "duration_s": 21.58999991416931,
     "P_VDD_IN": {
@@ -555,7 +555,7 @@
      "p50": 64968.0
     }
    },
-   "power_csv": "logs/orin/power/j4_torch_float16_1200.csv"
+   "power_csv": "logs/orin/power/j4_torch_float16_1200.csv.gz"
   },
   {
    "dtype": "float16",
@@ -565,7 +565,7 @@
    "mean_e_spikes": 90.22583333333333,
    "max_mem_bytes": 373445120,
    "power": {
-    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j4_torch_float16_2400.csv",
+    "file": "logs/orin/power/j4_torch_float16_2400.csv.gz",
     "n_samples": 4015,
     "duration_s": 40.140000104904175,
     "P_VDD_IN": {
@@ -647,7 +647,7 @@
      "p50": 66906.0
     }
    },
-   "power_csv": "logs/orin/power/j4_torch_float16_2400.csv"
+   "power_csv": "logs/orin/power/j4_torch_float16_2400.csv.gz"
   },
   {
    "dtype": "float16",
@@ -657,7 +657,7 @@
    "mean_e_spikes": 90.41770833333334,
    "max_mem_bytes": 705077248,
    "power": {
-    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j4_torch_float16_4800.csv",
+    "file": "logs/orin/power/j4_torch_float16_4800.csv.gz",
     "n_samples": 7854,
     "duration_s": 78.52999997138977,
     "P_VDD_IN": {
@@ -739,7 +739,7 @@
      "p50": 70062.0
     }
    },
-   "power_csv": "logs/orin/power/j4_torch_float16_4800.csv"
+   "power_csv": "logs/orin/power/j4_torch_float16_4800.csv.gz"
   }
  ],
  "failed": [],
@@ -747,7 +747,7 @@
  "idle_after": {
   "seconds": 60,
   "power": {
-   "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j5_torch_idle_after.csv",
+   "file": "logs/orin/power/j5_torch_idle_after.csv.gz",
    "n_samples": 6000,
    "duration_s": 59.99000000953674,
    "P_VDD_IN": {
@@ -829,6 +829,6 @@
     "p50": 61343.0
    }
   },
-  "power_csv": "logs/orin/power/j5_torch_idle_after.csv"
+  "power_csv": "logs/orin/power/j5_torch_idle_after.csv.gz"
  }
 }

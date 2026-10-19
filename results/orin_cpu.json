@@ -102,7 +102,7 @@
   "idle_1": {
    "seconds": 60,
    "power": {
-    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j5_idle_1.csv",
+    "file": "logs/orin/power/j5_idle_1.csv.gz",
     "n_samples": 6000,
     "duration_s": 59.99009990692139,
     "P_VDD_IN": {
@@ -203,7 +203,7 @@
     }
    ],
    "power": {
-    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j5_single.csv",
+    "file": "logs/orin/power/j5_single.csv.gz",
     "n_samples": 5891,
     "duration_s": 58.90000009536743,
     "P_VDD_IN": {
@@ -290,7 +290,7 @@
   "idle_2": {
    "seconds": 60,
    "power": {
-    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j5_idle_2.csv",
+    "file": "logs/orin/power/j5_idle_2.csv.gz",
     "n_samples": 6000,
     "duration_s": 59.99009990692139,
     "P_VDD_IN": {
@@ -415,7 +415,7 @@
     }
    ],
    "power": {
-    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j5_par4.csv",
+    "file": "logs/orin/power/j5_par4.csv.gz",
     "n_samples": 7000,
     "duration_s": 69.99000000953674,
     "P_VDD_IN": {
@@ -502,7 +502,7 @@
   "idle_3": {
    "seconds": 60,
    "power": {
-    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j5_idle_3.csv",
+    "file": "logs/orin/power/j5_idle_3.csv.gz",
     "n_samples": 6000,
     "duration_s": 59.990100145339966,
     "P_VDD_IN": {

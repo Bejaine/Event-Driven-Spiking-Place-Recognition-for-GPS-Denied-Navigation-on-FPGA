@@ -1,0 +1,32 @@
+seed 0 done
+seed 10 done
+seed 20 done
+{
+ "input_spikes_per_query": {
+  "p0": 7973.0,
+  "p1": 7984.88,
+  "p50": 8474.5,
+  "p99": 8854.739999999998,
+  "p100": 9027.0,
+  "mean": 8451.85
+ },
+ "events_per_step": {
+  "p50": 2.0,
+  "p99": 7.0,
+  "p99.9": 8.0,
+  "p100": 13.0,
+  "mean": 2.414814285714286,
+  "max": 13
+ },
+ "frac_steps_zero_events": 0.08939142857142857,
+ "e_spikes_per_module_run": {
+  "p0": 49.0,
+  "p1": 57.0,
+  "p50": 81.0,
+  "p99": 116.01999999999998,
+  "p100": 143.0,
+  "mean": 81.92916666666666
+ },
+ "max_events_in_one_delay_slot_per_neuron": 57
+}
+E4_3SEEDS_DONE

@@ -1,0 +1,1418 @@
+Using pip 26.2.1 from /home/bejaine/polarfire/spikenav/envs/vprsnn/lib/python3.10/site-packages/pip (python 3.10)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/f3/db/8e12381333aea300890829a0a36bfa738cac95475d88982d538725143fd9/numpy-2.3.0.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/2e/19/d7c972dfe90a353dbd3efbbe1d14a5951de80c99c9dc1b93cd998d51dc0f/numpy-2.3.1.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/37/7d/3fec4199c5ffb892bed55cff901e4f39a58c81df9c44c280499e92cad264/numpy-2.3.2.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/d0/19/95b3d357407220ed24c139018d2518fab0a61a948e68286a25f1a4d049ff/numpy-2.3.3.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/b5/f4/098d2270d52b41f1bd7db9fc288aaa0400cb48c2a3e2af6fa365d9720947/numpy-2.3.4.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/76/65/21b3bc86aac7b8f2862db1e808f1ea22b028e30a225a34a5ede9bf8678f2/numpy-2.3.5.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/12/02/7111f298e24a44d6fa4b75b47d93eccf444e5afbcee5b04aac760ee48935/numpy-2.4.0rc1.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/a4/7a/6a3d14e205d292b738db449d0de649b373a59edb0d0b4493821d0a3e8718/numpy-2.4.0.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/24/62/ae72ff66c0f1fd959925b4c11f8c2dea61f47f6acaea75a08512cdfe3fed/numpy-2.4.1.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/57/fd/0005efbd0af48e55eb3c7208af93f2862d4b1a56cd78e84309a2d959208d/numpy-2.4.2.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/10/8b/c265f4823726ab832de836cdd184d0986dcf94480f81e8739692a7ac7af2/numpy-2.4.3.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/d7/9f/b8cef5bffa569759033adda9481211426f12f53299629b410340795c2514/numpy-2.4.4.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/50/8e/b8041bc719f056afd864478029d52214789341ac6583437b0ee5031e9530/numpy-2.4.5.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/d0/ad/fed0499ce6a338d2a03ebae59cd15093910c8875328855781952abf6c2fe/numpy-2.4.6.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/d3/e1/f2fe8f6113a657a1da83b358b16755e528a602c6976a43724a88f42b482a/numpy-2.5.0rc1.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.12)
+  Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/e7/05/3d27272d30698dc0ecb7fdfaa41ad70303b444f81722bb99bce1d818638a/numpy-2.5.0.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.12)
+  Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/22/fd/89965aa4ac08c74998539fcbf24fa3540f3e15237fbeb6bcf9c908f4aade/numpy-2.5.1.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.12)
+  Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/9a/80/db0b4559e57ec36362bedbb05530a87fafbcb6067708c946967a41d449e7/numpy-2.5.2.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.12)
+  Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/13/01/11703282db468b85f6f7b8c7f22d058de5970d5c7e60a3a8aaa313c3de36/numpy-2.5.3.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.12)
+  Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/95/b0/c7453d0b6e2073c3264468b106ee1563750cecc910965e67357e3698c83e/numpy-2.5.4.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.12)
+Collecting numpy==2.2.*
+  Obtaining dependency information for numpy==2.2.* from https://files.pythonhosted.org/packages/eb/17/96a3acd228cec142fcb8723bd3cc39c2a474f7dcf0a5d16731980bcafa95/numpy-2.2.6-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata
+  Downloading numpy-2.2.6-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (63 kB)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/b2/d1/6a9ba3c934b6d272c894db9ea80257527be9a962b18d4b98b2323104b86b/matplotlib-3.11.0rc1.tar.gz (from https://pypi.org/simple/matplotlib/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/42/b4/41b4c812df4c89230465b71cc86217923f904349d803abf67119a471e0ad/matplotlib-3.11.0rc2.tar.gz (from https://pypi.org/simple/matplotlib/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/1f/24/080c99d223d158d3a8902769269ab6da5b50f7a0e6e072513907e02b7a6c/matplotlib-3.11.0.tar.gz (from https://pypi.org/simple/matplotlib/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/49/64/f9a391af28f518b11ad45a8a712353c94a0aefce09d3703200e5c54b610a/matplotlib-3.11.1.tar.gz (from https://pypi.org/simple/matplotlib/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/e7/c8/9aa712a0afb882649424dd8de8ad9aa6235e796e84c6052e8f6dc1598d0d/matplotlib-3.11.2.tar.gz (from https://pypi.org/simple/matplotlib/) (requires-python:>=3.11)
+Collecting matplotlib==3.8.*
+  Obtaining dependency information for matplotlib==3.8.* from https://files.pythonhosted.org/packages/0b/67/ded5217d42de1532193cd87db925c67997d23c68b20c3eaa9e4c6a0adb67/matplotlib-3.8.4-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata
+  Downloading matplotlib-3.8.4-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (5.8 kB)
+  Link requires a different Python (3.10.12 not in: '>=3.7,<3.10'): https://files.pythonhosted.org/packages/99/f1/c00d6be56e1a718a3068079e3ec8ce044d7179345280f6a3f5066068af0d/scipy-1.6.2.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.7,<3.10)
+  Link requires a different Python (3.10.12 not in: '>=3.7,<3.10'): https://files.pythonhosted.org/packages/fe/fd/8704c7b7b34cdac850485e638346025ca57c5a859934b9aa1be5399b33b7/scipy-1.6.3.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.7,<3.10)
+  Link requires a different Python (3.10.12 not in: '>=3.7,<3.10'): https://files.pythonhosted.org/packages/bb/bb/944f559d554df6c9adf037aa9fc982a9706ee0e96c0d5beac701cb158900/scipy-1.7.0.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.7,<3.10)
+  Link requires a different Python (3.10.12 not in: '>=3.7,<3.10'): https://files.pythonhosted.org/packages/47/33/a24aec22b7be7fdb10ec117a95e1e4099890d8bbc6646902f443fc7719d1/scipy-1.7.1.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.7,<3.10)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/7a/9e/2c8b1e1052151067e73b4192c0c04f355b3d31b485bd74f48bd4e9e87916/scipy-1.16.0rc1.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/9c/ff/c01073c71d82baeacf71b2ae7fc6d47bb4ff898b3f98ce7897098ca36c26/scipy-1.16.0rc2.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/81/18/b06a83f0c5ee8cddbde5e3f3d0bb9b702abfa5136ef6d4620ff67df7eee5/scipy-1.16.0.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/f5/4a/b927028464795439faec8eaf0b03b011005c487bb2d07409f28bf30879c4/scipy-1.16.1.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/4c/3b/546a6f0bfe791bbb7f8d591613454d15097e53f906308ec6f7c1ce588e8e/scipy-1.16.2.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/0a/ca/d8ace4f98322d01abcd52d381134344bf7b431eba7ed8b42bdea5a3c2ac9/scipy-1.16.3.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/5f/e3/255a0c2dc90065e20a4365d27692b3529366031fec82dd934daa992b0c7c/scipy-1.17.0rc1.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/ca/01/7a5c4d1851418fb384445425b4c4b17044475b669232768df336f69b708e/scipy-1.17.0rc2.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/56/3e/9cca699f3486ce6bc12ff46dc2031f1ec8eb9ccc9a320fdaf925f1417426/scipy-1.17.0.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/7a/97/5a3609c4f8d58b039179648e62dd220f89864f56f7357f5d4f45c29eb2cc/scipy-1.17.1.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/1c/b9/101efd4a4302db579178ebb664ca6922d547646352f831bd39cbb7d0294b/scipy-1.18.0rc1.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.12)
+  Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/5f/b2/c9caa00aef1369da8e7aeae2d372fd72b5702cf0a0ce04dd67beb318b967/scipy-1.18.0rc2.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.12)
+  Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/a7/25/c2700dfaf6442b4effaa91af24ebce5dc9d31bb4a69706313aae70d72cd0/scipy-1.18.0.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.12)
+  Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/7e/74/66de6258867beb2ef08f35f9f2ac017a52cacd5081714d239ff1a442d458/scipy-1.18.1.tar.gz (from https://pypi.org/simple/scipy/) (requires-python:>=3.12)
+Collecting scipy
+  Obtaining dependency information for scipy from https://files.pythonhosted.org/packages/db/0a/92b1de4a7adc7a15dcf5bddc6e191f6f29ee663b30511ce20467ef9b82e4/scipy-1.15.3-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata
+  Downloading scipy-1.15.3-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (61 kB)
+Collecting opencv-python-headless
+  Obtaining dependency information for opencv-python-headless from https://files.pythonhosted.org/packages/3a/98/1a28a7101e31801042b3098871a74b76c61581d328ef40774ff4edb53a56/opencv_python_headless-5.0.0.93-cp37-abi3-manylinux_2_28_aarch64.whl.metadata
+  Downloading opencv_python_headless-5.0.0.93-cp37-abi3-manylinux_2_28_aarch64.whl.metadata (19 kB)
+  Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/d8/a9/c0f18000202171802e871ca9bc418f9a6c1d23426fc0b7e3cc39df7877cf/brian2-2.10.0.tar.gz (from https://pypi.org/simple/brian2/) (requires-python:>=3.12)
+  Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/00/4c/2a3663887acf4a7bcc86e0d229352fd5e036dcd079753888516caff92daf/brian2-2.10.1.tar.gz (from https://pypi.org/simple/brian2/) (requires-python:>=3.12)
+Collecting brian2
+  Downloading brian2-2.9.0.tar.gz (1.7 MB)
+  Installing build dependencies: started
+  Running command installing build dependencies for brian2
+  Using pip 26.2.1 from /home/bejaine/polarfire/spikenav/envs/vprsnn/lib/python3.10/site-packages/pip (python 3.10)
+  Collecting setuptools>=61
+    Obtaining dependency information for setuptools>=61 from https://files.pythonhosted.org/packages/95/9c/c510029fc6ef33a6275cd2c5d3cecd6613dfd6aa401d57c54f1c18852ccf/setuptools-84.0.0-py3-none-any.whl.metadata
+    Using cached setuptools-84.0.0-py3-none-any.whl.metadata (6.6 kB)
+    Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/f3/db/8e12381333aea300890829a0a36bfa738cac95475d88982d538725143fd9/numpy-2.3.0.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+    Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/2e/19/d7c972dfe90a353dbd3efbbe1d14a5951de80c99c9dc1b93cd998d51dc0f/numpy-2.3.1.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+    Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/37/7d/3fec4199c5ffb892bed55cff901e4f39a58c81df9c44c280499e92cad264/numpy-2.3.2.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+    Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/d0/19/95b3d357407220ed24c139018d2518fab0a61a948e68286a25f1a4d049ff/numpy-2.3.3.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+    Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/b5/f4/098d2270d52b41f1bd7db9fc288aaa0400cb48c2a3e2af6fa365d9720947/numpy-2.3.4.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+    Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/76/65/21b3bc86aac7b8f2862db1e808f1ea22b028e30a225a34a5ede9bf8678f2/numpy-2.3.5.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+    Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/12/02/7111f298e24a44d6fa4b75b47d93eccf444e5afbcee5b04aac760ee48935/numpy-2.4.0rc1.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+    Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/a4/7a/6a3d14e205d292b738db449d0de649b373a59edb0d0b4493821d0a3e8718/numpy-2.4.0.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+    Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/24/62/ae72ff66c0f1fd959925b4c11f8c2dea61f47f6acaea75a08512cdfe3fed/numpy-2.4.1.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+    Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/57/fd/0005efbd0af48e55eb3c7208af93f2862d4b1a56cd78e84309a2d959208d/numpy-2.4.2.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+    Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/10/8b/c265f4823726ab832de836cdd184d0986dcf94480f81e8739692a7ac7af2/numpy-2.4.3.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+    Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/d7/9f/b8cef5bffa569759033adda9481211426f12f53299629b410340795c2514/numpy-2.4.4.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+    Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/50/8e/b8041bc719f056afd864478029d52214789341ac6583437b0ee5031e9530/numpy-2.4.5.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+    Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/d0/ad/fed0499ce6a338d2a03ebae59cd15093910c8875328855781952abf6c2fe/numpy-2.4.6.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.11)
+    Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/d3/e1/f2fe8f6113a657a1da83b358b16755e528a602c6976a43724a88f42b482a/numpy-2.5.0rc1.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.12)
+    Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/e7/05/3d27272d30698dc0ecb7fdfaa41ad70303b444f81722bb99bce1d818638a/numpy-2.5.0.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.12)
+    Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/22/fd/89965aa4ac08c74998539fcbf24fa3540f3e15237fbeb6bcf9c908f4aade/numpy-2.5.1.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.12)
+    Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/9a/80/db0b4559e57ec36362bedbb05530a87fafbcb6067708c946967a41d449e7/numpy-2.5.2.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.12)
+    Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/13/01/11703282db468b85f6f7b8c7f22d058de5970d5c7e60a3a8aaa313c3de36/numpy-2.5.3.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.12)
+    Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/95/b0/c7453d0b6e2073c3264468b106ee1563750cecc910965e67357e3698c83e/numpy-2.5.4.tar.gz (from https://pypi.org/simple/numpy/) (requires-python:>=3.12)
+  Collecting numpy>=2.0.0rc1
+    Obtaining dependency information for numpy>=2.0.0rc1 from https://files.pythonhosted.org/packages/eb/17/96a3acd228cec142fcb8723bd3cc39c2a474f7dcf0a5d16731980bcafa95/numpy-2.2.6-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata
+    Using cached numpy-2.2.6-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (63 kB)
+  Collecting wheel
+    Obtaining dependency information for wheel from https://files.pythonhosted.org/packages/2e/29/69cfbb602cd91690c55d38ba9fe53e6a7e76a6fa647bf38f19c138d25449/wheel-0.48.0-py3-none-any.whl.metadata
+    Using cached wheel-0.48.0-py3-none-any.whl.metadata (2.3 kB)
+  Collecting Cython
+    Obtaining dependency information for Cython from https://files.pythonhosted.org/packages/bd/4f/d59848f24076f7dd30d2cf05aa62ed321ec5f54bf695da8ddb3971bf1fdc/cython-3.3.0-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata
+    Using cached cython-3.3.0-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata (28 kB)
+  Collecting setuptools_scm>=6.2 (from setuptools_scm[toml]>=6.2)
+    Obtaining dependency information for setuptools_scm>=6.2 from https://files.pythonhosted.org/packages/da/f5/54538a1f17ea753c42b0928dc2e62986d463f8c393340b9a1e602f2d4dd9/setuptools_scm-10.3.4-py3-none-any.whl.metadata
+    Using cached setuptools_scm-10.3.4-py3-none-any.whl.metadata (6.7 kB)
+  Collecting packaging>=24.0 (from wheel)
+    Obtaining dependency information for packaging>=24.0 from https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl.metadata
+    Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+  Collecting vcs-versioning<3,>=2.5.0.dev0 (from setuptools_scm>=6.2->setuptools_scm[toml]>=6.2)
+    Obtaining dependency information for vcs-versioning<3,>=2.5.0.dev0 from https://files.pythonhosted.org/packages/73/1d/ad4064bf12f4503bf61e65d74c93c523672776d25ee0a06aaf42ae09ef3f/vcs_versioning-2.6.0-py3-none-any.whl.metadata
+    Using cached vcs_versioning-2.6.0-py3-none-any.whl.metadata (1.7 kB)
+  Collecting tomli>=1 (from setuptools_scm>=6.2->setuptools_scm[toml]>=6.2)
+    Obtaining dependency information for tomli>=1 from https://files.pythonhosted.org/packages/60/3f/3e3f8fd0919249b0200c80fbc4f9a1e70be19f9883da71dfb7f8b9ab8aca/tomli-2.5.0-py3-none-any.whl.metadata
+    Using cached tomli-2.5.0-py3-none-any.whl.metadata (10 kB)
+  Collecting typing-extensions>=4.1 (from setuptools_scm>=6.2->setuptools_scm[toml]>=6.2)
+    Obtaining dependency information for typing-extensions>=4.1 from https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl.metadata
+    Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+  Using cached setuptools-84.0.0-py3-none-any.whl (818 kB)
+  Using cached numpy-2.2.6-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (14.3 MB)
+  Using cached wheel-0.48.0-py3-none-any.whl (33 kB)
+  Using cached cython-3.3.0-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl (3.3 MB)
+  Using cached setuptools_scm-10.3.4-py3-none-any.whl (33 kB)
+  Using cached vcs_versioning-2.6.0-py3-none-any.whl (123 kB)
+  Using cached packaging-26.3-py3-none-any.whl (129 kB)
+  Using cached tomli-2.5.0-py3-none-any.whl (14 kB)
+  Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+  Installing collected packages: typing-extensions, tomli, setuptools, packaging, numpy, Cython, wheel, vcs-versioning, setuptools_scm
+    Creating /tmp/pip-build-env-87exeiys/overlay/bin
+    changing mode of /tmp/pip-build-env-87exeiys/overlay/bin/f2py to 775
+    changing mode of /tmp/pip-build-env-87exeiys/overlay/bin/numpy-config to 775
+    changing mode of /tmp/pip-build-env-87exeiys/overlay/bin/cygdb to 775
+    changing mode of /tmp/pip-build-env-87exeiys/overlay/bin/cython to 775
+    changing mode of /tmp/pip-build-env-87exeiys/overlay/bin/cythonize to 775
+    changing mode of /tmp/pip-build-env-87exeiys/overlay/bin/wheel to 775
+    changing mode of /tmp/pip-build-env-87exeiys/overlay/bin/vcs-versioning to 775
+    changing mode of /tmp/pip-build-env-87exeiys/overlay/bin/setuptools-scm to 775
+
+  Successfully installed Cython-3.3.0 numpy-2.2.6 packaging-26.3 setuptools-84.0.0 setuptools_scm-10.3.4 tomli-2.5.0 typing-extensions-4.16.0 vcs-versioning-2.6.0 wheel-0.48.0
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  /tmp/pip-build-env-87exeiys/overlay/lib/python3.10/site-packages/vcs_versioning/_fallback_workdir.py:248: UserWarning: git archive did not support describe output
+    return archival_to_version(data, config)
+  /tmp/pip-build-env-87exeiys/overlay/lib/python3.10/site-packages/vcs_versioning/_fallback_workdir.py:248: UserWarning: unprocessed git archival found (no export subst applied)
+    return archival_to_version(data, config)
+  /tmp/pip-build-env-87exeiys/overlay/lib/python3.10/site-packages/setuptools/config/_apply_pyprojecttoml.py:61: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    dist._finalize_license_expression()
+  /tmp/pip-build-env-87exeiys/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running egg_info
+  writing Brian2.egg-info/PKG-INFO
+  writing dependency_links to Brian2.egg-info/dependency_links.txt
+  writing requirements to Brian2.egg-info/requires.txt
+  writing top-level names to Brian2.egg-info/top_level.txt
+  reading manifest file 'Brian2.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  no previously-included directories found matching 'docs_sphinx/reference'
+  no previously-included directories found matching 'docs_sphinx/examples'
+  no previously-included directories found matching 'docs_sphinx/resources'
+  no previously-included directories found matching 'tutorials'
+  no previously-included directories found matching 'dev'
+  warning: no previously-included files matching '.gitignore' found anywhere in distribution
+  warning: no previously-included files found matching '*.yml'
+  warning: no previously-included files found matching '.coveragerc'
+  warning: no previously-included files found matching '.gitattributes'
+  warning: no previously-included files found matching '.gitmodules'
+  adding license file 'LICENSE'
+  adding license file 'AUTHORS'
+  writing manifest file 'Brian2.egg-info/SOURCES.txt'
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  /tmp/pip-build-env-87exeiys/overlay/lib/python3.10/site-packages/vcs_versioning/_fallback_workdir.py:248: UserWarning: git archive did not support describe output
+    return archival_to_version(data, config)
+  /tmp/pip-build-env-87exeiys/overlay/lib/python3.10/site-packages/vcs_versioning/_fallback_workdir.py:248: UserWarning: unprocessed git archival found (no export subst applied)
+    return archival_to_version(data, config)
+  /tmp/pip-build-env-87exeiys/overlay/lib/python3.10/site-packages/setuptools/config/_apply_pyprojecttoml.py:61: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    dist._finalize_license_expression()
+  /tmp/pip-build-env-87exeiys/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running dist_info
+  creating /tmp/pip-modern-metadata-yrc7t6s7/Brian2.egg-info
+  writing /tmp/pip-modern-metadata-yrc7t6s7/Brian2.egg-info/PKG-INFO
+  writing dependency_links to /tmp/pip-modern-metadata-yrc7t6s7/Brian2.egg-info/dependency_links.txt
+  writing requirements to /tmp/pip-modern-metadata-yrc7t6s7/Brian2.egg-info/requires.txt
+  writing top-level names to /tmp/pip-modern-metadata-yrc7t6s7/Brian2.egg-info/top_level.txt
+  writing manifest file '/tmp/pip-modern-metadata-yrc7t6s7/Brian2.egg-info/SOURCES.txt'
+  reading manifest file '/tmp/pip-modern-metadata-yrc7t6s7/Brian2.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  no previously-included directories found matching 'docs_sphinx/reference'
+  no previously-included directories found matching 'docs_sphinx/examples'
+  no previously-included directories found matching 'docs_sphinx/resources'
+  no previously-included directories found matching 'tutorials'
+  no previously-included directories found matching 'dev'
+  warning: no previously-included files matching '.gitignore' found anywhere in distribution
+  warning: no previously-included files found matching '*.yml'
+  warning: no previously-included files found matching '.coveragerc'
+  warning: no previously-included files found matching '.gitattributes'
+  warning: no previously-included files found matching '.gitmodules'
+  adding license file 'LICENSE'
+  adding license file 'AUTHORS'
+  writing manifest file '/tmp/pip-modern-metadata-yrc7t6s7/Brian2.egg-info/SOURCES.txt'
+  creating '/tmp/pip-modern-metadata-yrc7t6s7/brian2-2.9.0.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting cython
+  Obtaining dependency information for cython from https://files.pythonhosted.org/packages/bd/4f/d59848f24076f7dd30d2cf05aa62ed321ec5f54bf695da8ddb3971bf1fdc/cython-3.3.0-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata
+  Downloading cython-3.3.0-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata (28 kB)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/70/a2/b45d886895e78b4fa546d0ef49beac7c218eb4f37d879a7067ca60d35844/scikit_learn-1.8.0rc1.tar.gz (from https://pypi.org/simple/scikit-learn/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/0e/d4/40988bf3b8e34feec1d0e6a051446b1f66225f8529b9309becaeef62b6c4/scikit_learn-1.8.0.tar.gz (from https://pypi.org/simple/scikit-learn/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/95/92/e2e2a027c52405116279efb779a9379a8f7535d12a89bb22a56bfb4c2f26/scikit_learn-1.9.0rc1.tar.gz (from https://pypi.org/simple/scikit-learn/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/fa/6f/37092bdb25f712817231799fc5674d8e704066a8a70c1d2d40517e18b4ab/scikit_learn-1.9.0.tar.gz (from https://pypi.org/simple/scikit-learn/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/d2/eb/eaf5e07fcc0da7149b0e084f24e54edd7441b9a89ce7e034032ae97fe3a0/scikit_learn-1.9.1.tar.gz (from https://pypi.org/simple/scikit-learn/) (requires-python:>=3.11)
+Collecting scikit-learn
+  Obtaining dependency information for scikit-learn from https://files.pythonhosted.org/packages/2b/75/4311605069b5d220e7cf5adabb38535bd96f0079313cdbb04b291479b22a/scikit_learn-1.7.2-cp310-cp310-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl.metadata
+  Downloading scikit_learn-1.7.2-cp310-cp310-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl.metadata (11 kB)
+Collecting seaborn
+  Obtaining dependency information for seaborn from https://files.pythonhosted.org/packages/83/11/00d3c3dfc25ad54e731d91449895a79e4bf2384dc3ac01809010ba88f6d5/seaborn-0.13.2-py3-none-any.whl.metadata
+  Downloading seaborn-0.13.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting pytest
+  Obtaining dependency information for pytest from https://files.pythonhosted.org/packages/24/25/1de2678b631f5a49215c6c96fff41ba892b0a34df68d6d80292b1b48aa7f/pytest-9.1.1-py3-none-any.whl.metadata
+  Downloading pytest-9.1.1-py3-none-any.whl.metadata (7.6 kB)
+Collecting huggingface_hub
+  Obtaining dependency information for huggingface_hub from https://files.pythonhosted.org/packages/eb/b0/0f7b430fd100b3a3b037fdbb314878200241082e607b3383c63d91a13a72/huggingface_hub-2.2.0-py3-none-any.whl.metadata
+  Downloading huggingface_hub-2.2.0-py3-none-any.whl.metadata (16 kB)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/58/01/1253e6698a07380cd31a736d248a3f2a50a7c88779a1813da27503cadc2a/contourpy-1.3.3.tar.gz (from https://pypi.org/simple/contourpy/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.12'): https://files.pythonhosted.org/packages/83/5a/a55177dd22553a277388e8a1b3220e92de91bacb28356cdc73caa240121d/contourpy-1.4.0.tar.gz (from https://pypi.org/simple/contourpy/) (requires-python:>=3.12)
+Collecting contourpy>=1.0.1 (from matplotlib==3.8.*)
+  Obtaining dependency information for contourpy>=1.0.1 from https://files.pythonhosted.org/packages/c1/bd/20c6726b1b7f81a8bee5271bed5c165f0a8e1f572578a9d27e2ccb763cb2/contourpy-1.3.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata
+  Downloading contourpy-1.3.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib==3.8.*)
+  Obtaining dependency information for cycler>=0.10 from https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl.metadata
+  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/83/65/826290863c9df6041f2e36a5ae5d604cd8247fffc8ec7b45581fd2473e4d/fonttools-4.66.0-py3-none-any.whl (from https://pypi.org/simple/fonttools/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/a2/24/86f9930b930b97fc82266083320f3c34643ef67261c32651e893db525aca/fonttools-4.66.0.tar.gz (from https://pypi.org/simple/fonttools/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/f6/10/d45b74135d5d642cb3a4fb0a957c1613ef93de4c8548671dfc3a5bf38299/fonttools-4.66.1-py3-none-any.whl (from https://pypi.org/simple/fonttools/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/87/b6/126c659ab7e0e03e01a5f5d223abf7b2c0691ae92718085a212a3924a2a3/fonttools-4.66.1.tar.gz (from https://pypi.org/simple/fonttools/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/3d/61/4161946319472aaa9b897bd18ad5108a5b10f5ebaa503d921a001ac4fff9/fonttools-4.67.0-py3-none-any.whl (from https://pypi.org/simple/fonttools/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/94/36/102e180f8f5dbaee88b26595b01ca8aa80bf4e62128d9aa94265b3996c96/fonttools-4.67.0.tar.gz (from https://pypi.org/simple/fonttools/) (requires-python:>=3.11)
+Collecting fonttools>=4.22.0 (from matplotlib==3.8.*)
+  Obtaining dependency information for fonttools>=4.22.0 from https://files.pythonhosted.org/packages/f8/6a/36f465a1c277131f9569f6a56fe99cf135391b4860b9c4f4b23e5b1cd5df/fonttools-4.65.0-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata
+  Downloading fonttools-4.65.0-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata (125 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib==3.8.*)
+  Obtaining dependency information for kiwisolver>=1.3.1 from https://files.pythonhosted.org/packages/64/96/26efc04348c0f332b6e6c471dff132bb8b18b2df494a1b65826601674e62/kiwisolver-1.5.1-cp310-cp310-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl.metadata
+  Downloading kiwisolver-1.5.1-cp310-cp310-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl.metadata (5.2 kB)
+Collecting packaging>=20.0 (from matplotlib==3.8.*)
+  Obtaining dependency information for packaging>=20.0 from https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl.metadata
+  Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/ce/a4/9cc30690a394a8305e8be4c9036aa16d0dfddadd09079860b582f562496d/pillow-13.0.0.tar.gz (from https://pypi.org/simple/pillow/) (requires-python:>=3.11)
+Collecting pillow>=8 (from matplotlib==3.8.*)
+  Obtaining dependency information for pillow>=8 from https://files.pythonhosted.org/packages/07/50/b5d688cc9c52d4482f3d5bcab6ce20bc2a74a85d2343841c907444a3be2c/pillow-12.3.0-cp310-cp310-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl.metadata
+  Downloading pillow-12.3.0-cp310-cp310-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl.metadata (9.1 kB)
+Collecting pyparsing>=2.3.1 (from matplotlib==3.8.*)
+  Obtaining dependency information for pyparsing>=2.3.1 from https://files.pythonhosted.org/packages/38/bb/d215ee7c73b61497b28a5503f9f53523f294fcc936762b7caf90e0c1c2b5/pyparsing-3.3.3-py3-none-any.whl.metadata
+  Downloading pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+Collecting python-dateutil>=2.7 (from matplotlib==3.8.*)
+  Obtaining dependency information for python-dateutil>=2.7 from https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting sympy>=1.2 (from brian2)
+  Obtaining dependency information for sympy>=1.2 from https://files.pythonhosted.org/packages/a2/09/77d55d46fd61b4a135c444fc97158ef34a095e5681d0a6c10b75bf356191/sympy-1.14.0-py3-none-any.whl.metadata
+  Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting jinja2>=2.7 (from brian2)
+  Obtaining dependency information for jinja2>=2.7 from https://files.pythonhosted.org/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl.metadata
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting setuptools>=61 (from brian2)
+  Obtaining dependency information for setuptools>=61 from https://files.pythonhosted.org/packages/95/9c/c510029fc6ef33a6275cd2c5d3cecd6613dfd6aa401d57c54f1c18852ccf/setuptools-84.0.0-py3-none-any.whl.metadata
+  Downloading setuptools-84.0.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting joblib>=1.2.0 (from scikit-learn)
+  Obtaining dependency information for joblib>=1.2.0 from https://files.pythonhosted.org/packages/18/53/84099323c2ec4be98d935f63c033ac4151ee83836ca1050ede3b3aadf155/joblib-1.6.0-py3-none-any.whl.metadata
+  Downloading joblib-1.6.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting threadpoolctl>=3.1.0 (from scikit-learn)
+  Obtaining dependency information for threadpoolctl>=3.1.0 from https://files.pythonhosted.org/packages/43/3f/f88a53f60a472b46f4023f56d204dd7de33d34c5d2acbfa0d70a674e639e/threadpoolctl-3.7.0-py3-none-any.whl.metadata
+  Downloading threadpoolctl-3.7.0-py3-none-any.whl.metadata (24 kB)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/3c/ff/75db8b415d580e9125afdbb4aa4a480935ddc071dfc30d0a2a668e3cebcf/pandas-3.0.0rc0.tar.gz (from https://pypi.org/simple/pandas/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/5a/c5/f2825785a7323c8d7ea4f38ca9827ddfc39b85daacaac65478f9c7b8883f/pandas-3.0.0rc1.tar.gz (from https://pypi.org/simple/pandas/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/11/1f/08274a71f6198b47fa6abb92c99ab87bfa088c3fca71b467a874c7a8db47/pandas-3.0.0rc2.tar.gz (from https://pypi.org/simple/pandas/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/de/da/b1dc0481ab8d55d0f46e343cfe67d4551a0e14fcee52bd38ca1bd73258d8/pandas-3.0.0.tar.gz (from https://pypi.org/simple/pandas/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/2e/0c/b28ed414f080ee0ad153f848586d61d1878f91689950f037f976ce15f6c8/pandas-3.0.1.tar.gz (from https://pypi.org/simple/pandas/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/da/99/b342345300f13440fe9fe385c3c481e2d9a595ee3bab4d3219247ac94e9a/pandas-3.0.2.tar.gz (from https://pypi.org/simple/pandas/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/f8/87/4341c6252d1c47b08768c3d25ac487362bf403f0313ddae4a2a26c9b1b4c/pandas-3.0.3.tar.gz (from https://pypi.org/simple/pandas/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/5a/fd/e0194474c71dbfba82e744f66945c274f15b667acd5f8c117b12555fb91e/pandas-3.0.4.tar.gz (from https://pypi.org/simple/pandas/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/be/4f/5f3422a2afec5ffc46308b79e53291365a93748b498ac2e58bead0197916/pandas-3.0.5.tar.gz (from https://pypi.org/simple/pandas/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/e2/17/d7b106e05bfa642e8694451e7d3d759c6a241c5386a5d962e4f66c047e06/pandas-3.0.6.tar.gz (from https://pypi.org/simple/pandas/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/4b/90/d794d66759e957c0016c907f84b3b8d306e3eeda94f11715ca49a91946a3/pandas-3.1.0rc0.tar.gz (from https://pypi.org/simple/pandas/) (requires-python:>=3.11)
+Collecting pandas>=1.2 (from seaborn)
+  Obtaining dependency information for pandas>=1.2 from https://files.pythonhosted.org/packages/1d/03/3fc4a529a7710f890a239cc496fc6d50ad4a0995657dccc1d64695adb9f4/pandas-2.3.3-cp310-cp310-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl.metadata
+  Downloading pandas-2.3.3-cp310-cp310-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl.metadata (91 kB)
+Collecting exceptiongroup>=1 (from pytest)
+  Obtaining dependency information for exceptiongroup>=1 from https://files.pythonhosted.org/packages/8a/0e/97c33bf5009bdbac74fd2beace167cab3f978feb69cc36f1ef79360d6c4e/exceptiongroup-1.3.1-py3-none-any.whl.metadata
+  Downloading exceptiongroup-1.3.1-py3-none-any.whl.metadata (6.7 kB)
+Collecting iniconfig>=1.0.1 (from pytest)
+  Obtaining dependency information for iniconfig>=1.0.1 from https://files.pythonhosted.org/packages/56/43/4ca9e49d27a1fcf6bece6f6aec0ea46bb9112489b93d4b688fb415457bdb/iniconfig-2.3.1-py3-none-any.whl.metadata
+  Downloading iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting pluggy<2,>=1.5 (from pytest)
+  Obtaining dependency information for pluggy<2,>=1.5 from https://files.pythonhosted.org/packages/40/9e/2b38731e0fc536806f16490e1a12d7f0dc2a1235aa8cc07bcc75416a7daa/pluggy-1.7.0-py3-none-any.whl.metadata
+  Downloading pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+Collecting pygments>=2.7.2 (from pytest)
+  Obtaining dependency information for pygments>=2.7.2 from https://files.pythonhosted.org/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl.metadata
+  Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting tomli>=1 (from pytest)
+  Obtaining dependency information for tomli>=1 from https://files.pythonhosted.org/packages/60/3f/3e3f8fd0919249b0200c80fbc4f9a1e70be19f9883da71dfb7f8b9ab8aca/tomli-2.5.0-py3-none-any.whl.metadata
+  Downloading tomli-2.5.0-py3-none-any.whl.metadata (10 kB)
+Collecting click<9.0.0,>=8.4.2 (from huggingface_hub)
+  Obtaining dependency information for click<9.0.0,>=8.4.2 from https://files.pythonhosted.org/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl.metadata
+  Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/d7/8b/f837f52905395ba4510fe61f753c24833fb0a9c76e21267bb9f828b664a9/filelock-4.1.1-py3-none-any.whl (from https://pypi.org/simple/filelock/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/35/c8/1d457d9150ff948f2ce6ada7715e0eeebbe5d3b58a45271a1e222474bcd3/filelock-4.1.1.tar.gz (from https://pypi.org/simple/filelock/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/1b/84/16cbc2a5a102edf4b745ca43d7b9aaa8e26d46686c8e54d70d3d1225659e/filelock-4.1.2-py3-none-any.whl (from https://pypi.org/simple/filelock/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/8c/32/5f1e1408eda63bdecdb814dfd18b1109d239fb9695d51780c2e8a2816e76/filelock-4.1.2.tar.gz (from https://pypi.org/simple/filelock/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/8e/a3/9bc26acff301fe1aaea1cc3d82a1d57e0a34df3e1cadbfa91ac2dbcdde5c/filelock-4.2.0-py3-none-any.whl (from https://pypi.org/simple/filelock/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/f4/a9/1af41b37c3279712b22cdc63aac78a52432202b6fe1f9666a2a3d2831fb4/filelock-4.2.0.tar.gz (from https://pypi.org/simple/filelock/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/28/00/db89d339bc4ecdc8087fa7b8607ba22ffc27bf96286f340c9620bea428b3/filelock-4.2.1-py3-none-any.whl (from https://pypi.org/simple/filelock/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/d5/98/771d8ca889f220d7d7e352addf500666368f0fd081c6080a83767580c6e4/filelock-4.2.1.tar.gz (from https://pypi.org/simple/filelock/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/4e/53/35698fff350cb99c49ee01ae5cb1eb4408567792a286314ea984b53b5002/filelock-4.2.2-py3-none-any.whl (from https://pypi.org/simple/filelock/) (requires-python:>=3.11)
+  Link requires a different Python (3.10.12 not in: '>=3.11'): https://files.pythonhosted.org/packages/d4/08/d8f81287742010e38daf3632380c8d80ede7b4df2716f8ca3d0a2b087d44/filelock-4.2.2.tar.gz (from https://pypi.org/simple/filelock/) (requires-python:>=3.11)
+Collecting filelock>=3.10.0 (from huggingface_hub)
+  Obtaining dependency information for filelock>=3.10.0 from https://files.pythonhosted.org/packages/ee/86/032133892a5de43b5a98200b01aadcad68cc255e274a762f08b8a76d2912/filelock-4.1.0-py3-none-any.whl.metadata
+  Downloading filelock-4.1.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting fsspec>=2023.5.0 (from huggingface_hub)
+  Obtaining dependency information for fsspec>=2023.5.0 from https://files.pythonhosted.org/packages/6c/c0/a98505f18594f1bce828bb159cec0fcf9860562f1a2c85913409fc8f3d9e/fsspec-2026.9.0-py3-none-any.whl.metadata
+  Downloading fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting hf-xet<2.0.0,>=1.6.0 (from huggingface_hub)
+  Obtaining dependency information for hf-xet<2.0.0,>=1.6.0 from https://files.pythonhosted.org/packages/49/0c/a2f703a5a78267556e89e03316fa0805c86b72b50829bc67665746e8ebf0/hf_xet-1.7.0-cp38-abi3-manylinux_2_28_aarch64.whl.metadata
+  Downloading hf_xet-1.7.0-cp38-abi3-manylinux_2_28_aarch64.whl.metadata (4.9 kB)
+  Link requires a different Python (3.10.12 not in: '>=3.14'): https://files.pythonhosted.org/packages/ce/dc/40ffaafdf37b39340638544ee8a2e350455ea02c156aa1619d5864e27287/httpx2-0.0.0-py3-none-any.whl (from https://pypi.org/simple/httpx2/) (requires-python:>=3.14)
+  Link requires a different Python (3.10.12 not in: '>=3.14'): https://files.pythonhosted.org/packages/82/b5/9b932b5ce50177baf052bc006259b88ee0cb312aa02f8bbabd790fc0bb4c/httpx2-0.0.0.tar.gz (from https://pypi.org/simple/httpx2/) (requires-python:>=3.14)
+Collecting httpx2<3,>=2.0.0 (from huggingface_hub)
+  Obtaining dependency information for httpx2<3,>=2.0.0 from https://files.pythonhosted.org/packages/69/5a/469616aa8c2cbb0bb9dd67a3c18d07c01ab604cc0b236ee1c47d260c7f6e/httpx2-2.14.0-py3-none-any.whl.metadata
+  Downloading httpx2-2.14.0-py3-none-any.whl.metadata (10 kB)
+Collecting pyyaml>=5.1 (from huggingface_hub)
+  Obtaining dependency information for pyyaml>=5.1 from https://files.pythonhosted.org/packages/43/f7/0e6a5ae5599c838c696adb4e6330a59f463265bfa1e116cfd1fbb0abaaae/pyyaml-6.0.3-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata
+  Downloading pyyaml-6.0.3-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata (2.4 kB)
+Collecting tqdm>=4.42.1 (from huggingface_hub)
+  Obtaining dependency information for tqdm>=4.42.1 from https://files.pythonhosted.org/packages/a7/03/921a3d3c75785aca9ebfbfcabfbc3a1be12e2ab5265deb026d55a5a3f83e/tqdm-4.70.1-py3-none-any.whl.metadata
+  Downloading tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+Collecting typing-extensions>=4.1.0 (from huggingface_hub)
+  Obtaining dependency information for typing-extensions>=4.1.0 from https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl.metadata
+  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting anyio>=4.10 (from httpx2<3,>=2.0.0->huggingface_hub)
+  Obtaining dependency information for anyio>=4.10 from https://files.pythonhosted.org/packages/12/b8/4bd346e22b28902df4d651910f5242c28d84e4a5c2435ca5c3f797ed7e2e/anyio-4.15.1-py3-none-any.whl.metadata
+  Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+  Link requires a different Python (3.10.12 not in: '>=3.14'): https://files.pythonhosted.org/packages/79/40/0f06088ac6f598713f2f80de5495be78349d742c93d3811207da9069f3f6/httpcore2-0.0.0-py3-none-any.whl (from https://pypi.org/simple/httpcore2/) (requires-python:>=3.14)
+  Link requires a different Python (3.10.12 not in: '>=3.14'): https://files.pythonhosted.org/packages/42/14/3afda397c436e70ed989f40ee6bf1ed453756f9f7611aaed77b167dadf09/httpcore2-0.0.0.tar.gz (from https://pypi.org/simple/httpcore2/) (requires-python:>=3.14)
+Collecting httpcore2==2.14.0 (from httpx2<3,>=2.0.0->huggingface_hub)
+  Obtaining dependency information for httpcore2==2.14.0 from https://files.pythonhosted.org/packages/02/06/a8d6a8f90d11b76d9086242b6bb0ee4b503473bfc8be34c2d5b067275c22/httpcore2-2.14.0-py3-none-any.whl.metadata
+  Downloading httpcore2-2.14.0-py3-none-any.whl.metadata (27 kB)
+Collecting idna>=3.18 (from httpx2<3,>=2.0.0->huggingface_hub)
+  Obtaining dependency information for idna>=3.18 from https://files.pythonhosted.org/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl.metadata
+  Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Collecting truststore>=0.10 (from httpx2<3,>=2.0.0->huggingface_hub)
+  Obtaining dependency information for truststore>=0.10 from https://files.pythonhosted.org/packages/51/e9/3a7820be2bb0fe53b6bc9c3be26d3d1158004e4c3ab953aa6840b955b1e9/truststore-0.10.5-py3-none-any.whl.metadata
+  Downloading truststore-0.10.5-py3-none-any.whl.metadata (4.5 kB)
+Collecting h11>=0.16 (from httpcore2==2.14.0->httpx2<3,>=2.0.0->huggingface_hub)
+  Obtaining dependency information for h11>=0.16 from https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl.metadata
+  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting MarkupSafe>=2.0 (from jinja2>=2.7->brian2)
+  Obtaining dependency information for MarkupSafe>=2.0 from https://files.pythonhosted.org/packages/17/54/69e7b0db9bd687bfd83451eed5666384d67cfed3be062bfc59a06a15474e/markupsafe-3.0.4-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata
+  Downloading markupsafe-3.0.4-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata (2.7 kB)
+Collecting cloudpickle>=3.0 (from joblib>=1.2.0->scikit-learn)
+  Obtaining dependency information for cloudpickle>=3.0 from https://files.pythonhosted.org/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl.metadata
+  Downloading cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+Collecting pytz>=2020.1 (from pandas>=1.2->seaborn)
+  Obtaining dependency information for pytz>=2020.1 from https://files.pythonhosted.org/packages/4f/ef/c66110d46fb800dda0bf33164182dfadabe26a90e4476844d502a23dca8e/pytz-2026.5-py2.py3-none-any.whl.metadata
+  Downloading pytz-2026.5-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas>=1.2->seaborn)
+  Obtaining dependency information for tzdata>=2022.7 from https://files.pythonhosted.org/packages/94/21/1e5995a1c920cce14e4bffae20c665ec10e7ed03ab25e006cd741092b718/tzdata-2026.5-py2.py3-none-any.whl.metadata
+  Downloading tzdata-2026.5-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib==3.8.*)
+  Obtaining dependency information for six>=1.5 from https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl.metadata
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.2->brian2)
+  Obtaining dependency information for mpmath<1.4,>=1.1.0 from https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl.metadata
+  Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Downloading numpy-2.2.6-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (14.3 MB)
+Downloading matplotlib-3.8.4-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (11.4 MB)
+Downloading scipy-1.15.3-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (35.5 MB)
+Downloading opencv_python_headless-5.0.0.93-cp37-abi3-manylinux_2_28_aarch64.whl (39.6 MB)
+Downloading cython-3.3.0-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl (3.3 MB)
+Downloading scikit_learn-1.7.2-cp310-cp310-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl (9.5 MB)
+Downloading seaborn-0.13.2-py3-none-any.whl (294 kB)
+Downloading pytest-9.1.1-py3-none-any.whl (386 kB)
+Downloading pluggy-1.7.0-py3-none-any.whl (27 kB)
+Downloading huggingface_hub-2.2.0-py3-none-any.whl (839 kB)
+Downloading click-8.5.0-py3-none-any.whl (125 kB)
+Downloading hf_xet-1.7.0-cp38-abi3-manylinux_2_28_aarch64.whl (4.0 MB)
+Downloading httpx2-2.14.0-py3-none-any.whl (96 kB)
+Downloading httpcore2-2.14.0-py3-none-any.whl (84 kB)
+Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+Downloading contourpy-1.3.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (312 kB)
+Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+Downloading filelock-4.1.0-py3-none-any.whl (133 kB)
+Downloading fonttools-4.65.0-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl (5.3 MB)
+Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading idna-3.20-py3-none-any.whl (69 kB)
+Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading joblib-1.6.0-py3-none-any.whl (306 kB)
+Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Downloading kiwisolver-1.5.1-cp310-cp310-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl (1.2 MB)
+Downloading markupsafe-3.0.4-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl (22 kB)
+Downloading packaging-26.3-py3-none-any.whl (129 kB)
+Downloading pandas-2.3.3-cp310-cp310-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl (12.1 MB)
+Downloading pillow-12.3.0-cp310-cp310-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl (6.3 MB)
+Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+Downloading pyparsing-3.3.3-py3-none-any.whl (126 kB)
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading pytz-2026.5-py2.py3-none-any.whl (506 kB)
+Downloading pyyaml-6.0.3-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl (740 kB)
+Downloading setuptools-84.0.0-py3-none-any.whl (818 kB)
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+Downloading threadpoolctl-3.7.0-py3-none-any.whl (26 kB)
+Downloading tomli-2.5.0-py3-none-any.whl (14 kB)
+Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+Downloading truststore-0.10.5-py3-none-any.whl (19 kB)
+Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading tzdata-2026.5-py2.py3-none-any.whl (347 kB)
+Building wheels for collected packages: brian2
+  Building wheel for brian2 (pyproject.toml): started
+  Running command Building wheel for brian2 (pyproject.toml)
+  /tmp/pip-build-env-87exeiys/overlay/lib/python3.10/site-packages/vcs_versioning/_fallback_workdir.py:248: UserWarning: git archive did not support describe output
+    return archival_to_version(data, config)
+  /tmp/pip-build-env-87exeiys/overlay/lib/python3.10/site-packages/vcs_versioning/_fallback_workdir.py:248: UserWarning: unprocessed git archival found (no export subst applied)
+    return archival_to_version(data, config)
+  /tmp/pip-build-env-87exeiys/overlay/lib/python3.10/site-packages/setuptools/config/_apply_pyprojecttoml.py:61: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    dist._finalize_license_expression()
+  /tmp/pip-build-env-87exeiys/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running bdist_wheel
+  running build
+  running build_py
+  creating build/lib.linux-aarch64-cpython-310/brian2
+  copying brian2/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2
+  copying brian2/_version.py -> build/lib.linux-aarch64-cpython-310/brian2
+  copying brian2/numpy_.py -> build/lib.linux-aarch64-cpython-310/brian2
+  copying brian2/conftest.py -> build/lib.linux-aarch64-cpython-310/brian2
+  copying brian2/only.py -> build/lib.linux-aarch64-cpython-310/brian2
+  copying brian2/hears.py -> build/lib.linux-aarch64-cpython-310/brian2
+  creating build/lib.linux-aarch64-cpython-310/brian2/importexport
+  copying brian2/importexport/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/importexport
+  copying brian2/importexport/importexport.py -> build/lib.linux-aarch64-cpython-310/brian2/importexport
+  copying brian2/importexport/dictlike.py -> build/lib.linux-aarch64-cpython-310/brian2/importexport
+  creating build/lib.linux-aarch64-cpython-310/brian2/codegen
+  copying brian2/codegen/permutation_analysis.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen
+  copying brian2/codegen/get_cpu_flags.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen
+  copying brian2/codegen/codeobject.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen
+  copying brian2/codegen/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen
+  copying brian2/codegen/statements.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen
+  copying brian2/codegen/optimisation.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen
+  copying brian2/codegen/targets.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen
+  copying brian2/codegen/_prefs.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen
+  copying brian2/codegen/cpp_prefs.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen
+  copying brian2/codegen/translation.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen
+  copying brian2/codegen/templates.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen
+  creating build/lib.linux-aarch64-cpython-310/brian2/equations
+  copying brian2/equations/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/equations
+  copying brian2/equations/refractory.py -> build/lib.linux-aarch64-cpython-310/brian2/equations
+  copying brian2/equations/codestrings.py -> build/lib.linux-aarch64-cpython-310/brian2/equations
+  copying brian2/equations/unitcheck.py -> build/lib.linux-aarch64-cpython-310/brian2/equations
+  copying brian2/equations/equations.py -> build/lib.linux-aarch64-cpython-310/brian2/equations
+  creating build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_spikequeue.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_devices.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_stateupdaters.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_equations.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_poissoninput.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_utils.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_thresholder.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_codestrings.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_synapses.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_subgroup.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_morphology.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_namespaces.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_preferences.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_variables.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_base.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_spikegenerator.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_parsing.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_network.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_GSL.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/utils.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_functions.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_monitor.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_logger.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_complex_examples.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_refractory.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_clocks.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_numpy_codegen.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_memory.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_poissongroup.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_codegen.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_units.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_cpp_standalone.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_neurongroup.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_spatialneuron.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/test_timedarray.py -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  creating build/lib.linux-aarch64-cpython-310/brian2/synapses
+  copying brian2/synapses/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/synapses
+  copying brian2/synapses/parse_synaptic_generator_syntax.py -> build/lib.linux-aarch64-cpython-310/brian2/synapses
+  copying brian2/synapses/spikequeue.py -> build/lib.linux-aarch64-cpython-310/brian2/synapses
+  copying brian2/synapses/synapses.py -> build/lib.linux-aarch64-cpython-310/brian2/synapses
+  creating build/lib.linux-aarch64-cpython-310/brian2/memory
+  copying brian2/memory/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/memory
+  copying brian2/memory/dynamicarray.py -> build/lib.linux-aarch64-cpython-310/brian2/memory
+  creating build/lib.linux-aarch64-cpython-310/brian2/spatialneuron
+  copying brian2/spatialneuron/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/spatialneuron
+  copying brian2/spatialneuron/spatialneuron.py -> build/lib.linux-aarch64-cpython-310/brian2/spatialneuron
+  copying brian2/spatialneuron/morphology.py -> build/lib.linux-aarch64-cpython-310/brian2/spatialneuron
+  creating build/lib.linux-aarch64-cpython-310/brian2/stateupdaters
+  copying brian2/stateupdaters/base.py -> build/lib.linux-aarch64-cpython-310/brian2/stateupdaters
+  copying brian2/stateupdaters/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/stateupdaters
+  copying brian2/stateupdaters/explicit.py -> build/lib.linux-aarch64-cpython-310/brian2/stateupdaters
+  copying brian2/stateupdaters/exact.py -> build/lib.linux-aarch64-cpython-310/brian2/stateupdaters
+  copying brian2/stateupdaters/GSL.py -> build/lib.linux-aarch64-cpython-310/brian2/stateupdaters
+  copying brian2/stateupdaters/exponential_euler.py -> build/lib.linux-aarch64-cpython-310/brian2/stateupdaters
+  creating build/lib.linux-aarch64-cpython-310/brian2/random
+  copying brian2/random/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/random
+  creating build/lib.linux-aarch64-cpython-310/brian2/units
+  copying brian2/units/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/units
+  copying brian2/units/allunits.py -> build/lib.linux-aarch64-cpython-310/brian2/units
+  copying brian2/units/unitsafefunctions.py -> build/lib.linux-aarch64-cpython-310/brian2/units
+  copying brian2/units/stdunits.py -> build/lib.linux-aarch64-cpython-310/brian2/units
+  copying brian2/units/constants.py -> build/lib.linux-aarch64-cpython-310/brian2/units
+  copying brian2/units/fundamentalunits.py -> build/lib.linux-aarch64-cpython-310/brian2/units
+  creating build/lib.linux-aarch64-cpython-310/brian2/utils
+  copying brian2/utils/arrays.py -> build/lib.linux-aarch64-cpython-310/brian2/utils
+  copying brian2/utils/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/utils
+  copying brian2/utils/filelock.py -> build/lib.linux-aarch64-cpython-310/brian2/utils
+  copying brian2/utils/filetools.py -> build/lib.linux-aarch64-cpython-310/brian2/utils
+  copying brian2/utils/environment.py -> build/lib.linux-aarch64-cpython-310/brian2/utils
+  copying brian2/utils/stringtools.py -> build/lib.linux-aarch64-cpython-310/brian2/utils
+  copying brian2/utils/logger.py -> build/lib.linux-aarch64-cpython-310/brian2/utils
+  copying brian2/utils/topsort.py -> build/lib.linux-aarch64-cpython-310/brian2/utils
+  copying brian2/utils/caching.py -> build/lib.linux-aarch64-cpython-310/brian2/utils
+  creating build/lib.linux-aarch64-cpython-310/brian2/core
+  copying brian2/core/base.py -> build/lib.linux-aarch64-cpython-310/brian2/core
+  copying brian2/core/namespace.py -> build/lib.linux-aarch64-cpython-310/brian2/core
+  copying brian2/core/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/core
+  copying brian2/core/functions.py -> build/lib.linux-aarch64-cpython-310/brian2/core
+  copying brian2/core/names.py -> build/lib.linux-aarch64-cpython-310/brian2/core
+  copying brian2/core/magic.py -> build/lib.linux-aarch64-cpython-310/brian2/core
+  copying brian2/core/core_preferences.py -> build/lib.linux-aarch64-cpython-310/brian2/core
+  copying brian2/core/spikesource.py -> build/lib.linux-aarch64-cpython-310/brian2/core
+  copying brian2/core/tracking.py -> build/lib.linux-aarch64-cpython-310/brian2/core
+  copying brian2/core/preferences.py -> build/lib.linux-aarch64-cpython-310/brian2/core
+  copying brian2/core/network.py -> build/lib.linux-aarch64-cpython-310/brian2/core
+  copying brian2/core/variables.py -> build/lib.linux-aarch64-cpython-310/brian2/core
+  copying brian2/core/operations.py -> build/lib.linux-aarch64-cpython-310/brian2/core
+  copying brian2/core/clocks.py -> build/lib.linux-aarch64-cpython-310/brian2/core
+  creating build/lib.linux-aarch64-cpython-310/brian2/monitors
+  copying brian2/monitors/statemonitor.py -> build/lib.linux-aarch64-cpython-310/brian2/monitors
+  copying brian2/monitors/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/monitors
+  copying brian2/monitors/ratemonitor.py -> build/lib.linux-aarch64-cpython-310/brian2/monitors
+  copying brian2/monitors/spikemonitor.py -> build/lib.linux-aarch64-cpython-310/brian2/monitors
+  creating build/lib.linux-aarch64-cpython-310/brian2/devices
+  copying brian2/devices/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/devices
+  copying brian2/devices/device.py -> build/lib.linux-aarch64-cpython-310/brian2/devices
+  creating build/lib.linux-aarch64-cpython-310/brian2/parsing
+  copying brian2/parsing/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/parsing
+  copying brian2/parsing/statements.py -> build/lib.linux-aarch64-cpython-310/brian2/parsing
+  copying brian2/parsing/functions.py -> build/lib.linux-aarch64-cpython-310/brian2/parsing
+  copying brian2/parsing/expressions.py -> build/lib.linux-aarch64-cpython-310/brian2/parsing
+  copying brian2/parsing/rendering.py -> build/lib.linux-aarch64-cpython-310/brian2/parsing
+  copying brian2/parsing/dependencies.py -> build/lib.linux-aarch64-cpython-310/brian2/parsing
+  copying brian2/parsing/bast.py -> build/lib.linux-aarch64-cpython-310/brian2/parsing
+  copying brian2/parsing/sympytools.py -> build/lib.linux-aarch64-cpython-310/brian2/parsing
+  creating build/lib.linux-aarch64-cpython-310/brian2/input
+  copying brian2/input/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/input
+  copying brian2/input/spikegeneratorgroup.py -> build/lib.linux-aarch64-cpython-310/brian2/input
+  copying brian2/input/timedarray.py -> build/lib.linux-aarch64-cpython-310/brian2/input
+  copying brian2/input/binomial.py -> build/lib.linux-aarch64-cpython-310/brian2/input
+  copying brian2/input/poissoninput.py -> build/lib.linux-aarch64-cpython-310/brian2/input
+  copying brian2/input/poissongroup.py -> build/lib.linux-aarch64-cpython-310/brian2/input
+  creating build/lib.linux-aarch64-cpython-310/brian2/groups
+  copying brian2/groups/group.py -> build/lib.linux-aarch64-cpython-310/brian2/groups
+  copying brian2/groups/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/groups
+  copying brian2/groups/neurongroup.py -> build/lib.linux-aarch64-cpython-310/brian2/groups
+  copying brian2/groups/subgroup.py -> build/lib.linux-aarch64-cpython-310/brian2/groups
+  creating build/lib.linux-aarch64-cpython-310/brian2/sphinxext
+  copying brian2/sphinxext/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/sphinxext
+  copying brian2/sphinxext/generate_reference.py -> build/lib.linux-aarch64-cpython-310/brian2/sphinxext
+  copying brian2/sphinxext/generate_examples.py -> build/lib.linux-aarch64-cpython-310/brian2/sphinxext
+  copying brian2/sphinxext/docscrape_sphinx.py -> build/lib.linux-aarch64-cpython-310/brian2/sphinxext
+  copying brian2/sphinxext/docscrape.py -> build/lib.linux-aarch64-cpython-310/brian2/sphinxext
+  copying brian2/sphinxext/briandoc.py -> build/lib.linux-aarch64-cpython-310/brian2/sphinxext
+  copying brian2/sphinxext/examplefinder.py -> build/lib.linux-aarch64-cpython-310/brian2/sphinxext
+  creating build/lib.linux-aarch64-cpython-310/brian2/codegen/generators
+  copying brian2/codegen/generators/base.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen/generators
+  copying brian2/codegen/generators/numpy_generator.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen/generators
+  copying brian2/codegen/generators/cython_generator.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen/generators
+  copying brian2/codegen/generators/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen/generators
+  copying brian2/codegen/generators/cpp_generator.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen/generators
+  copying brian2/codegen/generators/GSL_generator.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen/generators
+  creating build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime
+  copying brian2/codegen/runtime/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime
+  creating build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt
+  copying brian2/codegen/runtime/numpy_rt/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt
+  copying brian2/codegen/runtime/numpy_rt/numpy_rt.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt
+  creating build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/GSLcython_rt
+  copying brian2/codegen/runtime/GSLcython_rt/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/GSLcython_rt
+  copying brian2/codegen/runtime/GSLcython_rt/GSLcython_rt.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/GSLcython_rt
+  creating build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt
+  copying brian2/codegen/runtime/cython_rt/extension_manager.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt
+  copying brian2/codegen/runtime/cython_rt/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt
+  copying brian2/codegen/runtime/cython_rt/cython_rt.py -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt
+  creating build/lib.linux-aarch64-cpython-310/brian2/tests/features
+  copying brian2/tests/features/base.py -> build/lib.linux-aarch64-cpython-310/brian2/tests/features
+  copying brian2/tests/features/speed.py -> build/lib.linux-aarch64-cpython-310/brian2/tests/features
+  copying brian2/tests/features/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/tests/features
+  copying brian2/tests/features/neurongroup.py -> build/lib.linux-aarch64-cpython-310/brian2/tests/features
+  copying brian2/tests/features/synapses.py -> build/lib.linux-aarch64-cpython-310/brian2/tests/features
+  copying brian2/tests/features/input.py -> build/lib.linux-aarch64-cpython-310/brian2/tests/features
+  copying brian2/tests/features/monitors.py -> build/lib.linux-aarch64-cpython-310/brian2/tests/features
+  creating build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates
+  copying brian2/tests/test_templates/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates
+  copying brian2/tests/test_templates/test_templates.py -> build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates
+  creating build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_1
+  copying brian2/tests/test_templates/fake_package_1/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_1
+  creating build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_2
+  copying brian2/tests/test_templates/fake_package_2/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_2
+  creating build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone
+  copying brian2/devices/cpp_standalone/codeobject.py -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone
+  copying brian2/devices/cpp_standalone/__init__.py -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone
+  copying brian2/devices/cpp_standalone/device.py -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone
+  copying brian2/devices/cpp_standalone/GSLcodeobject.py -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone
+  running egg_info
+  writing Brian2.egg-info/PKG-INFO
+  writing dependency_links to Brian2.egg-info/dependency_links.txt
+  writing requirements to Brian2.egg-info/requires.txt
+  writing top-level names to Brian2.egg-info/top_level.txt
+  reading manifest file 'Brian2.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  no previously-included directories found matching 'docs_sphinx/reference'
+  no previously-included directories found matching 'docs_sphinx/examples'
+  no previously-included directories found matching 'docs_sphinx/resources'
+  no previously-included directories found matching 'tutorials'
+  no previously-included directories found matching 'dev'
+  warning: no previously-included files matching '.gitignore' found anywhere in distribution
+  warning: no previously-included files found matching '*.yml'
+  warning: no previously-included files found matching '.coveragerc'
+  warning: no previously-included files found matching '.gitattributes'
+  warning: no previously-included files found matching '.gitmodules'
+  adding license file 'LICENSE'
+  adding license file 'AUTHORS'
+  writing manifest file 'Brian2.egg-info/SOURCES.txt'
+  copying brian2/tests/func_def_cpp.cpp -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/func_def_cpp.h -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/func_def_cython.pxd -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/func_def_cython.pyx -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/tests/pytest.ini -> build/lib.linux-aarch64-cpython-310/brian2/tests
+  copying brian2/synapses/cspikequeue.cpp -> build/lib.linux-aarch64-cpython-310/brian2/synapses
+  copying brian2/synapses/cythonspikequeue.cpp -> build/lib.linux-aarch64-cpython-310/brian2/synapses
+  copying brian2/synapses/cythonspikequeue.pyx -> build/lib.linux-aarch64-cpython-310/brian2/synapses
+  copying brian2/synapses/stdint_compat.h -> build/lib.linux-aarch64-cpython-310/brian2/synapses
+  copying brian2/spatialneuron/mp_ma_40984_gc2.CNG.swc -> build/lib.linux-aarch64-cpython-310/brian2/spatialneuron
+  creating build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/common_group.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/group_get_indices.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/group_variable_get.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/group_variable_get_conditional.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/group_variable_set.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/group_variable_set_conditional.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/ratemonitor.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/reset.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/spatialstateupdate.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/spikegenerator.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/spikemonitor.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/statemonitor.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/stateupdate.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/summed_variable.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/synapses.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/synapses_create_array.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/synapses_create_generator.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/synapses_push_spikes.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  copying brian2/codegen/runtime/numpy_rt/templates/threshold.py_ -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates
+  creating build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/GSLcython_rt/templates
+  copying brian2/codegen/runtime/GSLcython_rt/templates/stateupdate.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/GSLcython_rt/templates
+  creating build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/common_group.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/group_get_indices.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/group_variable_get.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/group_variable_get_conditional.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/group_variable_set.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/group_variable_set_conditional.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/ratemonitor.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/reset.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/spatialstateupdate.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/spikegenerator.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/spikemonitor.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/statemonitor.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/stateupdate.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/summed_variable.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/synapses.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/synapses_create_array.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/synapses_create_generator.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/synapses_push_spikes.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  copying brian2/codegen/runtime/cython_rt/templates/threshold.pyx -> build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates
+  creating build/lib.linux-aarch64-cpython-310/brian2/tests/rallpack_data
+  copying brian2/tests/rallpack_data/README -> build/lib.linux-aarch64-cpython-310/brian2/tests/rallpack_data
+  copying brian2/tests/rallpack_data/ref_axon.0.neuron -> build/lib.linux-aarch64-cpython-310/brian2/tests/rallpack_data
+  copying brian2/tests/rallpack_data/ref_axon.x.neuron -> build/lib.linux-aarch64-cpython-310/brian2/tests/rallpack_data
+  copying brian2/tests/rallpack_data/ref_branch.0 -> build/lib.linux-aarch64-cpython-310/brian2/tests/rallpack_data
+  copying brian2/tests/rallpack_data/ref_branch.x -> build/lib.linux-aarch64-cpython-310/brian2/tests/rallpack_data
+  copying brian2/tests/rallpack_data/ref_cable.0 -> build/lib.linux-aarch64-cpython-310/brian2/tests/rallpack_data
+  copying brian2/tests/rallpack_data/ref_cable.x -> build/lib.linux-aarch64-cpython-310/brian2/tests/rallpack_data
+  creating build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_1/templates
+  copying brian2/tests/test_templates/fake_package_1/templates/A.txt -> build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_1/templates
+  copying brian2/tests/test_templates/fake_package_1/templates/B.txt -> build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_1/templates
+  copying brian2/tests/test_templates/fake_package_1/templates/C.txt -> build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_1/templates
+  copying brian2/tests/test_templates/fake_package_1/templates/D.txt -> build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_1/templates
+  creating build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_2/templates
+  copying brian2/tests/test_templates/fake_package_2/templates/A.txt -> build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_2/templates
+  copying brian2/tests/test_templates/fake_package_2/templates/D.txt -> build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_2/templates
+  creating build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/common_group.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/common_synapses.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/group_variable_set.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/group_variable_set_conditional.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/main.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/makefile -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/network.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/objects.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/ratemonitor.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/reset.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/run.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/spatialstateupdate.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/spikegenerator.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/spikemonitor.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/statemonitor.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/stateupdate.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/summed_variable.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/synapses.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/synapses_classes.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/synapses_create_array.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/synapses_create_generator.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/synapses_push_spikes.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/threshold.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  copying brian2/devices/cpp_standalone/templates/win_makefile -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates
+  creating build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates_GSL
+  copying brian2/devices/cpp_standalone/templates_GSL/stateupdate.cpp -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates_GSL
+  creating build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/brianlib
+  copying brian2/devices/cpp_standalone/brianlib/clocks.h -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/brianlib
+  copying brian2/devices/cpp_standalone/brianlib/common_math.h -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/brianlib
+  copying brian2/devices/cpp_standalone/brianlib/dynamic_array.h -> build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/brianlib
+  running build_ext
+  building 'brian2.synapses.cythonspikequeue' extension
+  aarch64-linux-gnu-g++ -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC -I/tmp/pip-build-env-87exeiys/overlay/lib/python3.10/site-packages/numpy/_core/include -I/home/bejaine/polarfire/spikenav/envs/vprsnn/include -I/usr/include/python3.10 -c brian2/synapses/cythonspikequeue.cpp -o build/temp.linux-aarch64-cpython-310/brian2/synapses/cythonspikequeue.o
+  In file included from /tmp/pip-build-env-87exeiys/overlay/lib/python3.10/site-packages/numpy/_core/include/numpy/ndarraytypes.h:1913,
+                   from /tmp/pip-build-env-87exeiys/overlay/lib/python3.10/site-packages/numpy/_core/include/numpy/ndarrayobject.h:12,
+                   from /tmp/pip-build-env-87exeiys/overlay/lib/python3.10/site-packages/numpy/_core/include/numpy/arrayobject.h:5,
+                   from brian2/synapses/cythonspikequeue.cpp:1168:
+  /tmp/pip-build-env-87exeiys/overlay/lib/python3.10/site-packages/numpy/_core/include/numpy/npy_1_7_deprecated_api.h:17:2: warning: #warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     17 | #warning "Using deprecated NumPy API, disable it with " \
+        |  ^~~~~~~
+  aarch64-linux-gnu-g++ -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -shared -Wl,-O1 -Wl,-Bsymbolic-functions build/temp.linux-aarch64-cpython-310/brian2/synapses/cythonspikequeue.o -L/usr/lib/aarch64-linux-gnu -o build/lib.linux-aarch64-cpython-310/brian2/synapses/cythonspikequeue.cpython-310-aarch64-linux-gnu.so
+  installing to build/bdist.linux-aarch64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-aarch64/wheel
+  creating build/bdist.linux-aarch64/wheel/brian2
+  creating build/bdist.linux-aarch64/wheel/brian2/importexport
+  copying build/lib.linux-aarch64-cpython-310/brian2/importexport/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/importexport
+  copying build/lib.linux-aarch64-cpython-310/brian2/importexport/importexport.py -> build/bdist.linux-aarch64/wheel/./brian2/importexport
+  copying build/lib.linux-aarch64-cpython-310/brian2/importexport/dictlike.py -> build/bdist.linux-aarch64/wheel/./brian2/importexport
+  creating build/bdist.linux-aarch64/wheel/brian2/codegen
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/permutation_analysis.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/get_cpu_flags.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/codeobject.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen
+  creating build/bdist.linux-aarch64/wheel/brian2/codegen/generators
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/generators/base.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen/generators
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/generators/numpy_generator.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen/generators
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/generators/cython_generator.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen/generators
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/generators/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen/generators
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/generators/cpp_generator.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen/generators
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/generators/GSL_generator.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen/generators
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/statements.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/optimisation.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/targets.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/_prefs.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen
+  creating build/bdist.linux-aarch64/wheel/brian2/codegen/runtime
+  creating build/bdist.linux-aarch64/wheel/brian2/codegen/runtime/numpy_rt
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/numpy_rt.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt
+  creating build/bdist.linux-aarch64/wheel/brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/group_variable_set_conditional.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/statemonitor.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/spikemonitor.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/group_variable_get.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/spatialstateupdate.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/group_variable_set.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/ratemonitor.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/common_group.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/group_get_indices.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/synapses_create_generator.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/summed_variable.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/spikegenerator.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/group_variable_get_conditional.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/synapses_push_spikes.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/reset.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/synapses_create_array.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/threshold.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/synapses.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/numpy_rt/templates/stateupdate.py_ -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/numpy_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime
+  creating build/bdist.linux-aarch64/wheel/brian2/codegen/runtime/GSLcython_rt
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/GSLcython_rt/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/GSLcython_rt
+  creating build/bdist.linux-aarch64/wheel/brian2/codegen/runtime/GSLcython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/GSLcython_rt/templates/stateupdate.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/GSLcython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/GSLcython_rt/GSLcython_rt.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/GSLcython_rt
+  creating build/bdist.linux-aarch64/wheel/brian2/codegen/runtime/cython_rt
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/extension_manager.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt
+  creating build/bdist.linux-aarch64/wheel/brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/group_variable_get.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/synapses_create_generator.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/group_variable_get_conditional.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/spatialstateupdate.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/synapses_push_spikes.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/reset.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/common_group.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/statemonitor.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/spikemonitor.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/spikegenerator.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/ratemonitor.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/group_variable_set.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/group_get_indices.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/summed_variable.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/group_variable_set_conditional.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/synapses.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/synapses_create_array.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/stateupdate.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/templates/threshold.pyx -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/runtime/cython_rt/cython_rt.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen/runtime/cython_rt
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/cpp_prefs.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/translation.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen
+  copying build/lib.linux-aarch64-cpython-310/brian2/codegen/templates.py -> build/bdist.linux-aarch64/wheel/./brian2/codegen
+  creating build/bdist.linux-aarch64/wheel/brian2/equations
+  copying build/lib.linux-aarch64-cpython-310/brian2/equations/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/equations
+  copying build/lib.linux-aarch64-cpython-310/brian2/equations/refractory.py -> build/bdist.linux-aarch64/wheel/./brian2/equations
+  copying build/lib.linux-aarch64-cpython-310/brian2/equations/codestrings.py -> build/bdist.linux-aarch64/wheel/./brian2/equations
+  copying build/lib.linux-aarch64-cpython-310/brian2/equations/unitcheck.py -> build/bdist.linux-aarch64/wheel/./brian2/equations
+  copying build/lib.linux-aarch64-cpython-310/brian2/equations/equations.py -> build/bdist.linux-aarch64/wheel/./brian2/equations
+  copying build/lib.linux-aarch64-cpython-310/brian2/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2
+  copying build/lib.linux-aarch64-cpython-310/brian2/_version.py -> build/bdist.linux-aarch64/wheel/./brian2
+  creating build/bdist.linux-aarch64/wheel/brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_spikequeue.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/func_def_cython.pxd -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_devices.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  creating build/bdist.linux-aarch64/wheel/brian2/tests/features
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/features/base.py -> build/bdist.linux-aarch64/wheel/./brian2/tests/features
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/features/speed.py -> build/bdist.linux-aarch64/wheel/./brian2/tests/features
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/features/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/tests/features
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/features/neurongroup.py -> build/bdist.linux-aarch64/wheel/./brian2/tests/features
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/features/synapses.py -> build/bdist.linux-aarch64/wheel/./brian2/tests/features
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/features/input.py -> build/bdist.linux-aarch64/wheel/./brian2/tests/features
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/features/monitors.py -> build/bdist.linux-aarch64/wheel/./brian2/tests/features
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_stateupdaters.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_equations.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  creating build/bdist.linux-aarch64/wheel/brian2/tests/test_templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/tests/test_templates
+  creating build/bdist.linux-aarch64/wheel/brian2/tests/test_templates/fake_package_1
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_1/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/tests/test_templates/fake_package_1
+  creating build/bdist.linux-aarch64/wheel/brian2/tests/test_templates/fake_package_1/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_1/templates/B.txt -> build/bdist.linux-aarch64/wheel/./brian2/tests/test_templates/fake_package_1/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_1/templates/A.txt -> build/bdist.linux-aarch64/wheel/./brian2/tests/test_templates/fake_package_1/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_1/templates/C.txt -> build/bdist.linux-aarch64/wheel/./brian2/tests/test_templates/fake_package_1/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_1/templates/D.txt -> build/bdist.linux-aarch64/wheel/./brian2/tests/test_templates/fake_package_1/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/test_templates.py -> build/bdist.linux-aarch64/wheel/./brian2/tests/test_templates
+  creating build/bdist.linux-aarch64/wheel/brian2/tests/test_templates/fake_package_2
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_2/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/tests/test_templates/fake_package_2
+  creating build/bdist.linux-aarch64/wheel/brian2/tests/test_templates/fake_package_2/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_2/templates/A.txt -> build/bdist.linux-aarch64/wheel/./brian2/tests/test_templates/fake_package_2/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_templates/fake_package_2/templates/D.txt -> build/bdist.linux-aarch64/wheel/./brian2/tests/test_templates/fake_package_2/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_poissoninput.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_utils.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_thresholder.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_codestrings.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/func_def_cpp.cpp -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_synapses.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_subgroup.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_morphology.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_namespaces.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_preferences.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_variables.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_base.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/pytest.ini -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_spikegenerator.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_parsing.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_network.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  creating build/bdist.linux-aarch64/wheel/brian2/tests/rallpack_data
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/rallpack_data/README -> build/bdist.linux-aarch64/wheel/./brian2/tests/rallpack_data
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/rallpack_data/ref_axon.x.neuron -> build/bdist.linux-aarch64/wheel/./brian2/tests/rallpack_data
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/rallpack_data/ref_branch.x -> build/bdist.linux-aarch64/wheel/./brian2/tests/rallpack_data
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/rallpack_data/ref_cable.x -> build/bdist.linux-aarch64/wheel/./brian2/tests/rallpack_data
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/rallpack_data/ref_axon.0.neuron -> build/bdist.linux-aarch64/wheel/./brian2/tests/rallpack_data
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/rallpack_data/ref_branch.0 -> build/bdist.linux-aarch64/wheel/./brian2/tests/rallpack_data
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/rallpack_data/ref_cable.0 -> build/bdist.linux-aarch64/wheel/./brian2/tests/rallpack_data
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_GSL.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/func_def_cpp.h -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/utils.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_functions.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_monitor.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_logger.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_complex_examples.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_refractory.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_clocks.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_numpy_codegen.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_memory.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/func_def_cython.pyx -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_poissongroup.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_codegen.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_units.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_cpp_standalone.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_neurongroup.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_spatialneuron.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  copying build/lib.linux-aarch64-cpython-310/brian2/tests/test_timedarray.py -> build/bdist.linux-aarch64/wheel/./brian2/tests
+  creating build/bdist.linux-aarch64/wheel/brian2/synapses
+  copying build/lib.linux-aarch64-cpython-310/brian2/synapses/cythonspikequeue.pyx -> build/bdist.linux-aarch64/wheel/./brian2/synapses
+  copying build/lib.linux-aarch64-cpython-310/brian2/synapses/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/synapses
+  copying build/lib.linux-aarch64-cpython-310/brian2/synapses/stdint_compat.h -> build/bdist.linux-aarch64/wheel/./brian2/synapses
+  copying build/lib.linux-aarch64-cpython-310/brian2/synapses/cspikequeue.cpp -> build/bdist.linux-aarch64/wheel/./brian2/synapses
+  copying build/lib.linux-aarch64-cpython-310/brian2/synapses/cythonspikequeue.cpython-310-aarch64-linux-gnu.so -> build/bdist.linux-aarch64/wheel/./brian2/synapses
+  copying build/lib.linux-aarch64-cpython-310/brian2/synapses/parse_synaptic_generator_syntax.py -> build/bdist.linux-aarch64/wheel/./brian2/synapses
+  copying build/lib.linux-aarch64-cpython-310/brian2/synapses/spikequeue.py -> build/bdist.linux-aarch64/wheel/./brian2/synapses
+  copying build/lib.linux-aarch64-cpython-310/brian2/synapses/synapses.py -> build/bdist.linux-aarch64/wheel/./brian2/synapses
+  copying build/lib.linux-aarch64-cpython-310/brian2/synapses/cythonspikequeue.cpp -> build/bdist.linux-aarch64/wheel/./brian2/synapses
+  creating build/bdist.linux-aarch64/wheel/brian2/memory
+  copying build/lib.linux-aarch64-cpython-310/brian2/memory/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/memory
+  copying build/lib.linux-aarch64-cpython-310/brian2/memory/dynamicarray.py -> build/bdist.linux-aarch64/wheel/./brian2/memory
+  creating build/bdist.linux-aarch64/wheel/brian2/spatialneuron
+  copying build/lib.linux-aarch64-cpython-310/brian2/spatialneuron/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/spatialneuron
+  copying build/lib.linux-aarch64-cpython-310/brian2/spatialneuron/spatialneuron.py -> build/bdist.linux-aarch64/wheel/./brian2/spatialneuron
+  copying build/lib.linux-aarch64-cpython-310/brian2/spatialneuron/morphology.py -> build/bdist.linux-aarch64/wheel/./brian2/spatialneuron
+  copying build/lib.linux-aarch64-cpython-310/brian2/spatialneuron/mp_ma_40984_gc2.CNG.swc -> build/bdist.linux-aarch64/wheel/./brian2/spatialneuron
+  creating build/bdist.linux-aarch64/wheel/brian2/stateupdaters
+  copying build/lib.linux-aarch64-cpython-310/brian2/stateupdaters/base.py -> build/bdist.linux-aarch64/wheel/./brian2/stateupdaters
+  copying build/lib.linux-aarch64-cpython-310/brian2/stateupdaters/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/stateupdaters
+  copying build/lib.linux-aarch64-cpython-310/brian2/stateupdaters/explicit.py -> build/bdist.linux-aarch64/wheel/./brian2/stateupdaters
+  copying build/lib.linux-aarch64-cpython-310/brian2/stateupdaters/exact.py -> build/bdist.linux-aarch64/wheel/./brian2/stateupdaters
+  copying build/lib.linux-aarch64-cpython-310/brian2/stateupdaters/GSL.py -> build/bdist.linux-aarch64/wheel/./brian2/stateupdaters
+  copying build/lib.linux-aarch64-cpython-310/brian2/stateupdaters/exponential_euler.py -> build/bdist.linux-aarch64/wheel/./brian2/stateupdaters
+  creating build/bdist.linux-aarch64/wheel/brian2/random
+  copying build/lib.linux-aarch64-cpython-310/brian2/random/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/random
+  copying build/lib.linux-aarch64-cpython-310/brian2/numpy_.py -> build/bdist.linux-aarch64/wheel/./brian2
+  copying build/lib.linux-aarch64-cpython-310/brian2/conftest.py -> build/bdist.linux-aarch64/wheel/./brian2
+  creating build/bdist.linux-aarch64/wheel/brian2/units
+  copying build/lib.linux-aarch64-cpython-310/brian2/units/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/units
+  copying build/lib.linux-aarch64-cpython-310/brian2/units/allunits.py -> build/bdist.linux-aarch64/wheel/./brian2/units
+  copying build/lib.linux-aarch64-cpython-310/brian2/units/unitsafefunctions.py -> build/bdist.linux-aarch64/wheel/./brian2/units
+  copying build/lib.linux-aarch64-cpython-310/brian2/units/stdunits.py -> build/bdist.linux-aarch64/wheel/./brian2/units
+  copying build/lib.linux-aarch64-cpython-310/brian2/units/constants.py -> build/bdist.linux-aarch64/wheel/./brian2/units
+  copying build/lib.linux-aarch64-cpython-310/brian2/units/fundamentalunits.py -> build/bdist.linux-aarch64/wheel/./brian2/units
+  creating build/bdist.linux-aarch64/wheel/brian2/utils
+  copying build/lib.linux-aarch64-cpython-310/brian2/utils/arrays.py -> build/bdist.linux-aarch64/wheel/./brian2/utils
+  copying build/lib.linux-aarch64-cpython-310/brian2/utils/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/utils
+  copying build/lib.linux-aarch64-cpython-310/brian2/utils/filelock.py -> build/bdist.linux-aarch64/wheel/./brian2/utils
+  copying build/lib.linux-aarch64-cpython-310/brian2/utils/filetools.py -> build/bdist.linux-aarch64/wheel/./brian2/utils
+  copying build/lib.linux-aarch64-cpython-310/brian2/utils/environment.py -> build/bdist.linux-aarch64/wheel/./brian2/utils
+  copying build/lib.linux-aarch64-cpython-310/brian2/utils/stringtools.py -> build/bdist.linux-aarch64/wheel/./brian2/utils
+  copying build/lib.linux-aarch64-cpython-310/brian2/utils/logger.py -> build/bdist.linux-aarch64/wheel/./brian2/utils
+  copying build/lib.linux-aarch64-cpython-310/brian2/utils/topsort.py -> build/bdist.linux-aarch64/wheel/./brian2/utils
+  copying build/lib.linux-aarch64-cpython-310/brian2/utils/caching.py -> build/bdist.linux-aarch64/wheel/./brian2/utils
+  creating build/bdist.linux-aarch64/wheel/brian2/core
+  copying build/lib.linux-aarch64-cpython-310/brian2/core/base.py -> build/bdist.linux-aarch64/wheel/./brian2/core
+  copying build/lib.linux-aarch64-cpython-310/brian2/core/namespace.py -> build/bdist.linux-aarch64/wheel/./brian2/core
+  copying build/lib.linux-aarch64-cpython-310/brian2/core/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/core
+  copying build/lib.linux-aarch64-cpython-310/brian2/core/functions.py -> build/bdist.linux-aarch64/wheel/./brian2/core
+  copying build/lib.linux-aarch64-cpython-310/brian2/core/names.py -> build/bdist.linux-aarch64/wheel/./brian2/core
+  copying build/lib.linux-aarch64-cpython-310/brian2/core/magic.py -> build/bdist.linux-aarch64/wheel/./brian2/core
+  copying build/lib.linux-aarch64-cpython-310/brian2/core/core_preferences.py -> build/bdist.linux-aarch64/wheel/./brian2/core
+  copying build/lib.linux-aarch64-cpython-310/brian2/core/spikesource.py -> build/bdist.linux-aarch64/wheel/./brian2/core
+  copying build/lib.linux-aarch64-cpython-310/brian2/core/tracking.py -> build/bdist.linux-aarch64/wheel/./brian2/core
+  copying build/lib.linux-aarch64-cpython-310/brian2/core/preferences.py -> build/bdist.linux-aarch64/wheel/./brian2/core
+  copying build/lib.linux-aarch64-cpython-310/brian2/core/network.py -> build/bdist.linux-aarch64/wheel/./brian2/core
+  copying build/lib.linux-aarch64-cpython-310/brian2/core/variables.py -> build/bdist.linux-aarch64/wheel/./brian2/core
+  copying build/lib.linux-aarch64-cpython-310/brian2/core/operations.py -> build/bdist.linux-aarch64/wheel/./brian2/core
+  copying build/lib.linux-aarch64-cpython-310/brian2/core/clocks.py -> build/bdist.linux-aarch64/wheel/./brian2/core
+  copying build/lib.linux-aarch64-cpython-310/brian2/only.py -> build/bdist.linux-aarch64/wheel/./brian2
+  creating build/bdist.linux-aarch64/wheel/brian2/monitors
+  copying build/lib.linux-aarch64-cpython-310/brian2/monitors/statemonitor.py -> build/bdist.linux-aarch64/wheel/./brian2/monitors
+  copying build/lib.linux-aarch64-cpython-310/brian2/monitors/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/monitors
+  copying build/lib.linux-aarch64-cpython-310/brian2/monitors/ratemonitor.py -> build/bdist.linux-aarch64/wheel/./brian2/monitors
+  copying build/lib.linux-aarch64-cpython-310/brian2/monitors/spikemonitor.py -> build/bdist.linux-aarch64/wheel/./brian2/monitors
+  creating build/bdist.linux-aarch64/wheel/brian2/devices
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/devices
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/device.py -> build/bdist.linux-aarch64/wheel/./brian2/devices
+  creating build/bdist.linux-aarch64/wheel/brian2/devices/cpp_standalone
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/codeobject.py -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/device.py -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/GSLcodeobject.py -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone
+  creating build/bdist.linux-aarch64/wheel/brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/group_variable_set_conditional.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/network.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/main.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/synapses.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/synapses_push_spikes.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/synapses_create_array.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/common_synapses.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/stateupdate.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/makefile -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/group_variable_set.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/spikegenerator.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/spikemonitor.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/run.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/reset.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/statemonitor.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/win_makefile -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/objects.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/synapses_classes.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/threshold.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/spatialstateupdate.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/ratemonitor.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/synapses_create_generator.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/common_group.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates/summed_variable.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates
+  creating build/bdist.linux-aarch64/wheel/brian2/devices/cpp_standalone/templates_GSL
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/templates_GSL/stateupdate.cpp -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/templates_GSL
+  creating build/bdist.linux-aarch64/wheel/brian2/devices/cpp_standalone/brianlib
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/brianlib/common_math.h -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/brianlib
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/brianlib/clocks.h -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/brianlib
+  copying build/lib.linux-aarch64-cpython-310/brian2/devices/cpp_standalone/brianlib/dynamic_array.h -> build/bdist.linux-aarch64/wheel/./brian2/devices/cpp_standalone/brianlib
+  creating build/bdist.linux-aarch64/wheel/brian2/parsing
+  copying build/lib.linux-aarch64-cpython-310/brian2/parsing/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/parsing
+  copying build/lib.linux-aarch64-cpython-310/brian2/parsing/statements.py -> build/bdist.linux-aarch64/wheel/./brian2/parsing
+  copying build/lib.linux-aarch64-cpython-310/brian2/parsing/functions.py -> build/bdist.linux-aarch64/wheel/./brian2/parsing
+  copying build/lib.linux-aarch64-cpython-310/brian2/parsing/expressions.py -> build/bdist.linux-aarch64/wheel/./brian2/parsing
+  copying build/lib.linux-aarch64-cpython-310/brian2/parsing/rendering.py -> build/bdist.linux-aarch64/wheel/./brian2/parsing
+  copying build/lib.linux-aarch64-cpython-310/brian2/parsing/dependencies.py -> build/bdist.linux-aarch64/wheel/./brian2/parsing
+  copying build/lib.linux-aarch64-cpython-310/brian2/parsing/bast.py -> build/bdist.linux-aarch64/wheel/./brian2/parsing
+  copying build/lib.linux-aarch64-cpython-310/brian2/parsing/sympytools.py -> build/bdist.linux-aarch64/wheel/./brian2/parsing
+  creating build/bdist.linux-aarch64/wheel/brian2/input
+  copying build/lib.linux-aarch64-cpython-310/brian2/input/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/input
+  copying build/lib.linux-aarch64-cpython-310/brian2/input/spikegeneratorgroup.py -> build/bdist.linux-aarch64/wheel/./brian2/input
+  copying build/lib.linux-aarch64-cpython-310/brian2/input/timedarray.py -> build/bdist.linux-aarch64/wheel/./brian2/input
+  copying build/lib.linux-aarch64-cpython-310/brian2/input/binomial.py -> build/bdist.linux-aarch64/wheel/./brian2/input
+  copying build/lib.linux-aarch64-cpython-310/brian2/input/poissoninput.py -> build/bdist.linux-aarch64/wheel/./brian2/input
+  copying build/lib.linux-aarch64-cpython-310/brian2/input/poissongroup.py -> build/bdist.linux-aarch64/wheel/./brian2/input
+  creating build/bdist.linux-aarch64/wheel/brian2/groups
+  copying build/lib.linux-aarch64-cpython-310/brian2/groups/group.py -> build/bdist.linux-aarch64/wheel/./brian2/groups
+  copying build/lib.linux-aarch64-cpython-310/brian2/groups/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/groups
+  copying build/lib.linux-aarch64-cpython-310/brian2/groups/neurongroup.py -> build/bdist.linux-aarch64/wheel/./brian2/groups
+  copying build/lib.linux-aarch64-cpython-310/brian2/groups/subgroup.py -> build/bdist.linux-aarch64/wheel/./brian2/groups
+  copying build/lib.linux-aarch64-cpython-310/brian2/hears.py -> build/bdist.linux-aarch64/wheel/./brian2
+  creating build/bdist.linux-aarch64/wheel/brian2/sphinxext
+  copying build/lib.linux-aarch64-cpython-310/brian2/sphinxext/__init__.py -> build/bdist.linux-aarch64/wheel/./brian2/sphinxext
+  copying build/lib.linux-aarch64-cpython-310/brian2/sphinxext/generate_reference.py -> build/bdist.linux-aarch64/wheel/./brian2/sphinxext
+  copying build/lib.linux-aarch64-cpython-310/brian2/sphinxext/generate_examples.py -> build/bdist.linux-aarch64/wheel/./brian2/sphinxext
+  copying build/lib.linux-aarch64-cpython-310/brian2/sphinxext/docscrape_sphinx.py -> build/bdist.linux-aarch64/wheel/./brian2/sphinxext
+  copying build/lib.linux-aarch64-cpython-310/brian2/sphinxext/docscrape.py -> build/bdist.linux-aarch64/wheel/./brian2/sphinxext
+  copying build/lib.linux-aarch64-cpython-310/brian2/sphinxext/briandoc.py -> build/bdist.linux-aarch64/wheel/./brian2/sphinxext
+  copying build/lib.linux-aarch64-cpython-310/brian2/sphinxext/examplefinder.py -> build/bdist.linux-aarch64/wheel/./brian2/sphinxext
+  running install_egg_info
+  Copying Brian2.egg-info to build/bdist.linux-aarch64/wheel/./Brian2-2.9.0-py3.10.egg-info
+  running install_scripts
+  creating build/bdist.linux-aarch64/wheel/brian2-2.9.0.dist-info/WHEEL
+  creating '/tmp/pip-ephem-wheel-cache-5_2h0jjs/wheels/a8/0a/16/76df0e021b3770d20234d4623119aff75b91d2b94e087b21a1/tmp4jc58ffq/.tmp-al958b6i/brian2-2.9.0-cp310-cp310-linux_aarch64.whl' and adding 'build/bdist.linux-aarch64/wheel' to it
+  adding 'brian2/__init__.py'
+  adding 'brian2/_version.py'
+  adding 'brian2/conftest.py'
+  adding 'brian2/hears.py'
+  adding 'brian2/numpy_.py'
+  adding 'brian2/only.py'
+  adding 'brian2/codegen/__init__.py'
+  adding 'brian2/codegen/_prefs.py'
+  adding 'brian2/codegen/codeobject.py'
+  adding 'brian2/codegen/cpp_prefs.py'
+  adding 'brian2/codegen/get_cpu_flags.py'
+  adding 'brian2/codegen/optimisation.py'
+  adding 'brian2/codegen/permutation_analysis.py'
+  adding 'brian2/codegen/statements.py'
+  adding 'brian2/codegen/targets.py'
+  adding 'brian2/codegen/templates.py'
+  adding 'brian2/codegen/translation.py'
+  adding 'brian2/codegen/generators/GSL_generator.py'
+  adding 'brian2/codegen/generators/__init__.py'
+  adding 'brian2/codegen/generators/base.py'
+  adding 'brian2/codegen/generators/cpp_generator.py'
+  adding 'brian2/codegen/generators/cython_generator.py'
+  adding 'brian2/codegen/generators/numpy_generator.py'
+  adding 'brian2/codegen/runtime/__init__.py'
+  adding 'brian2/codegen/runtime/GSLcython_rt/GSLcython_rt.py'
+  adding 'brian2/codegen/runtime/GSLcython_rt/__init__.py'
+  adding 'brian2/codegen/runtime/GSLcython_rt/templates/stateupdate.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/__init__.py'
+  adding 'brian2/codegen/runtime/cython_rt/cython_rt.py'
+  adding 'brian2/codegen/runtime/cython_rt/extension_manager.py'
+  adding 'brian2/codegen/runtime/cython_rt/templates/common_group.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/group_get_indices.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/group_variable_get.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/group_variable_get_conditional.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/group_variable_set.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/group_variable_set_conditional.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/ratemonitor.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/reset.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/spatialstateupdate.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/spikegenerator.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/spikemonitor.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/statemonitor.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/stateupdate.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/summed_variable.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/synapses.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/synapses_create_array.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/synapses_create_generator.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/synapses_push_spikes.pyx'
+  adding 'brian2/codegen/runtime/cython_rt/templates/threshold.pyx'
+  adding 'brian2/codegen/runtime/numpy_rt/__init__.py'
+  adding 'brian2/codegen/runtime/numpy_rt/numpy_rt.py'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/common_group.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/group_get_indices.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/group_variable_get.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/group_variable_get_conditional.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/group_variable_set.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/group_variable_set_conditional.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/ratemonitor.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/reset.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/spatialstateupdate.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/spikegenerator.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/spikemonitor.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/statemonitor.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/stateupdate.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/summed_variable.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/synapses.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/synapses_create_array.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/synapses_create_generator.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/synapses_push_spikes.py_'
+  adding 'brian2/codegen/runtime/numpy_rt/templates/threshold.py_'
+  adding 'brian2/core/__init__.py'
+  adding 'brian2/core/base.py'
+  adding 'brian2/core/clocks.py'
+  adding 'brian2/core/core_preferences.py'
+  adding 'brian2/core/functions.py'
+  adding 'brian2/core/magic.py'
+  adding 'brian2/core/names.py'
+  adding 'brian2/core/namespace.py'
+  adding 'brian2/core/network.py'
+  adding 'brian2/core/operations.py'
+  adding 'brian2/core/preferences.py'
+  adding 'brian2/core/spikesource.py'
+  adding 'brian2/core/tracking.py'
+  adding 'brian2/core/variables.py'
+  adding 'brian2/devices/__init__.py'
+  adding 'brian2/devices/device.py'
+  adding 'brian2/devices/cpp_standalone/GSLcodeobject.py'
+  adding 'brian2/devices/cpp_standalone/__init__.py'
+  adding 'brian2/devices/cpp_standalone/codeobject.py'
+  adding 'brian2/devices/cpp_standalone/device.py'
+  adding 'brian2/devices/cpp_standalone/brianlib/clocks.h'
+  adding 'brian2/devices/cpp_standalone/brianlib/common_math.h'
+  adding 'brian2/devices/cpp_standalone/brianlib/dynamic_array.h'
+  adding 'brian2/devices/cpp_standalone/templates/common_group.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/common_synapses.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/group_variable_set.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/group_variable_set_conditional.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/main.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/makefile'
+  adding 'brian2/devices/cpp_standalone/templates/network.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/objects.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/ratemonitor.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/reset.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/run.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/spatialstateupdate.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/spikegenerator.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/spikemonitor.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/statemonitor.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/stateupdate.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/summed_variable.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/synapses.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/synapses_classes.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/synapses_create_array.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/synapses_create_generator.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/synapses_push_spikes.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/threshold.cpp'
+  adding 'brian2/devices/cpp_standalone/templates/win_makefile'
+  adding 'brian2/devices/cpp_standalone/templates_GSL/stateupdate.cpp'
+  adding 'brian2/equations/__init__.py'
+  adding 'brian2/equations/codestrings.py'
+  adding 'brian2/equations/equations.py'
+  adding 'brian2/equations/refractory.py'
+  adding 'brian2/equations/unitcheck.py'
+  adding 'brian2/groups/__init__.py'
+  adding 'brian2/groups/group.py'
+  adding 'brian2/groups/neurongroup.py'
+  adding 'brian2/groups/subgroup.py'
+  adding 'brian2/importexport/__init__.py'
+  adding 'brian2/importexport/dictlike.py'
+  adding 'brian2/importexport/importexport.py'
+  adding 'brian2/input/__init__.py'
+  adding 'brian2/input/binomial.py'
+  adding 'brian2/input/poissongroup.py'
+  adding 'brian2/input/poissoninput.py'
+  adding 'brian2/input/spikegeneratorgroup.py'
+  adding 'brian2/input/timedarray.py'
+  adding 'brian2/memory/__init__.py'
+  adding 'brian2/memory/dynamicarray.py'
+  adding 'brian2/monitors/__init__.py'
+  adding 'brian2/monitors/ratemonitor.py'
+  adding 'brian2/monitors/spikemonitor.py'
+  adding 'brian2/monitors/statemonitor.py'
+  adding 'brian2/parsing/__init__.py'
+  adding 'brian2/parsing/bast.py'
+  adding 'brian2/parsing/dependencies.py'
+  adding 'brian2/parsing/expressions.py'
+  adding 'brian2/parsing/functions.py'
+  adding 'brian2/parsing/rendering.py'
+  adding 'brian2/parsing/statements.py'
+  adding 'brian2/parsing/sympytools.py'
+  adding 'brian2/random/__init__.py'
+  adding 'brian2/spatialneuron/__init__.py'
+  adding 'brian2/spatialneuron/morphology.py'
+  adding 'brian2/spatialneuron/mp_ma_40984_gc2.CNG.swc'
+  adding 'brian2/spatialneuron/spatialneuron.py'
+  adding 'brian2/sphinxext/__init__.py'
+  adding 'brian2/sphinxext/briandoc.py'
+  adding 'brian2/sphinxext/docscrape.py'
+  adding 'brian2/sphinxext/docscrape_sphinx.py'
+  adding 'brian2/sphinxext/examplefinder.py'
+  adding 'brian2/sphinxext/generate_examples.py'
+  adding 'brian2/sphinxext/generate_reference.py'
+  adding 'brian2/stateupdaters/GSL.py'
+  adding 'brian2/stateupdaters/__init__.py'
+  adding 'brian2/stateupdaters/base.py'
+  adding 'brian2/stateupdaters/exact.py'
+  adding 'brian2/stateupdaters/explicit.py'
+  adding 'brian2/stateupdaters/exponential_euler.py'
+  adding 'brian2/synapses/__init__.py'
+  adding 'brian2/synapses/cspikequeue.cpp'
+  adding 'brian2/synapses/cythonspikequeue.cpp'
+  adding 'brian2/synapses/cythonspikequeue.cpython-310-aarch64-linux-gnu.so'
+  adding 'brian2/synapses/cythonspikequeue.pyx'
+  adding 'brian2/synapses/parse_synaptic_generator_syntax.py'
+  adding 'brian2/synapses/spikequeue.py'
+  adding 'brian2/synapses/stdint_compat.h'
+  adding 'brian2/synapses/synapses.py'
+  adding 'brian2/tests/__init__.py'
+  adding 'brian2/tests/func_def_cpp.cpp'
+  adding 'brian2/tests/func_def_cpp.h'
+  adding 'brian2/tests/func_def_cython.pxd'
+  adding 'brian2/tests/func_def_cython.pyx'
+  adding 'brian2/tests/pytest.ini'
+  adding 'brian2/tests/test_GSL.py'
+  adding 'brian2/tests/test_base.py'
+  adding 'brian2/tests/test_clocks.py'
+  adding 'brian2/tests/test_codegen.py'
+  adding 'brian2/tests/test_codestrings.py'
+  adding 'brian2/tests/test_complex_examples.py'
+  adding 'brian2/tests/test_cpp_standalone.py'
+  adding 'brian2/tests/test_devices.py'
+  adding 'brian2/tests/test_equations.py'
+  adding 'brian2/tests/test_functions.py'
+  adding 'brian2/tests/test_logger.py'
+  adding 'brian2/tests/test_memory.py'
+  adding 'brian2/tests/test_monitor.py'
+  adding 'brian2/tests/test_morphology.py'
+  adding 'brian2/tests/test_namespaces.py'
+  adding 'brian2/tests/test_network.py'
+  adding 'brian2/tests/test_neurongroup.py'
+  adding 'brian2/tests/test_numpy_codegen.py'
+  adding 'brian2/tests/test_parsing.py'
+  adding 'brian2/tests/test_poissongroup.py'
+  adding 'brian2/tests/test_poissoninput.py'
+  adding 'brian2/tests/test_preferences.py'
+  adding 'brian2/tests/test_refractory.py'
+  adding 'brian2/tests/test_spatialneuron.py'
+  adding 'brian2/tests/test_spikegenerator.py'
+  adding 'brian2/tests/test_spikequeue.py'
+  adding 'brian2/tests/test_stateupdaters.py'
+  adding 'brian2/tests/test_subgroup.py'
+  adding 'brian2/tests/test_synapses.py'
+  adding 'brian2/tests/test_thresholder.py'
+  adding 'brian2/tests/test_timedarray.py'
+  adding 'brian2/tests/test_units.py'
+  adding 'brian2/tests/test_utils.py'
+  adding 'brian2/tests/test_variables.py'
+  adding 'brian2/tests/utils.py'
+  adding 'brian2/tests/features/__init__.py'
+  adding 'brian2/tests/features/base.py'
+  adding 'brian2/tests/features/input.py'
+  adding 'brian2/tests/features/monitors.py'
+  adding 'brian2/tests/features/neurongroup.py'
+  adding 'brian2/tests/features/speed.py'
+  adding 'brian2/tests/features/synapses.py'
+  adding 'brian2/tests/rallpack_data/README'
+  adding 'brian2/tests/rallpack_data/ref_axon.0.neuron'
+  adding 'brian2/tests/rallpack_data/ref_axon.x.neuron'
+  adding 'brian2/tests/rallpack_data/ref_branch.0'
+  adding 'brian2/tests/rallpack_data/ref_branch.x'
+  adding 'brian2/tests/rallpack_data/ref_cable.0'
+  adding 'brian2/tests/rallpack_data/ref_cable.x'
+  adding 'brian2/tests/test_templates/__init__.py'
+  adding 'brian2/tests/test_templates/test_templates.py'
+  adding 'brian2/tests/test_templates/fake_package_1/__init__.py'
+  adding 'brian2/tests/test_templates/fake_package_1/templates/A.txt'
+  adding 'brian2/tests/test_templates/fake_package_1/templates/B.txt'
+  adding 'brian2/tests/test_templates/fake_package_1/templates/C.txt'
+  adding 'brian2/tests/test_templates/fake_package_1/templates/D.txt'
+  adding 'brian2/tests/test_templates/fake_package_2/__init__.py'
+  adding 'brian2/tests/test_templates/fake_package_2/templates/A.txt'
+  adding 'brian2/tests/test_templates/fake_package_2/templates/D.txt'
+  adding 'brian2/units/__init__.py'
+  adding 'brian2/units/allunits.py'
+  adding 'brian2/units/constants.py'
+  adding 'brian2/units/fundamentalunits.py'
+  adding 'brian2/units/stdunits.py'
+  adding 'brian2/units/unitsafefunctions.py'
+  adding 'brian2/utils/__init__.py'
+  adding 'brian2/utils/arrays.py'
+  adding 'brian2/utils/caching.py'
+  adding 'brian2/utils/environment.py'
+  adding 'brian2/utils/filelock.py'
+  adding 'brian2/utils/filetools.py'
+  adding 'brian2/utils/logger.py'
+  adding 'brian2/utils/stringtools.py'
+  adding 'brian2/utils/topsort.py'
+  adding 'brian2-2.9.0.dist-info/licenses/AUTHORS'
+  adding 'brian2-2.9.0.dist-info/licenses/LICENSE'
+  adding 'brian2-2.9.0.dist-info/METADATA'
+  adding 'brian2-2.9.0.dist-info/WHEEL'
+  adding 'brian2-2.9.0.dist-info/top_level.txt'
+  adding 'brian2-2.9.0.dist-info/RECORD'
+  removing build/bdist.linux-aarch64/wheel
+  Building wheel for brian2 (pyproject.toml): finished with status 'done'
+  Created wheel for brian2: filename=brian2-2.9.0-cp310-cp310-linux_aarch64.whl size=1654073 sha256=62bf03bf4d104d0099b6de7acefb1386aaa63b1725f8c6db96e7c3df06abb0b6
+  Stored in directory: /tmp/pip-ephem-wheel-cache-5_2h0jjs/wheels/a8/0a/16/76df0e021b3770d20234d4623119aff75b91d2b94e087b21a1
+Successfully built brian2
+Installing collected packages: pytz, mpmath, tzdata, typing-extensions, truststore, tqdm, tomli, threadpoolctl, sympy, six, setuptools, pyyaml, pyparsing, pygments, pluggy, pillow, packaging, numpy, MarkupSafe, kiwisolver, iniconfig, idna, hf-xet, h11, fsspec, fonttools, filelock, cython, cycler, cloudpickle, click, scipy, python-dateutil, opencv-python-headless, joblib, jinja2, httpcore2, exceptiongroup, contourpy, scikit-learn, pytest, pandas, matplotlib, brian2, anyio, seaborn, httpx2, huggingface_hub
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/tqdm to 775
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/isympy to 775
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 59.6.0
+    Uninstalling setuptools-59.6.0:
+      Removing file or directory /home/bejaine/polarfire/spikenav/envs/vprsnn/lib/python3.10/site-packages/_distutils_hack/
+      Removing file or directory /home/bejaine/polarfire/spikenav/envs/vprsnn/lib/python3.10/site-packages/distutils-precedence.pth
+      Removing file or directory /home/bejaine/polarfire/spikenav/envs/vprsnn/lib/python3.10/site-packages/pkg_resources/
+      Removing file or directory /home/bejaine/polarfire/spikenav/envs/vprsnn/lib/python3.10/site-packages/setuptools-59.6.0.dist-info/
+      Removing file or directory /home/bejaine/polarfire/spikenav/envs/vprsnn/lib/python3.10/site-packages/setuptools/
+      Successfully uninstalled setuptools-59.6.0
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/pygmentize to 775
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/f2py to 775
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/numpy-config to 775
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/idna to 775
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/fonttools to 775
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/pyftmerge to 775
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/pyftsubset to 775
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/ttx to 775
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/cygdb to 775
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/cython to 775
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/cythonize to 775
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/py.test to 775
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/pytest to 775
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/httpx2 to 775
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/hf to 775
+  changing mode of /home/bejaine/polarfire/spikenav/envs/vprsnn/bin/tiny-agents to 775
+Successfully installed MarkupSafe-3.0.4 anyio-4.15.1 brian2-2.9.0 click-8.5.0 cloudpickle-3.1.2 contourpy-1.3.2 cycler-0.12.1 cython-3.3.0 exceptiongroup-1.3.1 filelock-4.1.0 fonttools-4.65.0 fsspec-2026.9.0 h11-0.16.0 hf-xet-1.7.0 httpcore2-2.14.0 httpx2-2.14.0 huggingface_hub-2.2.0 idna-3.20 iniconfig-2.3.1 jinja2-3.1.6 joblib-1.6.0 kiwisolver-1.5.1 matplotlib-3.8.4 mpmath-1.3.0 numpy-2.2.6 opencv-python-headless-5.0.0.93 packaging-26.3 pandas-2.3.3 pillow-12.3.0 pluggy-1.7.0 pygments-2.21.0 pyparsing-3.3.3 pytest-9.1.1 python-dateutil-2.9.0.post0 pytz-2026.5 pyyaml-6.0.3 scikit-learn-1.7.2 scipy-1.15.3 seaborn-0.13.2 setuptools-84.0.0 six-1.17.0 sympy-1.14.0 threadpoolctl-3.7.0 tomli-2.5.0 tqdm-4.70.1 truststore-0.10.5 typing-extensions-4.16.0 tzdata-2026.5
