@@ -1,0 +1,883 @@
+{
+ "engine": "golden_cuda/snn_cuda (fixed-point, bit-exact with golden_c; one block per module run)",
+ "uptime_before": "21:27:22 up 11 min,  1 user,  load average: 0.22, 0.16, 0.10",
+ "bench_dt100": {
+  "device": "Orin",
+  "sm": "87",
+  "sm_count": 8,
+  "dt_us": 100,
+  "reps": 25,
+  "single_run": {
+   "workload": "module_0, query 0, stream 12345",
+   "kernel_median_s": 0.026147,
+   "kernel_min_s": 0.026132,
+   "e2e_median_s": 0.026197,
+   "e_spikes": 80,
+   "bit_exact_vs_c": true
+  },
+  "query_4_modules": {
+   "kernel_median_s": 0.027951,
+   "kernel_min_s": 0.027928,
+   "e2e_median_s": 0.028071,
+   "bit_exact_vs_c": true
+  },
+  "batches": [
+   {
+    "batch": 1,
+    "reps": 25,
+    "kernel_median_s": 0.026243,
+    "e2e_median_s": 0.026293,
+    "module_runs_per_s": 38.11,
+    "bit_exact_runs": 1,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 4,
+    "reps": 25,
+    "kernel_median_s": 0.027942,
+    "e2e_median_s": 0.028001,
+    "module_runs_per_s": 143.15,
+    "bit_exact_runs": 4,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 8,
+    "reps": 25,
+    "kernel_median_s": 0.028495,
+    "e2e_median_s": 0.028574,
+    "module_runs_per_s": 280.76,
+    "bit_exact_runs": 8,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 16,
+    "reps": 25,
+    "kernel_median_s": 0.031011,
+    "e2e_median_s": 0.03107,
+    "module_runs_per_s": 515.95,
+    "bit_exact_runs": 16,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 24,
+    "reps": 25,
+    "kernel_median_s": 0.033863,
+    "e2e_median_s": 0.03393,
+    "module_runs_per_s": 708.74,
+    "bit_exact_runs": 24,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 48,
+    "reps": 25,
+    "kernel_median_s": 0.067421,
+    "e2e_median_s": 0.067502,
+    "module_runs_per_s": 711.94,
+    "bit_exact_runs": 48,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 96,
+    "reps": 25,
+    "kernel_median_s": 0.134372,
+    "e2e_median_s": 0.134447,
+    "module_runs_per_s": 714.43,
+    "bit_exact_runs": 96,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 192,
+    "reps": 25,
+    "kernel_median_s": 0.266637,
+    "e2e_median_s": 0.266767,
+    "module_runs_per_s": 720.08,
+    "bit_exact_runs": 192,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 480,
+    "reps": 25,
+    "kernel_median_s": 0.658865,
+    "e2e_median_s": 0.659031,
+    "module_runs_per_s": 728.53,
+    "bit_exact_runs": 480,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 960,
+    "reps": 5,
+    "kernel_median_s": 1.30944,
+    "e2e_median_s": 1.309954,
+    "module_runs_per_s": 733.14,
+    "bit_exact_runs": 960,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 1920,
+    "reps": 5,
+    "kernel_median_s": 2.610109,
+    "e2e_median_s": 2.610721,
+    "module_runs_per_s": 735.6,
+    "bit_exact_runs": 1920,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 4800,
+    "reps": 5,
+    "kernel_median_s": 6.511925,
+    "e2e_median_s": 6.513424,
+    "module_runs_per_s": 737.11,
+    "bit_exact_runs": 4800,
+    "mismatched_runs": 0
+   }
+  ],
+  "power_during_bench": {
+   "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j4_cuda_bench_dt100.csv",
+   "n_samples": 11292,
+   "duration_s": 112.91000008583069,
+   "P_VDD_IN": {
+    "mean": 9635.500123981437,
+    "min": 5170.2,
+    "max": 10100.5,
+    "p50": 9906.2
+   },
+   "P_VDD_CPU_GPU_CV": {
+    "mean": 4566.686547998495,
+    "min": 782.1,
+    "max": 4878.7,
+    "p50": 4801.3
+   },
+   "P_VDD_SOC": {
+    "mean": 1610.2785423308353,
+    "min": 1444.5,
+    "max": 1631.6,
+    "p50": 1631.6
+   },
+   "f_cpu0": {
+    "mean": 772964.9309245483,
+    "min": 729600.0,
+    "max": 1728000.0,
+    "p50": 729600.0
+   },
+   "f_cpu1": {
+    "mean": 772631.6684378322,
+    "min": 729600.0,
+    "max": 1728000.0,
+    "p50": 729600.0
+   },
+   "f_cpu2": {
+    "mean": 772339.2136025504,
+    "min": 729600.0,
+    "max": 1728000.0,
+    "p50": 729600.0
+   },
+   "f_cpu3": {
+    "mean": 772420.8289054198,
+    "min": 729600.0,
+    "max": 1728000.0,
+    "p50": 729600.0
+   },
+   "f_cpu4": {
+    "mean": 734394.8990435706,
+    "min": 729600.0,
+    "max": 1728000.0,
+    "p50": 729600.0
+   },
+   "f_cpu5": {
+    "mean": 734394.8990435706,
+    "min": 729600.0,
+    "max": 1728000.0,
+    "p50": 729600.0
+   },
+   "f_gpu": {
+    "mean": 992332093.5175345,
+    "min": 306000000.0,
+    "max": 1020000000.0,
+    "p50": 1020000000.0
+   },
+   "T_cpu-thermal": {
+    "mean": 62734.22325540205,
+    "min": 59093.0,
+    "max": 65375.0,
+    "p50": 63031.0
+   },
+   "T_gpu-thermal": {
+    "mean": 64301.7670031881,
+    "min": 59312.0,
+    "max": 67156.0,
+    "p50": 64687.0
+   },
+   "T_tj-thermal": {
+    "mean": 64317.55109812257,
+    "min": 59812.0,
+    "max": 67156.0,
+    "p50": 64687.0
+   }
+  },
+  "power_csv": "logs/orin/power/j4_cuda_bench_dt100.csv"
+ },
+ "bench_dt500": {
+  "device": "Orin",
+  "sm": "87",
+  "sm_count": 8,
+  "dt_us": 500,
+  "reps": 25,
+  "single_run": {
+   "workload": "module_0, query 0, stream 12345",
+   "kernel_median_s": 0.007973,
+   "kernel_min_s": 0.007963,
+   "e2e_median_s": 0.008027,
+   "e_spikes": 116,
+   "bit_exact_vs_c": true
+  },
+  "query_4_modules": {
+   "kernel_median_s": 0.009704,
+   "kernel_min_s": 0.009693,
+   "e2e_median_s": 0.009771,
+   "bit_exact_vs_c": true
+  },
+  "batches": [
+   {
+    "batch": 1,
+    "reps": 25,
+    "kernel_median_s": 0.007967,
+    "e2e_median_s": 0.008022,
+    "module_runs_per_s": 125.52,
+    "bit_exact_runs": 1,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 4,
+    "reps": 25,
+    "kernel_median_s": 0.0097,
+    "e2e_median_s": 0.009761,
+    "module_runs_per_s": 412.35,
+    "bit_exact_runs": 4,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 8,
+    "reps": 25,
+    "kernel_median_s": 0.0105,
+    "e2e_median_s": 0.010556,
+    "module_runs_per_s": 761.91,
+    "bit_exact_runs": 8,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 16,
+    "reps": 25,
+    "kernel_median_s": 0.011015,
+    "e2e_median_s": 0.011083,
+    "module_runs_per_s": 1452.56,
+    "bit_exact_runs": 16,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 24,
+    "reps": 25,
+    "kernel_median_s": 0.011639,
+    "e2e_median_s": 0.011705,
+    "module_runs_per_s": 2062.08,
+    "bit_exact_runs": 24,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 48,
+    "reps": 25,
+    "kernel_median_s": 0.023219,
+    "e2e_median_s": 0.023317,
+    "module_runs_per_s": 2067.26,
+    "bit_exact_runs": 48,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 96,
+    "reps": 25,
+    "kernel_median_s": 0.046492,
+    "e2e_median_s": 0.046623,
+    "module_runs_per_s": 2064.89,
+    "bit_exact_runs": 96,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 192,
+    "reps": 25,
+    "kernel_median_s": 0.092626,
+    "e2e_median_s": 0.092961,
+    "module_runs_per_s": 2072.85,
+    "bit_exact_runs": 192,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 480,
+    "reps": 25,
+    "kernel_median_s": 0.229453,
+    "e2e_median_s": 0.229768,
+    "module_runs_per_s": 2091.93,
+    "bit_exact_runs": 480,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 960,
+    "reps": 5,
+    "kernel_median_s": 0.455865,
+    "e2e_median_s": 0.456287,
+    "module_runs_per_s": 2105.89,
+    "bit_exact_runs": 960,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 1920,
+    "reps": 5,
+    "kernel_median_s": 0.907999,
+    "e2e_median_s": 0.908918,
+    "module_runs_per_s": 2114.54,
+    "bit_exact_runs": 1920,
+    "mismatched_runs": 0
+   },
+   {
+    "batch": 4800,
+    "reps": 5,
+    "kernel_median_s": 2.263877,
+    "e2e_median_s": 2.265509,
+    "module_runs_per_s": 2120.26,
+    "bit_exact_runs": 4800,
+    "mismatched_runs": 0
+   }
+  ],
+  "power_during_bench": {
+   "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j4_cuda_bench_dt500.csv",
+   "n_samples": 4023,
+   "duration_s": 40.22000002861023,
+   "P_VDD_IN": {
+    "mean": 10872.923440218334,
+    "min": 5091.8,
+    "max": 11499.8,
+    "p50": 11422.4
+   },
+   "P_VDD_CPU_GPU_CV": {
+    "mean": 5104.241561023637,
+    "min": 743.0,
+    "max": 5557.2,
+    "p50": 5518.7
+   },
+   "P_VDD_SOC": {
+    "mean": 1830.2847377578398,
+    "min": 1444.5,
+    "max": 1897.3,
+    "p50": 1858.6
+   },
+   "f_cpu0": {
+    "mean": 796034.004474273,
+    "min": 729600.0,
+    "max": 1728000.0,
+    "p50": 729600.0
+   },
+   "f_cpu1": {
+    "mean": 796034.004474273,
+    "min": 729600.0,
+    "max": 1728000.0,
+    "p50": 729600.0
+   },
+   "f_cpu2": {
+    "mean": 795785.8314690529,
+    "min": 729600.0,
+    "max": 1728000.0,
+    "p50": 729600.0
+   },
+   "f_cpu3": {
+    "mean": 796034.004474273,
+    "min": 729600.0,
+    "max": 1728000.0,
+    "p50": 729600.0
+   },
+   "f_cpu4": {
+    "mean": 731699.9254287845,
+    "min": 729600.0,
+    "max": 1728000.0,
+    "p50": 729600.0
+   },
+   "f_cpu5": {
+    "mean": 731699.9254287845,
+    "min": 729600.0,
+    "max": 1728000.0,
+    "p50": 729600.0
+   },
+   "f_gpu": {
+    "mean": 974692020.8799404,
+    "min": 306000000.0,
+    "max": 1020000000.0,
+    "p50": 1020000000.0
+   },
+   "T_cpu-thermal": {
+    "mean": 62434.88988317176,
+    "min": 60031.0,
+    "max": 64343.0,
+    "p50": 62562.0
+   },
+   "T_gpu-thermal": {
+    "mean": 64102.645289584885,
+    "min": 60343.0,
+    "max": 66281.0,
+    "p50": 64343.0
+   },
+   "T_tj-thermal": {
+    "mean": 64123.89684315187,
+    "min": 60812.0,
+    "max": 66281.0,
+    "p50": 64343.0
+   }
+  },
+  "power_csv": "logs/orin/power/j4_cuda_bench_dt500.csv"
+ },
+ "power": {
+  "idle_1": {
+   "seconds": 60,
+   "power": {
+    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j5_cuda_idle_1.csv",
+    "n_samples": 6000,
+    "duration_s": 59.99009990692139,
+    "P_VDD_IN": {
+     "mean": 5100.647266666989,
+     "min": 4974.3,
+     "max": 5170.2,
+     "p50": 5091.8
+    },
+    "P_VDD_CPU_GPU_CV": {
+     "mean": 737.3044333333339,
+     "min": 625.7,
+     "max": 782.1,
+     "p50": 743.0
+    },
+    "P_VDD_SOC": {
+     "mean": 1449.1928000001003,
+     "min": 1446.8,
+     "max": 1449.2,
+     "p50": 1449.2
+    },
+    "f_cpu0": {
+     "mean": 735833.6,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu1": {
+     "mean": 735411.2,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu2": {
+     "mean": 735270.4,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu3": {
+     "mean": 735270.4,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu4": {
+     "mean": 731596.8,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu5": {
+     "mean": 731596.8,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_gpu": {
+     "mean": 306000000.0,
+     "min": 306000000.0,
+     "max": 306000000.0,
+     "p50": 306000000.0
+    },
+    "T_cpu-thermal": {
+     "mean": 60011.9245,
+     "min": 59656.0,
+     "max": 60500.0,
+     "p50": 60000.0
+    },
+    "T_gpu-thermal": {
+     "mean": 60409.39666666667,
+     "min": 60031.0,
+     "max": 60937.0,
+     "p50": 60406.0
+    },
+    "T_tj-thermal": {
+     "mean": 60845.65466666667,
+     "min": 60562.0,
+     "max": 61250.0,
+     "p50": 60843.0
+    }
+   },
+   "power_csv": "logs/orin/power/j5_cuda_idle_1.csv"
+  },
+  "loop_batch4": {
+   "batch": 4,
+   "launches": 2144,
+   "module_runs": 8576,
+   "wall_s": 60.0222,
+   "module_runs_per_s": 142.88,
+   "t_start": 1792426035.3037,
+   "t_end": 1792426095.3259,
+   "power": {
+    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j5_cuda_loop_batch4.csv",
+    "n_samples": 5965,
+    "duration_s": 59.640000104904175,
+    "P_VDD_IN": {
+     "mean": 7136.005180218024,
+     "min": 5405.2,
+     "max": 7183.4,
+     "p50": 7144.3
+    },
+    "P_VDD_CPU_GPU_CV": {
+     "mean": 2491.264107292898,
+     "min": 977.6,
+     "max": 2529.3,
+     "p50": 2490.4
+    },
+    "P_VDD_SOC": {
+     "mean": 1482.1855825649925,
+     "min": 1444.5,
+     "max": 1483.5,
+     "p50": 1483.5
+    },
+    "f_cpu0": {
+     "mean": 734801.5423302598,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu1": {
+     "mean": 734801.5423302598,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu2": {
+     "mean": 734801.5423302598,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu3": {
+     "mean": 734801.5423302598,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu4": {
+     "mean": 730642.8834870076,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu5": {
+     "mean": 730642.8834870076,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_gpu": {
+     "mean": 1019794803.0176027,
+     "min": 714000000.0,
+     "max": 1020000000.0,
+     "p50": 1020000000.0
+    },
+    "T_cpu-thermal": {
+     "mean": 61039.22699077955,
+     "min": 59781.0,
+     "max": 62093.0,
+     "p50": 61093.0
+    },
+    "T_gpu-thermal": {
+     "mean": 61993.68298407376,
+     "min": 60375.0,
+     "max": 63031.0,
+     "p50": 62031.0
+    },
+    "T_tj-thermal": {
+     "mean": 61995.15171835708,
+     "min": 60625.0,
+     "max": 63031.0,
+     "p50": 62031.0
+    }
+   },
+   "power_csv": "logs/orin/power/j5_cuda_loop_batch4.csv"
+  },
+  "idle_after_loop_batch4": {
+   "seconds": 60,
+   "power": {
+    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j5_cuda_idle_after_loop_batch4.csv",
+    "n_samples": 6000,
+    "duration_s": 59.99000000953674,
+    "P_VDD_IN": {
+     "mean": 5102.051850000297,
+     "min": 4974.3,
+     "max": 5170.2,
+     "p50": 5091.8
+    },
+    "P_VDD_CPU_GPU_CV": {
+     "mean": 734.6391166666688,
+     "min": 625.7,
+     "max": 782.1,
+     "p50": 743.0
+    },
+    "P_VDD_SOC": {
+     "mean": 1449.1128000001002,
+     "min": 1446.8,
+     "max": 1449.2,
+     "p50": 1449.2
+    },
+    "f_cpu0": {
+     "mean": 736204.8,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu1": {
+     "mean": 736051.2,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu2": {
+     "mean": 736051.2,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu3": {
+     "mean": 736051.2,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu4": {
+     "mean": 730764.8,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu5": {
+     "mean": 730764.8,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_gpu": {
+     "mean": 306000000.0,
+     "min": 306000000.0,
+     "max": 306000000.0,
+     "p50": 306000000.0
+    },
+    "T_cpu-thermal": {
+     "mean": 60131.549333333336,
+     "min": 59687.0,
+     "max": 60656.0,
+     "p50": 60125.0
+    },
+    "T_gpu-thermal": {
+     "mean": 60527.339,
+     "min": 60093.0,
+     "max": 61093.0,
+     "p50": 60500.0
+    },
+    "T_tj-thermal": {
+     "mean": 60954.173,
+     "min": 60625.0,
+     "max": 61343.0,
+     "p50": 60937.0
+    }
+   },
+   "power_csv": "logs/orin/power/j5_cuda_idle_after_loop_batch4.csv"
+  },
+  "loop_batch96": {
+   "batch": 96,
+   "launches": 446,
+   "module_runs": 42816,
+   "wall_s": 60.0014,
+   "module_runs_per_s": 713.58,
+   "t_start": 1792426256.9807,
+   "t_end": 1792426316.9821,
+   "power": {
+    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j5_cuda_loop_batch96.csv",
+    "n_samples": 5950,
+    "duration_s": 59.49000000953674,
+    "P_VDD_IN": {
+     "mean": 9777.203647058766,
+     "min": 6491.3,
+     "max": 10255.9,
+     "p50": 9789.7
+    },
+    "P_VDD_CPU_GPU_CV": {
+     "mean": 4691.334504201958,
+     "min": 1834.9,
+     "max": 5063.9,
+     "p50": 4723.8
+    },
+    "P_VDD_SOC": {
+     "mean": 1616.6854789913712,
+     "min": 1483.5,
+     "max": 1667.7,
+     "p50": 1631.6
+    },
+    "f_cpu0": {
+     "mean": 741758.9243697479,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu1": {
+     "mean": 741255.5294117647,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu2": {
+     "mean": 741281.3445378151,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu3": {
+     "mean": 741281.3445378151,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu4": {
+     "mean": 733601.3445378151,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu5": {
+     "mean": 733459.3613445378,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_gpu": {
+     "mean": 1020000000.0,
+     "min": 1020000000.0,
+     "max": 1020000000.0,
+     "p50": 1020000000.0
+    },
+    "T_cpu-thermal": {
+     "mean": 62455.14537815126,
+     "min": 59968.0,
+     "max": 64593.0,
+     "p50": 62593.0
+    },
+    "T_gpu-thermal": {
+     "mean": 64086.87025210084,
+     "min": 61062.0,
+     "max": 66062.0,
+     "p50": 64218.0
+    },
+    "T_tj-thermal": {
+     "mean": 64086.434285714284,
+     "min": 61187.0,
+     "max": 66062.0,
+     "p50": 64218.0
+    }
+   },
+   "power_csv": "logs/orin/power/j5_cuda_loop_batch96.csv"
+  },
+  "idle_after_loop_batch96": {
+   "seconds": 60,
+   "power": {
+    "file": "/home/bejaine/polarfire/spikenav/logs/orin/power/j5_cuda_idle_after_loop_batch96.csv",
+    "n_samples": 6000,
+    "duration_s": 59.990100145339966,
+    "P_VDD_IN": {
+     "mean": 5107.618116666859,
+     "min": 4974.3,
+     "max": 5170.2,
+     "p50": 5091.8
+    },
+    "P_VDD_CPU_GPU_CV": {
+     "mean": 739.7090833333327,
+     "min": 625.7,
+     "max": 782.1,
+     "p50": 743.0
+    },
+    "P_VDD_SOC": {
+     "mean": 1448.0484000000283,
+     "min": 1446.8,
+     "max": 1449.2,
+     "p50": 1449.2
+    },
+    "f_cpu0": {
+     "mean": 735590.4,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu1": {
+     "mean": 735590.4,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu2": {
+     "mean": 735590.4,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu3": {
+     "mean": 735590.4,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu4": {
+     "mean": 731200.0,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_cpu5": {
+     "mean": 731200.0,
+     "min": 729600.0,
+     "max": 1728000.0,
+     "p50": 729600.0
+    },
+    "f_gpu": {
+     "mean": 306000000.0,
+     "min": 306000000.0,
+     "max": 306000000.0,
+     "p50": 306000000.0
+    },
+    "T_cpu-thermal": {
+     "mean": 60119.69183333333,
+     "min": 59718.0,
+     "max": 60656.0,
+     "p50": 60125.0
+    },
+    "T_gpu-thermal": {
+     "mean": 60501.37416666667,
+     "min": 60093.0,
+     "max": 61062.0,
+     "p50": 60468.0
+    },
+    "T_tj-thermal": {
+     "mean": 60958.01733333334,
+     "min": 60656.0,
+     "max": 61343.0,
+     "p50": 60937.0
+    }
+   },
+   "power_csv": "logs/orin/power/j5_cuda_idle_after_loop_batch96.csv"
+  }
+ }
+}

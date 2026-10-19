@@ -1,0 +1,360 @@
+Cache dir:  /home/bejaine/polarfire/spikenav/cache/tmp
+Cache dir:  /home/bejaine/polarfire/spikenav/cache/tmp
+Namespace(dataset='nordland', num_labels=25, num_cal_labels=50, num_test_labels=100, num_query_imgs=150, tc_ge=1.0, tc_gi=0.5, intensity=4, use_weighted_assignments=False, shuffled=True, skip=8, offset_after_skip=50, folder_id='NRD_SFS', update_interval=250, epochs=30, n_e=400, threshold_i=0, seed=0, ad_path_test='_test_E30', ad_path='_offset50', multi_path='epoch{}_T{}_T{}', process_mode='test')
+[orin] test images from images.npz (100), not ./../data
+
+Testing labels:
+[ 50  51  52  53  54  55  56  57  58  59  60  61  62  63  64  65  66  67
+  68  69  70  71  72  73  74  75  76  77  78  79  80  81  82  83  84  85
+  86  87  88  89  90  91  92  93  94  95  96  97  98  99 100 101 102 103
+ 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121
+ 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139
+ 140 141 142 143 144 145 146 147 148 149]
+
+Create model
+./weights/weights_ne400_L25_offset50/theta_A.npy
+(400, 3) None
+(160000, 3) None
+./weights/weights_ne400_L25_offset50/XeAe.npy
+(313600, 3) ./weights/weights_ne400_L25_offset50/XeAe.npy
+run number: 1 of 100
+Starting simulation at t=0.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 2 of 100
+Starting simulation at t=1. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 3 of 100
+Starting simulation at t=1.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 4 of 100
+Starting simulation at t=2. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 5 of 100
+Starting simulation at t=2.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 6 of 100
+Starting simulation at t=3. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 7 of 100
+Starting simulation at t=3.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 8 of 100
+Starting simulation at t=4. s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 9 of 100
+Starting simulation at t=4.5 s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 10 of 100
+Starting simulation at t=5. s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 11 of 100
+Starting simulation at t=5.5 s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 12 of 100
+Starting simulation at t=6. s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 13 of 100
+Starting simulation at t=6.5 s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 14 of 100
+Starting simulation at t=7. s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 15 of 100
+Starting simulation at t=7.5 s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 16 of 100
+Starting simulation at t=8. s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 17 of 100
+Starting simulation at t=8.5 s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 18 of 100
+Starting simulation at t=9. s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 19 of 100
+Starting simulation at t=9.5 s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 20 of 100
+Starting simulation at t=10. s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 21 of 100
+Starting simulation at t=10.5 s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 22 of 100
+Starting simulation at t=11. s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 23 of 100
+Starting simulation at t=11.5 s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 24 of 100
+Starting simulation at t=12. s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 25 of 100
+Starting simulation at t=12.5 s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 26 of 100
+Starting simulation at t=13. s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 27 of 100
+Starting simulation at t=13.5 s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 28 of 100
+Starting simulation at t=14. s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 29 of 100
+Starting simulation at t=14.5 s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 30 of 100
+Starting simulation at t=15. s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 31 of 100
+Starting simulation at t=15.5 s for a duration of 0.35 s
+0.35 s (99%) simulated in < 1s, estimated < 1s remaining.
+run number: 32 of 100
+Starting simulation at t=16. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 33 of 100
+Starting simulation at t=16.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 34 of 100
+Starting simulation at t=17. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 35 of 100
+Starting simulation at t=17.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 36 of 100
+Starting simulation at t=18. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 37 of 100
+Starting simulation at t=18.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 38 of 100
+Starting simulation at t=19. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 39 of 100
+Starting simulation at t=19.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 40 of 100
+Starting simulation at t=20. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 41 of 100
+Starting simulation at t=20.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 42 of 100
+Starting simulation at t=21. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 43 of 100
+Starting simulation at t=21.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 44 of 100
+Starting simulation at t=22. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 45 of 100
+Starting simulation at t=22.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 46 of 100
+Starting simulation at t=23. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 47 of 100
+Starting simulation at t=23.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 48 of 100
+Starting simulation at t=24. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 49 of 100
+Starting simulation at t=24.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 50 of 100
+Starting simulation at t=25. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 51 of 100
+Starting simulation at t=25.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 52 of 100
+Starting simulation at t=26. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 53 of 100
+Starting simulation at t=26.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 54 of 100
+Starting simulation at t=27. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 55 of 100
+Starting simulation at t=27.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 56 of 100
+Starting simulation at t=28. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 57 of 100
+Starting simulation at t=28.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 58 of 100
+Starting simulation at t=29. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 59 of 100
+Starting simulation at t=29.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 60 of 100
+Starting simulation at t=30. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 61 of 100
+Starting simulation at t=30.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 62 of 100
+Starting simulation at t=31. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 63 of 100
+Starting simulation at t=31.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 64 of 100
+Starting simulation at t=32. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 65 of 100
+Starting simulation at t=32.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 66 of 100
+Starting simulation at t=33. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 67 of 100
+Starting simulation at t=33.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 68 of 100
+Starting simulation at t=34. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 69 of 100
+Starting simulation at t=34.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 70 of 100
+Starting simulation at t=35. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 71 of 100
+Starting simulation at t=35.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 72 of 100
+Starting simulation at t=36. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 73 of 100
+Starting simulation at t=36.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 74 of 100
+Starting simulation at t=37. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 75 of 100
+Starting simulation at t=37.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 76 of 100
+Starting simulation at t=38. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 77 of 100
+Starting simulation at t=38.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 78 of 100
+Starting simulation at t=39. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 79 of 100
+Starting simulation at t=39.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 80 of 100
+Starting simulation at t=40. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 81 of 100
+Starting simulation at t=40.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 82 of 100
+Starting simulation at t=41. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 83 of 100
+Starting simulation at t=41.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 84 of 100
+Starting simulation at t=42. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 85 of 100
+Starting simulation at t=42.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 86 of 100
+Starting simulation at t=43. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 87 of 100
+Starting simulation at t=43.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 88 of 100
+Starting simulation at t=44. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 89 of 100
+Starting simulation at t=44.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 90 of 100
+Starting simulation at t=45. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 91 of 100
+Starting simulation at t=45.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 92 of 100
+Starting simulation at t=46. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 93 of 100
+Starting simulation at t=46.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 94 of 100
+Starting simulation at t=47. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 95 of 100
+Starting simulation at t=47.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 96 of 100
+Starting simulation at t=48. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 97 of 100
+Starting simulation at t=48.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 98 of 100
+Starting simulation at t=49. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 99 of 100
+Starting simulation at t=49.5 s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+run number: 100 of 100
+Starting simulation at t=50. s for a duration of 0.35 s
+0.35 s (100%) simulated in < 1s
+save results
+done
+Namespace(dataset='nordland', num_labels=25, num_cal_labels=50, num_test_labels=100, num_query_imgs=150, tc_ge=1.0, tc_gi=0.5, intensity=4, use_weighted_assignments=False, shuffled=True, skip=8, offset_after_skip=50, folder_id='NRD_SFS', update_interval=250, epochs=30, n_e=400, threshold_i=0, seed=0, ad_path_test='_test_E30', ad_path='_offset50', multi_path='epoch30_T100_T0', process_mode='test')
+Unique labels learnt ( count: 25 ): 
+[50. 51. 52. 53. 54. 55. 56. 57. 58. 59. 60. 61. 62. 63. 64. 65. 66. 67.
+ 68. 69. 70. 71. 72. 73. 74.]
+Testing input numbers: 
+ [ 50.  51.  52.  53.  54.  55.  56.  57.  58.  59.  60.  61.  62.  63.
+  64.  65.  66.  67.  68.  69.  70.  71.  72.  73.  74.  75.  76.  77.
+  78.  79.  80.  81.  82.  83.  84.  85.  86.  87.  88.  89.  90.  91.
+  92.  93.  94.  95.  96.  97.  98.  99. 100. 101. 102. 103. 104. 105.
+ 106. 107. 108. 109. 110. 111. 112. 113. 114. 115. 116. 117. 118. 119.
+ 120. 121. 122. 123. 124. 125. 126. 127. 128. 129. 130. 131. 132. 133.
+ 134. 135. 136. 137. 138. 139. 140. 141. 142. 143. 144. 145. 146. 147.
+ 148. 149.]
+Testing result: 
+ [50. 51. 52. 53. 54. 55. 56. 57. 58. 59. 60. 61. 62. 63. 64. 65. 66. 67.
+ 61. 69. 70. 71. 72. 73. 74. 57. 74. 74. 64. 57. 74. 57. 74. 74. 54. 57.
+ 74. 74. 61. 74. 66. 71. 71. 57. 51. 74. 74. 50. 64. 57. 55. 74. 60. 55.
+ 55. 74. 52. 71. 74. 74. 74. 74. 61. 74. 61. 74. 74. 74. 74. 73. 62. 61.
+ 74. 55. 51. 74. 74. 74. 61. 74. 71. 55. 74. 55. 74. 53. 57. 74. 71. 61.
+ 61. 73. 74. 71. 55. 55. 74. 57. 74. 74.]
+
+Differences: 
+[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ -7.  0.  0.  0.  0.  0.  0.]
+
+Accuracy: 96.0, num correct: 24, num incorrect: 1
+Correctly predicted label indices: 
+[ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 19 20 21 22 23 24]
+Incorrectly predicted label indices: 
+[18]
+
+====> Recall Recall@1: 0.9600
+====> Recall Recall@5: 1.0000
+====> Recall Recall@10: 1.0000
+====> Recall Recall@15: 1.0000
+====> Recall Recall@20: 1.0000
+====> Recall Recall@25: 1.0000
+done 324.38311620900004
+result vs DGX: {'identical': True, 'max_abs_diff': 0.0, 'orin_total_spikes': 8206.0, 'dgx_total_spikes': 8206.0}
