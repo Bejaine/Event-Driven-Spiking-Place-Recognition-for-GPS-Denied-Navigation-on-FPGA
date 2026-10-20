@@ -1,69 +1,96 @@
-# Event-Driven Spiking Place Recognition for GPS-Denied Navigation on FPGA: DGX Spark baselines
+# SpikeNav: Event-Driven Spiking Place Recognition for GPS-Denied Navigation on FPGA
 
-This repository holds the **reference baselines** for SpikeNav, an FPGA accelerator for the
-VPRSNN Modular SNN (Hussaini, Milford, Fischer, IEEE T-RO 2024; https://github.com/QVPR/VPRSNN,
-MIT License, see `LICENSE.VPRSNN`). The target is the Microchip **PolarFire SoC Icicle Kit**
-(MPFS250T).
+**Team Merconez | PolarFire® FPGA Design Contest 2026 | Track 2: PolarFire SoC Icicle Kit (MPFS250T)**
 
-The numbers here were measured on an NVIDIA DGX Spark (GB10: 10× Cortex-X925, 10× Cortex-A725 and a
-Blackwell GPU). They fix three things before any RTL exists:
+Robots in tunnels, mines, warehouses and disaster sites lose GPS, and their odometry drifts. Visual
+place recognition (VPR) corrects that drift by recognising places the robot has seen before.
+**SpikeNav** runs the spiking-neural-network VPR model **VPRSNN** (Hussaini, Milford, Fischer,
+IEEE T-RO 2024; [QVPR/VPRSNN](https://github.com/QVPR/VPRSNN), MIT License, see `LICENSE.VPRSNN`)
+as a dedicated accelerator in PolarFire SoC fabric. The RISC-V cores run Linux, scoring, sequence
+matching and a localiser for GPS-free teach-and-repeat navigation.
 
-1. **what the FPGA must compute**: a bit-exact fixed-point golden model;
-2. **how accurate the hardware can be**: an ablation of every approximation against Brian2;
-3. **how fast the alternatives are**: CPU and GPU baselines, plus a cycle model of the planned engine.
+Before writing any RTL, we pinned down everything the FPGA has to match or beat. That work is all
+in this repository:
 
-The full experiment report is `reports/dgx_spark_baseline_report.md`. Every number is keyed to its
-source file in `reports/results.json`.
+1. **What the FPGA must compute:** a bit-exact fixed-point golden model (C99) plus golden test
+   vectors.
+2. **How accurate the hardware can be:** every hardware approximation ablated against the reference
+   simulator, at 100 and 2,700 places.
+3. **What the alternatives achieve:** measured baselines on an **NVIDIA DGX Spark** and an
+   **NVIDIA Jetson Orin Nano** (the obvious "why not just use a Jetson?" alternative). These include
+   our own bit-exact CUDA port and measured power.
+4. **What the fabric should achieve:** a cycle model of the planned engine, driven by measured spike
+   traces.
 
-## How these numbers are used for the FPGA comparison
+## Proposal documents (Round 1)
+| Document | File |
+|---|---|
+| System block diagram + evidence (6-page PDF) | [`proposal/Merconez_Track2_SystemBlockDiagram.pdf`](proposal/Merconez_Track2_SystemBlockDiagram.pdf) |
+| Source of the PDF (`python make_block_diagram.py`, needs `reportlab`) | [`proposal/make_block_diagram.py`](proposal/make_block_diagram.py) |
+| Portal texts (Overview, Innovation & Impact), number provenance | [`proposal/Merconez_Proposal_Form_Text.md`](proposal/Merconez_Proposal_Form_Text.md) |
 
-| Comparison on the Icicle Kit | Baseline from this repo | Where |
+## Baselines at a glance
+The same trained modules, queries and spike-train seeds are used on every platform. One module run
+is 784 inputs × 800 neurons × 3,500 steps of 0.1 ms; a query uses 4 modules.
+
+Labels: **M** = measured, **D** = derived, **E** = estimate.
+
+| Platform | Implementation | Per module run | Per 4-module query | Energy per query (above idle / total) |
+|---|---|---|---|---|
+| DGX Spark, Cortex-X925 (3.9 GHz) | Brian2 reference | 257 ms (M) | 1.03 s (D) | — (no rail sensors) |
+| DGX Spark, Cortex-X925 | C golden model, 1 core | 18.2 ms (M) | 72.8 ms (D) | — |
+| DGX Spark, Cortex-A725 | C golden model, 1 core | 32.7 ms (M) | 131 ms (D) | — |
+| DGX Spark, GB10 GPU | PyTorch float engine (tooling) | 169 runs/s (M) | — | — |
+| Jetson Orin Nano, A78AE (1.73 GHz) | Brian2 reference | 2.09 s (M) | 8.3 s (D) | — |
+| Jetson Orin Nano, 1 A78AE core | C golden model | 51.2 ms (M) | 205 ms (D) | 201 / 1,232 mJ (D) |
+| Jetson Orin Nano, 4 A78AE cores | C golden model, modules in parallel | 51.2 ms (M) | 51.2 ms (M) | 152 / 456 mJ (D) |
+| **Jetson Orin Nano GPU** | **our CUDA port, bit-exact** | **26.1 ms (M)** | **28.0 ms (M)** | **57 / 200 mJ (D)** |
+| Jetson Orin Nano GPU, batched | CUDA port, 96 runs per launch | 714 runs/s (M) | — | 26 / 55 mJ (D) |
+| Icicle Kit, U54 RV64GC (600 MHz) | C golden model | 0.48–0.97 s (E) | 1.9–3.9 s (E) | to be measured (PAC1934) |
+| **Icicle Kit, FPGA fabric (SpikeNav)** | **4 engines × 50 lanes, 125 MHz** | **1.19 ms (D)** | **~1.2 ms (D)** | **target < 20 mJ** |
+
+- **Jetson power.** Measured with the INA3221 VDD_IN rail (whole module) in MAXN_SUPER; idle is
+  5.1 W.
+- **Bit-identical everywhere.** The golden vectors, the Brian2 output, the activity traces and the
+  ablation re-run are identical on the DGX Spark and the Jetson. The CUDA port matches the C model
+  on every run.
+- **Full reports:**
+  - [`reports/dgx_spark_baseline_report.md`](reports/dgx_spark_baseline_report.md)
+  - [`reports/orin_baseline_report.md`](reports/orin_baseline_report.md)
+  - Indexes of every number: [`reports/results.json`](reports/results.json) and
+    [`results/orin_summary.json`](results/orin_summary.json)
+
+## Accuracy of the hardware configuration
+| Setting | Hardware config (8-bit weights, hashed 1 ms delays, hard reset, shared xorshift train, integer state) | Reference |
+|---|---|---|
+| 100 places, 3 seeds (M) | R@1 0.959 ± 0.010 | Brian2 0.954 ± 0.007 |
+| 2,700 Nordland places, released weights (M) | R@1 0.544 / 0.543 | float (Brian2-exact) 0.549 / 0.553 |
+| Approximations that **fail** (M) | no delays: 0.448; dt = 0.5 ms: 0.338 | → delays are kept and dt stays at 0.1 ms |
+
+Sources: `results/e3_summary.json`, `results/e7_*.json`.
+
+## How the repository is used for the FPGA work
+| Comparison on the Icicle Kit | Baseline from this repository | Where |
 |---|---|---|
 | **Functional correctness** of the fabric engine (and of a U54 software port) | Expected per-neuron spike counts for 4 trained modules × 20 queries: the FPGA must reproduce them **bit-exactly** | `golden_vectors/`, `golden_c/verify_main.c`, `reports/golden_model_spec.md` |
-| **Accuracy** of the deployed system | R@1 of the proposed hardware config: 0.959 at 100 places (Brian2 0.954 ± 0.007); 0.544 / 0.543 at 2700 places (float reference 0.549 / 0.553) | `results/e3_summary.json`, `results/e7_*.json` |
-| **Latency per module run** | C golden model: 18.2 ms on X925, 32.7 ms on A725. Brian2: 0.257 s per image on X925. U54 ESTIMATE: 0.48–0.97 s (290 M RV64 instructions) | `results/e5_bench.json`, `results/e1_brian2_clean_timing.json` |
-| **Predicted FPGA latency** (for checking the RTL) | Cycle model: 77,745 cycles per module run at L = 100 (0.62 ms at 125 MHz), driven by measured event traces | `results/e6_cyclemodel.json`, `results/e4_l_hw_traces.npz`, `cyclemodel/` |
-| **Sizing assumptions** | 8,452 input spikes per query; 2.41 events per step (max 13); 81 E spikes per run; state ranges for the Q formats | `results/e4_l_hw.json` |
-| **Memory budget** | 316,054 bytes per module; LSRAM 560 of 812 blocks for 4 banks at L = 100 | `results/e6_cyclemodel.json` |
+| **Accuracy** of the deployed system | Ablation and full-scale R@1 above | `results/e3_summary.json`, `results/e7_*.json` |
+| **Latency and energy** against the alternatives | DGX Spark and Jetson Orin Nano tables above | `results/e5_*.json`, `results/orin_*.json` |
+| **Predicted FPGA latency** (for checking the RTL) | Cycle model: 148,490 cycles per module run at 50 lanes (1.19 ms at 125 MHz); 0.62 ms at 100 lanes | `results/e6_cyclemodel.json`, `cyclemodel/` |
+| **Sizing assumptions** | 8,452 input spikes per query; 2.41 events per step (max 13); 81 E spikes per run | `results/e4_l_hw.json` |
+| **Memory budget** | 316,054 bytes per module; LSRAM 520 of 812 blocks for 4 banks at 50 lanes (+24 for delay rings) | `results/e6_cyclemodel.json` |
 
-### Why this is a good baseline
-- **Anchored to the reference implementation.** The float engine reproduces Brian2's spike rasters
-  *exactly* (`logs/e2_exact_raster_E1module.log`). Scoring uses VPRSNN's own evaluation code, checked
-  against the repo scripts (`logs/check_evaluator.log`).
-- **Bit-exact chain to hardware.** Brian2 ≡ float engine, then the per-approximation ablation, then
-  the fixed-point Python model ≡ C99 golden model (`logs/golden_bitexact_E1.log`). The RV64 build
-  passes the golden vectors too (`logs/golden_verify_rv64_qemu.log`). An FPGA that matches the
-  golden vectors therefore inherits the measured accuracy.
-- **Honest error bars.** Brian2's own Poisson-seed noise band is measured, there are 3 model seeds and
-  3 Poisson seeds per configuration, and a full-scale (2700-place) check is included, because the
-  100-place setting saturates.
-- **Same workload everywhere.** The same modules, queries and spike-train seeds (`streams.u32`) are
-  used on every platform, so latency comparisons are like-for-like.
-
-## Jetson Orin Nano edge baseline
-`reports/orin_baseline_report.md` adds the embedded-GPU baseline on a Jetson Orin Nano (MAXN_SUPER),
-using the same workload as the DGX:
-- C golden model: 51.2 ms per module run on one A78AE core, using 50 mJ above idle.
-- Brian2: 2.09 s per image per module. Its output is identical to the DGX's.
-- Our bit-exact CUDA port (`golden_cuda/`): one 4-module query in 28.0 ms at 57 mJ above idle, and
-  737 module runs/s at saturation.
-
-Every number is in `results/orin_*.json` and indexed in `results/orin_summary.json`.
-
-## Running the comparison on the Icicle Kit
-
-**On the U54 cores (Linux on the Icicle Kit).** This gives a MEASURED U54 number that replaces the
-estimate:
+### Running the golden model on the Icicle Kit
+**On the U54 cores (Linux).** This gives a measured U54 number to replace the estimate:
 ```bash
-cd golden_c && make snn_golden_verify CC=gcc CFLAGS="-O3 -std=c99"   # native build on the Icicle Kit
-./snn_golden_verify ../golden_vectors 3        # must print "ALL PASS"; reports median s per module run
-taskset -c 1 ./snn_golden_verify ../golden_vectors 3   # pin to one U54 hart
+cd golden_c && make snn_golden_verify CC=gcc CFLAGS="-O3 -std=c99"
+./snn_golden_verify ../golden_vectors 3                # must print "ALL PASS"; median s per module run
+taskset -c 1 ./snn_golden_verify ../golden_vectors 3   # pinned to one U54 hart
 ```
-To cross-compile instead, use `riscv64-linux-gnu-gcc -O3 -std=c99 -static -march=rv64gc`.
+To cross-compile, use `riscv64-linux-gnu-gcc -O3 -std=c99 -static -march=rv64gc`.
 
 **On the FPGA fabric engine:**
 1. Load `golden_vectors/module_k.bin` into a weight bank. The format is: `"SNNM"`, int32 version,
-   uint32 delay_seed, int32 inc[784×400] (equal to 8-bit code × 16), int32 thr[400].
+   uint32 delay_seed, int32 inc[784×400] (8-bit code × 16), int32 thr[400].
 2. For each query q, generate the input train from `streams.u32[q]` with the xorshift32 generators
    (spec §4), or stream the events from the host.
 3. Run 3,500 steps (dt = 0.1 ms) after a hard reset, and read back the 400 E spike counts.
@@ -76,26 +103,41 @@ constants for dt = 0.1/0.2/0.5 ms, the delay hash and the spike generator.
 ## Repository layout
 | Path | Contents |
 |---|---|
-| `snnsim/` | Python models: Brian2-exact float engine and fixed-point golden model (`engine.py`), configs (`configs.py`), hash and spike generator (`hwrand.py`), Q formats (`fixed.py`), GPU engine, VPRSNN-based evaluator |
+| `proposal/` | Round 1 proposal PDF, its generator script, and the portal texts |
+| `snnsim/` | Python models: Brian2-exact float engine and fixed-point golden model (`engine.py`), configs, hash and spike generator (`hwrand.py`), Q formats (`fixed.py`), PyTorch engine, VPRSNN-based evaluator |
 | `golden_c/` | Portable C99 golden model, benchmark driver, golden-vector verifier, ctypes wrapper |
+| `golden_cuda/` | CUDA port of the golden model (Jetson, sm_87), bit-exact against `golden_vectors/` and the C model |
 | `golden_vectors/` | Bit-exact test vectors (4 modules × 20 queries) and manifest |
 | `cyclemodel/` | FPGA engine cycle, throughput and LSRAM model |
-| `scripts/` | One script per experiment (E1–E8), report and spec generators |
+| `scripts/` | One script per DGX experiment (E1–E8), plus the Jetson scripts `orin_*` |
+| `tools/` | `perfcount.c` (instruction counter via `perf_event_open`), QEMU instruction counting |
 | `tests/` | pytest: C ≡ Python bit-exactness, shared-count inhibition ≡ full matrix, Brian2 raster equality |
-| `results/` | MEASURED and DERIVED results (JSON) and event traces |
-| `reports/` | Final report, golden-model spec, machine environment, results index, figures |
-| `logs/` | Verification logs cited above |
+| `results/` | Measured and derived results (JSON) and event traces; `orin_*` = Jetson |
+| `reports/` | DGX and Jetson reports, golden-model spec, machine environments, results index, figures |
+| `logs/` | Verification logs; `logs/orin/` holds the Jetson logs and power samples |
 
-## Reproducing on another machine
-1. Create the environment: `conda create -p envs/vprsnn -c conda-forge python=3.11 numpy=2.2
-   matplotlib=3.8 scipy opencv brian2 cython scikit-learn seaborn pytest huggingface_hub gdown`.
-2. Clone VPRSNN at commit `6eff92c` into `VPRSNN/`.
-3. Download Nordland with `python scripts/fetch_nordland.py spring fall summer`.
-4. Build the C model with `make -C golden_c`.
-5. Run the per-experiment commands listed in `reports/dgx_spark_baseline_report.md` and in the
-   script docstrings: E1 `scripts/e1_launch.sh`, E3 `scripts/e3_run.py`, E4 `scripts/e4_activity.py`,
-   E5 `scripts/e5_bench.py`, E6 `cyclemodel/run_cyclemodel.py`, E7 `scripts/e7_run.py`.
+## Reproducing
+- **DGX Spark / any Linux machine:**
+  1. Create the environment: `conda create -p envs/vprsnn -c conda-forge python=3.11 numpy=2.2
+     matplotlib=3.8 scipy opencv brian2 cython scikit-learn seaborn pytest huggingface_hub gdown`.
+  2. Clone VPRSNN at commit `6eff92c` into `VPRSNN/`.
+  3. Fetch Nordland with `python scripts/fetch_nordland.py spring fall summer`.
+  4. Build with `make -C golden_c`.
+  5. Run the experiments listed in `reports/dgx_spark_baseline_report.md`.
+- **Jetson Orin Nano:**
+  1. Build: `make -C golden_c && make -C golden_cuda && gcc -O2 -o tools/perfcount tools/perfcount.c`.
+  2. Run: `python scripts/orin_cpu_bench.py 3 25`, then `scripts/orin_queue.sh`, then
+     `python scripts/orin_summary.py`.
+  3. See `reports/orin_baseline_report.md` for the environment, including the JetPack 6 PyTorch
+     wheel.
 
-Datasets and trained weights are **not** redistributed. Sources: Nordland from HuggingFace
-`Somayeh-h/Nordland`; released VPRSNN weights from the Google Drive link in VPRSNN's `ens_seq/README.md`.
-The trained modules in `golden_vectors/` are derived from VPRSNN (MIT License).
+Datasets and trained weights are **not** redistributed. Nordland comes from HuggingFace
+`Somayeh-h/Nordland`, and the released VPRSNN weights from the Google Drive link in VPRSNN's
+`ens_seq/README.md`. The trained modules in `golden_vectors/` are derived from VPRSNN (MIT License).
+
+## Attribution and AI disclosure
+SpikeNav builds on VPRSNN (Hussaini, Milford, Fischer, IEEE T-RO 2024, MIT License), which is based
+on Diehl and Cook (2015), and on SeqSLAM (Milford and Wyeth, 2012). The hardware architecture and the
+fixed-point, golden, cycle and CUDA models are by Merconez. Claude (Anthropic) assisted with drafting,
+and Claude Code implemented the evaluation, baseline and CUDA scripts under the team's direction. All
+results are reviewed by the team and reproducible from this repository.
