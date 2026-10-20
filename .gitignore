@@ -9,3 +9,6 @@ e1/
 e3/
 e7/
 cache/
+golden_cuda/snn_cuda
+golden_cuda/snn_golden.o
+tools/perfcount

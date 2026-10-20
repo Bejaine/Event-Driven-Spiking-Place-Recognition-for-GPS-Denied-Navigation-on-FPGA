@@ -1,0 +1,25 @@
+{
+ "cpu": [
+  3
+ ],
+ "n_images": 100,
+ "median_s_per_image": 2.0861567139991166,
+ "p10": 2.073436042999674,
+ "p90": 2.097738460999608,
+ "present_350ms_median_s": 1.1953709280001021,
+ "rest_150ms_median_s": 0.8908336969998345,
+ "test_call_wall_s": 323.2879292159996,
+ "total_wall_s": 324.38311620900004,
+ "result_vs_dgx": {
+  "identical": true,
+  "max_abs_diff": 0.0,
+  "orin_total_spikes": 8206.0,
+  "dgx_total_spikes": 8206.0
+ },
+ "other_net_runs": [
+  [
+   0.5,
+   80.67145357700065
+  ]
+ ]
+}

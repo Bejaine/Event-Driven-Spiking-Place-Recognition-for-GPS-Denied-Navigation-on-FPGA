@@ -40,6 +40,16 @@ source file in `reports/results.json`.
 - **Same workload everywhere.** The same modules, queries and spike-train seeds (`streams.u32`) are
   used on every platform, so latency comparisons are like-for-like.
 
+## Jetson Orin Nano edge baseline
+`reports/orin_baseline_report.md` adds the embedded-GPU baseline on a Jetson Orin Nano (MAXN_SUPER),
+using the same workload as the DGX:
+- C golden model: 51.2 ms per module run on one A78AE core, using 50 mJ above idle.
+- Brian2: 2.09 s per image per module. Its output is identical to the DGX's.
+- Our bit-exact CUDA port (`golden_cuda/`): one 4-module query in 28.0 ms at 57 mJ above idle, and
+  737 module runs/s at saturation.
+
+Every number is in `results/orin_*.json` and indexed in `results/orin_summary.json`.
+
 ## Running the comparison on the Icicle Kit
 
 **On the U54 cores (Linux on the Icicle Kit).** This gives a MEASURED U54 number that replaces the
